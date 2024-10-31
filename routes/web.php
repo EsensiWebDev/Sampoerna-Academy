@@ -1,9 +1,10 @@
 <?php
 
+use App\Livewire\Pages\Home;
 use App\Livewire\Test;
 use Illuminate\Support\Facades\Route;
 
-Route::get("/", Test::class);
+Route::get("/", Home::class);
 
 
 Route::get('language/{locale}', function ($locale) {

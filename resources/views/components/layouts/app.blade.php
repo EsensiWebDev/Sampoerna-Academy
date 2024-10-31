@@ -8,11 +8,10 @@
         <link rel="stylesheet" href="{{ asset("assets/css/styles.min.css") }}">
         <title>{{ config("app.name") }}</title>
     </head>
-    <body class="bg-dark">
+    <body>
         @include("components.navbar")
         {{ $slot }}
-
-
+        @include("components.footer")
         <script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>
         <script src="{{ asset("assets/js/script.min.js") }}"></script>
     </body>

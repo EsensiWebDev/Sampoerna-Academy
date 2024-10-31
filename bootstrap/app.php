@@ -4,6 +4,7 @@ use App\Http\Middleware\LocalizationMiddleware;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
+use Silber\PageCache\Middleware\CacheResponse;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
@@ -13,7 +14,8 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->web(append: [
-            LocalizationMiddleware::class
+            LocalizationMiddleware::class,
+            CacheResponse::class
         ]);
 
     })
