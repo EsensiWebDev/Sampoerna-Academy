@@ -9,7 +9,9 @@
         <title>{{ config("app.name") }}</title>
     </head>
     <body>
+
         @include("components.navbar")
+
         {{ $slot }}
         @include("components.footer")
         <script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>
