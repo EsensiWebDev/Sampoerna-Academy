@@ -1,3 +1,23 @@
+
+<section style="margin-top: 200px;background: #CE3827;padding-top: 72px;padding-bottom: 72px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 offset-lg-0">
+                <h1 class="fs-4 fw-normal" style="font-family: Campton;color: var(--bs-white);">{{ __("Your Child's Future Starts Here") }}</h1>
+                <p style="font-family: Campton;color: var(--bs-white);">{{ __("Explore the opportunities at Sampoerna Academy and discover how we can foster your child's curiosity, creativity, and critical thinking skills.") }}</p>
+            </div>
+            <div class="col-md-6 col-lg-4 offset-lg-2">
+                <div class="d-flex flex-column"><button class="btn btn-primary" type="button" style="font-family: Campton;margin-bottom: 16px;border-style: none;">{{ __("Schedule a Consultation") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
+                        </svg></button><button class="btn btn-outline-primary" type="button" style="font-family: Campton;border-color: var(--bs-white);color: var(--bs-white);">{{ __("How to Apply") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
+                        </svg></button></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section>
     <footer style="padding-top: 106px;padding-bottom: 106px;background: #292F78;">
         <div class="container">
@@ -19,19 +39,19 @@
                 </div>
                 <div class="col-md-3 d-lg-flex justify-content-lg-center align-items-lg-start">
                     <div>
-                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">MENU</h1>
-                        <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light" href="/index.html" style="font-family: Campton;margin-bottom: 15px;">Home</a><a class="fw-light link-light" href="/faqs.html" style="font-family: Campton;margin-bottom: 15px;">FAQ</a><a class="fw-light link-light" href="/career.html" style="font-family: Campton;margin-bottom: 15px;">Career</a><a class="fw-light link-light" href="/contact.html" style="font-family: Campton;margin-bottom: 15px;">Contact Us</a></div>
+                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">{{ __("MENU") }}</h1>
+                        <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light" href="/index.html" style="font-family: Campton;margin-bottom: 15px;">Home</a><a class="fw-light link-light" href="/faqs.html" style="font-family: Campton;margin-bottom: 15px;">FAQ</a><a class="fw-light link-light" href="/career.html" style="font-family: Campton;margin-bottom: 15px;">Career</a><a class="fw-light link-light" href="/contact.html" style="font-family: Campton;margin-bottom: 15px;">{{ __("Contact Us") }}</a></div>
                     </div>
                 </div>
                 <div class="col-md-3 d-lg-flex justify-content-lg-center">
                     <div>
-                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">SCHOOL</h1>
-                        <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light" href="/ourschools/lavenueschool.html" style="font-family: Campton;margin-bottom: 15px;">L'Avenue</a><a class="fw-light link-light" href="/ourschools/bsdschool.html" style="font-family: Campton;margin-bottom: 15px;">BSD</a><a class="fw-light link-light" href="/ourschools/sentulschool.html" style="font-family: Campton;margin-bottom: 15px;">Sentul</a><a class="fw-light link-light" href="/ourschools/surabayaschool.html" style="font-family: Campton;margin-bottom: 15px;">Surabaya</a><a class="fw-light link-light" href="/ourschools/medanschool.html" style="font-family: Campton;margin-bottom: 15px;">Medan</a></div>
+                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">{{ __("SCHOOL") }}</h1>
+                        <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light" href="/ourschools/lavenueschool.html" style="font-family: Campton;margin-bottom: 15px;">{{ __("L'Avenue") }}</a><a class="fw-light link-light" href="/ourschools/bsdschool.html" style="font-family: Campton;margin-bottom: 15px;">BSD</a><a class="fw-light link-light" href="/ourschools/sentulschool.html" style="font-family: Campton;margin-bottom: 15px;">Sentul</a><a class="fw-light link-light" href="/ourschools/surabayaschool.html" style="font-family: Campton;margin-bottom: 15px;">Surabaya</a><a class="fw-light link-light" href="/ourschools/medanschool.html" style="font-family: Campton;margin-bottom: 15px;">Medan</a></div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div>
-                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">ACCREDITED BY</h1>
+                        <h1 class="fs-4" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">{{ __("ACCREDITED BY") }}</h1>
                         <div class="d-flex flex-row align-items-lg-center align-items-xxl-center" style="margin-top: 24px;">
                             <div style="background: url(&quot;assets/img/Logo/acc%20iyce.png&quot;) center / contain no-repeat;width: 83px;height: 82px;"></div>
                             <div style="background: url(&quot;assets/img/Logo/acc%20cambridge.png&quot;) center / contain no-repeat;width: 144px;height: 63px;margin-left: 10px;margin-right: 10px;"></div>
@@ -41,7 +61,7 @@
                 </div>
             </div>
             <hr style="color: var(--bs-white);margin-top: 104px;margin-bottom: 36px;">
-            <p class="fw-light text-center" style="font-family: Campton;color: var(--bs-white);">©2024 Sampoerna Academy. All Rights Reserved</p>
+            <p class="fw-light text-center" style="font-family: Campton;color: var(--bs-white);">{{ __("©2024 Sampoerna Academy. All Rights Reserved") }}</p>
         </div>
     </footer>
 </section>
