@@ -2,9 +2,13 @@
 
 use App\Livewire\Pages\Aboutus;
 use App\Livewire\Pages\Academics;
+use App\Livewire\Pages\Activities;
+use App\Livewire\Pages\Admissions;
+use App\Livewire\Pages\AwardsAchievements;
 use App\Livewire\Pages\BsdSchool;
 use App\Livewire\Pages\Calendar;
 use App\Livewire\Pages\EarlyYears;
+use App\Livewire\Pages\Extracurricular;
 use App\Livewire\Pages\Home;
 use App\Livewire\Pages\LavenueSchools;
 use App\Livewire\Pages\Leadership;
@@ -36,6 +40,11 @@ Route::get('/ourschools/bsd', BsdSchool::class);
 Route::get('/ourschools/sentul', SentulSchool::class);
 Route::get('/ourschools/surabaya', SurabayaSchool::class);
 Route::get('/ourschools/medan', MedanSchool::class);
+
+Route::get("/activities", Activities::class);
+Route::get('/activities/extracurricular', Extracurricular::class);
+Route::get('/activities/awards-achievements', AwardsAchievements::class);
+Route::get('/admissions', Admissions::class);
 
 
 
