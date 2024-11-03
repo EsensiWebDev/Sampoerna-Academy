@@ -2,11 +2,18 @@
 
 use App\Livewire\Pages\Aboutus;
 use App\Livewire\Pages\Academics;
+use App\Livewire\Pages\BsdSchool;
+use App\Livewire\Pages\Calendar;
 use App\Livewire\Pages\EarlyYears;
 use App\Livewire\Pages\Home;
+use App\Livewire\Pages\LavenueSchools;
 use App\Livewire\Pages\Leadership;
+use App\Livewire\Pages\MedanSchool;
 use App\Livewire\Pages\Ourapproach;
+use App\Livewire\Pages\Ourschools;
+use App\Livewire\Pages\SentulSchool;
 use App\Livewire\Pages\Steam;
+use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
 use Illuminate\Support\Facades\Route;
 
@@ -18,6 +25,20 @@ Route::get('/aboutus/leadership', Leadership::class);
 Route::get('/steam', Steam::class);
 Route::get("/academics", Academics::class);
 Route::get('/academics/early-years', EarlyYears::class);
+Route::get('/academics/elementary-school', \App\Livewire\Pages\ElementarySchool::class);
+Route::get('/academics/middle-school', \App\Livewire\Pages\MiddleSchool::class);
+Route::get('/academics/high-school', \App\Livewire\Pages\HighSchool::class);
+Route::get('/academics/online-school', \App\Livewire\Pages\OnlineSchool::class);
+Route::get("/academics/calendars", Calendar::class);
+Route::get("/ourschools", Ourschools::class);
+Route::get("/ourschools/lavenue", LavenueSchools::class);
+Route::get('/ourschools/bsd', BsdSchool::class);
+Route::get('/ourschools/sentul', SentulSchool::class);
+Route::get('/ourschools/surabaya', SurabayaSchool::class);
+Route::get('/ourschools/medan', MedanSchool::class);
+
+
+
 
 
 

@@ -27,26 +27,26 @@
 
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z" fill="currentColor"></path>
                                 </svg></a>
-                            <div class="dropdown-menu" style="padding-top: 8px;padding-bottom: 8px;padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/academics/early-years" wire:navigate.hover">{{ __("Early Years") }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/elementaryschool.html">{{ __("Elementary School")  }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/middleschool.html">{{ __("Middle School") }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/highschool.html">{{ __("High School") }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/onlineschool.html">{{ __("Online School") }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/calendars.html">{{ __("Calendars") }}</a>
+                            <div class="dropdown-menu" style="padding-top: 8px;padding-bottom: 8px;padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/academics/early-years" wire:navigate.hover>{{ __("Early Years") }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/elementary-school" wire:navigate.hover>{{ __("Elementary School")  }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/middle-school" wire:navigate.hover>{{ __("Middle School") }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/high-school" wire:navigate.hover>{{ __("High School") }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/online-school" wire:navigate.hover>{{ __("Online School") }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/academics/calendars" wire:navigate.hover>{{ __("Calendars") }}</a>
                                 <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="https://library.sampoernaacademy.sch.id/">{{ __("Library") }}</a>
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item d-flex flex-row align-items-xxl-center"><a class="nav-link fs-5 link-body-emphasis" href="/ourschools.html" style="font-family: Campton;padding-right: 0px;">{{ __("Our Schools") }}</a>
+                    <li class="nav-item d-flex flex-row align-items-xxl-center"><a class="nav-link fs-5 link-body-emphasis" href="/ourschools" wire:navigate.hover style="font-family: Campton;padding-right: 0px;">{{ __("Our Schools") }}</a>
                         <div class="nav-item dropdown" style="font-family: Campton;"><a class="fs-5" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: var(--bs-white);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
 
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z" fill="currentColor"></path>
                                 </svg></a>
-                            <div class="dropdown-menu" style="padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/ourschools/lavenueschool.html">{{ __("L’Avenue School") }}</a>
-                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/bsdschool.html">{{ __("BSD School") }}</a>
-                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/sentulschool.html">{{ __("Sentul School") }}</a>
-                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/surabayaschool.html">{{ __("Surabaya School") }}</a>
-                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/medanschool.html">{{ __("Medan School") }}</a>
+                            <div class="dropdown-menu" style="padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/ourschools/lavenue" wire:navigate.hover>{{ __("L’Avenue School") }}</a>
+                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/bsd" wire:navigate.hover>{{ __("BSD School") }}</a>
+                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/sentul" wire:navigate.hover>{{ __("Sentul School") }}</a>
+                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/surabaya" wire:navigate.hover>{{ __("Surabaya School") }}</a>
+                                <div class="dropdown-divider" style="border-width: 1px;border-color: rgb(0,0,0);margin: 8px 14px;"></div><a class="dropdown-item fw-light" href="/ourschools/medan" wire:navigate.hover>{{ __("Medan School") }}</a>
                             </div>
                         </div>
                     </li>
