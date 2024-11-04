@@ -1,7 +1,7 @@
 @php use Illuminate\Support\Facades\Route;use Illuminate\Support\Str; @endphp
 <nav class="navbar navbar-expand-md fixed-top navbar-dark-bg" style="padding-top: 24px;padding-bottom: 24px;"
      data-bs-theme="dark">
-    <div class="container"><a class="navbar-brand" href="/index.html"
+    <div class="container"><a class="navbar-brand" href="/"
                               style="background: url({{ asset("assets/img/Logo/Logo%20Sampoerna%20Academy.png") }}) center / contain no-repeat;width: 228px;height: 93.82px;margin-right: 0px;padding-bottom: 0px;padding-top: 0px;"></a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"
                 style="border-style: none;border-radius: 0px;"><span

@@ -161,36 +161,33 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-12" style="padding-left: 0px;padding-right: 0px;">
-                    <div class="d-flex flex-row justify-content-between">
-                        <div>
-                            <h1 style="font-family: Campton;color: #292F78;">94%</h1>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("IGCSE Pass Rate") }}</p>
+                <div class="col-12" style="padding-left: 0; padding-right: 0;">
+                    <div class="row">
+                        <div class="col-6 col-md-2 text-center">
+                            <h1 style="font-family: Campton; color: #292F78;">94%</h1>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("IGCSE Pass Rate") }}</p>
                         </div>
-                        <hr style="width: 1.33px;background: var(--bs-black);">
-                        <div>
-                            <h1 style="font-family: Campton;color: #292F78;">1 of 3</h1>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("Students Gets") }}<br>{{ __("Distinction (A* & A)") }}</p>
+                        <div class="col-6 col-md-2 text-center">
+                            <h1 style="font-family: Campton; color: #292F78;">1 of 3</h1>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("Students Gets") }}<br>{{ __("Distinction (A* & A)") }}</p>
                         </div>
-                        <hr style="width: 1.33px;background: var(--bs-black);">
-                        <div>
-                            <h1 style="font-family: Campton;color: #292F78;">1 of 2</h1>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("from Medan & Surabaya") }}<br>{{ __("Gets Distinction (A* & A)") }}</p>
+                        <div class="col-6 col-md-2 text-center">
+                            <h1 style="font-family: Campton; color: #292F78;">1 of 2</h1>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("from Medan & Surabaya") }}<br>{{ __("Gets Distinction (A* & A)") }}</p>
                         </div>
-                        <hr style="width: 1.33px;background: var(--bs-black);">
-                        <div>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("BSD & L'Avenue Has") }}</p>
-                            <h1 style="font-family: Campton;color: #292F78;">&gt;97%</h1>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("Pass Rate") }}</p>
+                        <div class="col-6 col-md-2 text-center">
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("BSD & L'Avenue Has") }}</p>
+                            <h1 style="font-family: Campton; color: #292F78;">&gt;97%</h1>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("Pass Rate") }}</p>
                         </div>
-                        <hr style="width: 1.33px;background: var(--bs-black);">
-                        <div>
-                            <h1 style="font-family: Campton;color: #292F78;">93%</h1>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("of our students were") }}<br>{{ __("awarded the IB Diploma") }}</p>
+                        <div class="col-12 col-md-2 text-center">
+                            <h1 style="font-family: Campton; color: #292F78;">93%</h1>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">{{ __("of our students were") }}<br>{{ __("awarded the IB Diploma") }}</p>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     @include("components.our-teachers")

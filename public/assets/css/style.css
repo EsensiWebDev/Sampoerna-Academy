@@ -16,5 +16,19 @@
     .event-subtitle {
         font-size: 12px !important;
     }
+
+    .tab-img {
+        width: 130px !important;
+    }
+
+    li .nav-link {
+        font-size: 13px !important;
+    }
+
+    .nav-item .nav-link img {
+        width: 13px !important; /* Ukuran gambar diatur menjadi 13px */
+        height: 13px !important;
+    }
+
 }
 
