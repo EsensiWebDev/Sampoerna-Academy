@@ -16,7 +16,7 @@
                 @endphp
                 <ul class="navbar-nav d-md-flex d-lg-flex ms-auto justify-content-md-end justify-content-lg-end">
                     <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis {{ $isCareer ? "link-active" : "" }}"
-                                                                          href="/career" wire:navigate,hover
+                                                                          href="/career" wire:navigate.hover
                                                                           style="color: var(--bs-white);font-family: Campton;">{{ __("Career") }}</a>
                     </li>
                     <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis {{ $isNews ? "link-active" : "" }}"

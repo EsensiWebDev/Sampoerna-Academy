@@ -58,6 +58,8 @@ Route::get("/news", News::class);
 Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
+Route::get("/test", Test::class);
+
 
 
 

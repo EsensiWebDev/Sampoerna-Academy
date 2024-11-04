@@ -1,3 +1,20 @@
 .link-active {
     border-bottom: 2px solid #CE3827 ;
 }
+
+.slick-item {
+    width: 250px;
+    margin-right: 16px;
+}
+
+
+@media (max-width: 768px) {
+   .event-title {
+       font-size: 11px !important;
+   }
+
+    .event-subtitle {
+        font-size: 12px !important;
+    }
+}
+

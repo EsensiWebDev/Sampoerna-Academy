@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="{{ asset("assets/bootstrap/css/bootstrap.min.css") }}">
         <link rel="stylesheet" href="{{ asset("assets/css/styles.min.css") }}">
         <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
+        <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick.css") }}">
+        <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick-theme.css") }}">
+        <script src="{{ asset("assets/js/jquery.js") }}"></script>
         <title>{{ config("app.name") }}</title>
     </head>
     <body>
@@ -17,5 +20,8 @@
         @include("components.footer")
         <script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>
         <script src="{{ asset("assets/js/script.min.js") }}"></script>
+
+        <script type="text/javascript" src="{{ asset("assets/slick-1.8.1/slick/slick.min.js") }}"></script>
+
     </body>
 </html>
