@@ -18,7 +18,7 @@
                         <h1 class="display-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;">{{ __("Discover Your Child's Passion") }}</h1>
                     </div>
                     <div style="margin-top: 24px;">
-                        <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("At Sampoerna Academy, we believe in fostering well-rounded individuals. In addition to a strong academic foundation, we offer a diverse range of extracurricular activities that allow students to explore their passions, develop new skills, and build meaningful connections with peers. This vibrant extracurricular program provides opportunities for your child to discover hidden talents, build confidence, and become a thriving member of our school community") }}</p>
+                        <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("At Sampoerna Academy, we believe in fostering well-rounded individuals. In addition to a strong academic foundation, we offer a diverse range of extracurricular activities that allow students to explore their passions, develop new skills, and build meaningful connections with peers. This vibrant extracurricular program provides opportunities for your child to discover hidden talents, build confidence, and become a thriving member of our school community.") }}</p>
                     </div>
                 </div>
             </div>

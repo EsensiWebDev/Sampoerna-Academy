@@ -502,6 +502,10 @@
     "View All Awards": "Lihat Semua Penghargaan",
 
 
+    "Discover Your Child's Passion": "Temukan Passion Anak Anda",
+    "At Sampoerna Academy, we believe in fostering well-rounded individuals. In addition to a strong academic foundation, we offer a diverse range of extracurricular activities that allow students to explore their passions, develop new skills, and build meaningful connections with peers. This vibrant extracurricular program provides opportunities for your child to discover hidden talents, build confidence, and become a thriving member of our school community." : "Di Sampoerna Academy, kami percaya dalam mengembangkan individu yang seimbang. Selain fondasi akademis yang kuat, kami menawarkan berbagai kegiatan ekstrakurikuler yang memungkinkan siswa untuk mengeksplorasi minat mereka, mengembangkan keterampilan baru, dan membangun koneksi yang berarti dengan teman-teman sebaya. Program ekstrakurikuler yang dinamis ini memberikan kesempatan bagi anak Anda untuk menemukan bakat terpendam, membangun kepercayaan diri, dan menjadi anggota yang berkembang dalam komunitas sekolah kami.",
+
+
 
 
     "We are incredibly proud of our students' achievements that extend far beyond the classroom": "Kami sangat bangga dengan pencapaian siswa-siswa kami yang melampaui batas ruang kelas.",
@@ -561,7 +565,138 @@
     "Provide the following requirements": "Sediakan persyaratan berikut",
     "Fill out the application form": "Isi formulir aplikasi",
     "Welcome to Sampoerna Academy": "Selamat datang di Sampoerna Academy",
-    "We are incredibly proud of our students' achievements that extend far beyond the classroom. This page celebrates the dedication, hard work, and exceptional talents of our students, who are recognized through a variety of local, regional, and national awards and achievements. We believe in fostering a culture of excellence that empowers students to reach their full potential, and their accomplishments serve as an inspiration for the entire school community": "Kami sangat bangga akan prestasi siswa kami yang melampaui batas kelas. Halaman ini merayakan dedikasi, kerja keras, dan bakat luar biasa siswa kami, yang diakui melalui berbagai penghargaan dan pencapaian lokal, regional, dan nasional. Kami percaya dalam membangun budaya keunggulan yang memberdayakan siswa untuk mencapai potensi penuh mereka, dan pencapaian mereka menjadi inspirasi bagi seluruh komunitas sekolah."
+    "We are incredibly proud of our students' achievements that extend far beyond the classroom. This page celebrates the dedication, hard work, and exceptional talents of our students, who are recognized through a variety of local, regional, and national awards and achievements. We believe in fostering a culture of excellence that empowers students to reach their full potential, and their accomplishments serve as an inspiration for the entire school community": "Kami sangat bangga akan prestasi siswa kami yang melampaui batas kelas. Halaman ini merayakan dedikasi, kerja keras, dan bakat luar biasa siswa kami, yang diakui melalui berbagai penghargaan dan pencapaian lokal, regional, dan nasional. Kami percaya dalam membangun budaya keunggulan yang memberdayakan siswa untuk mencapai potensi penuh mereka, dan pencapaian mereka menjadi inspirasi bagi seluruh komunitas sekolah.",
+
+
+
+
+
+
+    "Admission Process": "Proses Penerimaan",
+    "We are academically selective and all children must pass a period of observation and assessment (early years) or an entrance assessment. The entrance assessment features an assessment in English language, Mathematics, and Science along with a personal interview. School may require students to attend the class for a day(s) to monitor child’s behavior and academic level.": "Kami menerapkan seleksi akademis yang ketat, di mana setiap anak harus melalui periode observasi dan penilaian (untuk tahun awal) atau mengikuti ujian masuk. Ujian masuk ini terdiri dari penilaian dalam Bahasa Inggris, Matematika, dan Sains, serta wawancara pribadi. Sekolah dapat meminta siswa untuk mengikuti kelas selama satu atau beberapa hari untuk memantau perilaku dan tingkat akademik anak.",
+    "Sampoerna Academy Class Division": "Pembagian Kelas di Sampoerna Academy",
+    "We admit children from the year they turn 2, into Playgroup, to the age of 15, into grade 10. Other grades and ages require more consideration and communication between school and parents. Children are taught in grades with children of the same age": "Kami menerima anak-anak mulai tahun mereka berusia 2 tahun untuk masuk ke Playgroup, hingga usia 15 tahun untuk kelas 10. Untuk kelas dan usia lainnya, diperlukan pertimbangan dan komunikasi yang lebih antara sekolah dan orang tua. Anak-anak diajarkan dalam kelompok sesuai dengan usia mereka.",
+    "Playgroup": "Playgroup",
+    "2 Years Old": "2 Tahun",
+    "3 Years Old": "3 Tahun",
+    "4 Years Old": "4 Tahun",
+    "5 Years Old": "5 Tahun",
+    "6 Years Old": "6 Tahun",
+    "12 Years Old": "12 Tahun",
+    "15 Years Old": "15 Tahun",
+    "Student should reach the age before": "Siswa harus mencapai usia tersebut sebelum",
+    "1st October of the year being": "1 Oktober dari tahun yang berlaku",
+    "applied.": "diajukan.",
+    "Student should possess the proper school": "Siswa harus memiliki",
+    "leaving certificate from the previous school": "surat keterangan kelulusan dari sekolah sebelumnya",
+    "year plus major examination results where": "tahun serta hasil ujian utama di mana",
+    "applicable.": "berlaku.",
+    "Students coming from British School Grading": "Siswa dari sistem penilaian sekolah Inggris",
+    "system (13 Years) will be placed according to": "sistem (13 Tahun) akan ditempatkan sesuai",
+    "conversion in our system.": "konversi dalam sistem kami.",
+    "Nurture your child's curiosity.": "Kembangkan rasa ingin tahu anak Anda.",
+    "Ignite their passion. Shape their future.": "Nyalakan semangat mereka. Bentuk masa depan mereka.",
+    "Discover how Sampoerna Academy can foster your child's": "Temukan bagaimana Sampoerna Academy dapat mengembangkan",
+    "love of learning, creativity, and critical thinking skills.": "cinta belajar, kreativitas, dan keterampilan berpikir kritis anak Anda.",
+    "Our scholarship program is designed to support": "Program beasiswa kami dirancang untuk mendukung",
+    "exceptional students like you.": "siswa-siswa luar biasa seperti Anda.",
+    "A Wise Investment in Your Child's Success": "Investasi Cerdas untuk Sukses Anak Anda",
+    "Investing in your child's education is one of the most important decisions you can make. At Sampoerna Academy, we believe that a quality education is the foundation for lifelong success. Below, you'll find detailed information on our tuition fees, designed to ensure that your child receives the best possible education to prepare them for the future.": "Menginvestasikan pendidikan anak Anda adalah salah satu keputusan terpenting yang bisa Anda buat. Di Sampoerna Academy, kami percaya bahwa pendidikan berkualitas adalah fondasi untuk kesuksesan seumur hidup. Di bawah ini, Anda akan menemukan informasi rinci tentang biaya pendidikan kami, yang dirancang untuk memastikan anak Anda mendapatkan pendidikan terbaik yang mempersiapkan mereka untuk masa depan.",
+    "Tuition Fee": "Biaya Pendidikan",
+    "Sampoerna Academy has seven (7) campuses located in Medan, Jakarta, BSD, Sentul and Surabaya, offering world class International Education for young learners in ELC up to our more mature learners in Grade 12.": "Sampoerna Academy memiliki tujuh (7) kampus yang berlokasi di Medan, Jakarta, BSD, Sentul, dan Surabaya, menawarkan Pendidikan Internasional kelas dunia untuk pembelajar muda dari ELC hingga pembelajar yang lebih dewasa di Kelas 12.",
+    "As pioneer in STEAM methodology integrated with Project Based Learning, we deliver purposely tailored international curriculum such as IEYC for Early Learning, Cambridge for Primary and Secondary, and IB option for Grade 11 and Grade 12.": "Sebagai pelopor dalam metodologi STEAM yang terintegrasi dengan Pembelajaran Berbasis Proyek, kami menyampaikan kurikulum internasional yang dirancang khusus, seperti IEYC untuk Pembelajaran Awal, Cambridge untuk Pendidikan Dasar dan Menengah, serta opsi IB untuk Kelas 11 dan Kelas 12.",
+    "Sampoerna Academy uses English as language of instruction, but we also offer Mandarin Curriculum designed collaboratively with BLCU – Beijing Language and Cultural University in China.": "Sampoerna Academy menggunakan Bahasa Inggris sebagai bahasa pengantar, namun kami juga menawarkan Kurikulum Mandarin yang dirancang secara kolaboratif dengan BLCU – Universitas Bahasa dan Budaya Beijing di China.",
+    "Aligned with our vision to open up access to more Indonesians, we offer competitive fees that varies across grade levels, and campus locations, as well as curriculum choice (Cambridge vs IB).": "Sesuai dengan visi kami untuk membuka akses yang lebih luas bagi lebih banyak orang Indonesia, kami menawarkan biaya yang kompetitif yang bervariasi di setiap tingkat kelas dan lokasi kampus, serta pilihan kurikulum (Cambridge vs IB).",
+    "Sampoerna Academy does not charge building fee / development fee": "Sampoerna Academy tidak membebankan biaya bangunan / biaya pengembangan",
+    "Our tuition fee ranges from IDR 25 Million in ELC up to IDR 187 Million in": "Biaya pendidikan kami berkisar dari IDR 25 Juta di ELC hingga IDR 187 Juta di",
+    "Grade 12 per annum. (Prices will vary depending on location and level)": "Kelas 12 per tahun. (Harga dapat bervariasi tergantung pada lokasi dan tingkat)",
+    "This tuition fee excludes registration fee (1 time fee – only for new students),": "Biaya pendidikan ini tidak termasuk biaya pendaftaran (biaya satu kali – hanya untuk siswa baru),",
+    "books and resources, learning resource fee, uniform fees, field trips, Chromebooks": "buku dan sumber daya, biaya sumber daya pembelajaran, biaya seragam, kunjungan lapangan, Chromebook",
+    "and laptops, external exams, ESL, courses, and other special services.": "dan laptop, ujian eksternal, ESL, kursus, serta layanan khusus lainnya.",
+    "See FAQ" : "Lihat FAQ",
+
+
+
+
+
+
+
+    "Your Guide to Joining Sampoerna Academy": "Panduan Anda untuk Bergabung dengan Sampoerna Academy",
+    "to make the admissions process as smooth and straightforward as possible. Below, we've": "untuk membuat proses penerimaan sehalus dan sejelas mungkin. Di bawah ini, kami telah",
+    "outlined a few simple steps to help you get started on this exciting path to a world-class education.": "menggariskan beberapa langkah sederhana untuk membantu Anda memulai perjalanan menarik ini menuju pendidikan kelas dunia.",
+    "A Few Simple Steps to Sampoerna Admissions": "Beberapa Langkah Sederhana untuk Penerimaan Sampoerna",
+    "To confirm your child’s enrollment, we request parents to provide the following application requirements:\u2028": "Untuk mengkonfirmasi pendaftaran anak Anda, kami meminta orang tua untuk menyediakan persyaratan aplikasi berikut:\u2028",
+    "Copies of school records for the past two years\u2028": "Salinan catatan sekolah untuk dua tahun terakhir\u2028",
+    "A copy of Birth Certificate\u2028": "Salinan Akta Kelahiran\u2028",
+    "Copies of ID (KTP &amp; KK) or passports (cover page, picture page, expiration date and": "Salinan ID (KTP &amp; KK) atau paspor (halaman sampul, halaman foto, tanggal kedaluwarsa dan",
+    "current visa page) of the students and parents\u2028": "halaman visa saat ini) dari siswa dan orang tua\u2028",
+    "For international students, copies of KITAS (picture page and expiration date) of the": "Untuk siswa internasional, salinan KITAS (halaman foto dan tanggal kedaluwarsa) dari",
+    "students and parents": "siswa dan orang tua",
+    "Complete our straightforward application form to officially begin your journey with Sampoerna Academy. This step helps us understand your child’s unique needs and aspirations, ensuring a personalized educational experience": "Isi formulir aplikasi sederhana kami untuk secara resmi memulai perjalanan Anda dengan Sampoerna Academy. Langkah ini membantu kami memahami kebutuhan dan aspirasi unik anak Anda, memastikan pengalaman pendidikan yang dipersonalisasi.",
+    "Online Registration": "Pendaftaran Online",
+    "Once your application is reviewed and approved, we'll extend a warm welcome to your child and family.": "Setelah aplikasi Anda ditinjau dan disetujui, kami akan memberikan sambutan hangat kepada anak dan keluarga Anda.",
+    "Prepare for an enriching educational adventure that will shape their future success.": "Bersiaplah untuk petualangan pendidikan yang memperkaya yang akan membentuk kesuksesan mereka di masa depan.",
+
+
+
+
+
+    "Change The Game By Working At Sampoerna Academy": "Ubah Permainan dengan Bekerja di Sampoerna Academy",
+    "At Sampoerna School, we never stop asking the big questions. What are the big challenges facing young Indonesians today? And how do we best prepare them to compete and succeed in a complex, global world? We are looking for lecturers and faculty members who share our drive and ambition. At Sampoerna School, bring your passion. Bring your initiative. Bring your big plans for the future. Together, we transform lives and make dreams come true.": "Di Sekolah Sampoerna, kami tidak pernah berhenti mengajukan pertanyaan besar. Apa tantangan besar yang dihadapi oleh anak muda Indonesia saat ini? Dan bagaimana kami dapat mempersiapkan mereka dengan sebaik-baiknya untuk bersaing dan berhasil dalam dunia yang kompleks dan global? Kami mencari dosen dan anggota fakultas yang memiliki semangat dan ambisi yang sama. Di Sampoerna School, bawa semangat Anda. Bawa inisiatif Anda. Bawa rencana besar Anda untuk masa depan. Bersama-sama, kita mengubah hidup dan mewujudkan mimpi.",
+    "Interested in being one of us? Please send your application by choosing our vacancy job lists below.": "Apakah Anda tertarik untuk menjadi bagian dari kami? Silakan kirimkan aplikasi Anda dengan memilih daftar lowongan pekerjaan kami di bawah ini.",
+    "Only short-listed candidates that meet the mentioned qualifications will be notified.": "Hanya kandidat yang terpilih yang memenuhi kualifikasi yang akan diberitahukan.",
+    "Find More About Job Opportunity": "Temukan Lebih Banyak Tentang Kesempatan Kerja",
+    "Apply Now": "Daftar Sekarang",
+
+
+
+
+
+    "Latest Updates": "Pembaruan Terbaru",
+    "Find Your Answers About Your Child's Education": "Temukan Jawaban Anda Tentang Pendidikan Anak Anda",
+    "Have questions about our curriculum, admissions process, or extracurricular activities?": "Apakah Anda memiliki pertanyaan tentang kurikulum kami, proses penerimaan, atau kegiatan ekstrakurikuler?",
+    "Find the answers you need right here.": "Temukan jawaban yang Anda butuhkan di sini.",
+    "What is STEAM-focused learning?": "Apa itu pembelajaran yang berfokus pada STEAM?",
+    "STEAM is an educational approach to learning that uses Science, Technology, Engineering, the Arts and Mathematics as access points for guiding student inquiry, dialogue, and critical thinking. The end results are students who take thoughtful risks, engage in experiential learning, persist in problem-solving, embrace collaboration, and work through the creative process. These are the innovators, educators, leaders, and learners of the 21st century!": "STEAM adalah pendekatan pendidikan untuk belajar yang menggunakan Sains, Teknologi, Rekayasa, Seni, dan Matematika sebagai titik akses untuk memandu penyelidikan, dialog, dan pemikiran kritis siswa. Hasil akhirnya adalah siswa yang mengambil risiko yang bijaksana, terlibat dalam pembelajaran dari pengalaman, gigih dalam memecahkan masalah, merangkul kolaborasi, dan melalui proses kreatif. Mereka adalah para inovator, pendidik, pemimpin, dan pelajar abad ke-21!",
+    "How can SA Help the Children to be Successful?": "Bagaimana SA dapat Membantu Anak-Anak untuk Sukses?",
+    "As explained throughout this document student achievement is priority for SA. Our teachers work on deeper learning with students in the classrooms. Some of our teaching methods or approaches explained in this document. Moreover, we use various assessments to measure students’ understanding. If any child is falling behind teachers may implement some interventions, including but not limited to classroom group works, tutorial during the day or after classes, peer tutoring, … it is also important for parents to be involved in their children’s education. Teachers have open communication with students in person or online portals they are using. Therefore, these extra support requests may come from students and/or parents as well.": "Seperti yang dijelaskan di seluruh dokumen ini, pencapaian siswa adalah prioritas bagi SA. Para guru kami bekerja pada pembelajaran yang lebih dalam dengan siswa di dalam kelas. Beberapa metode atau pendekatan pengajaran kami dijelaskan dalam dokumen ini. Selain itu, kami menggunakan berbagai penilaian untuk mengukur pemahaman siswa. Jika ada siswa yang tertinggal, para guru dapat menerapkan beberapa intervensi, termasuk tetapi tidak terbatas pada pekerjaan kelompok di kelas, tutorial selama hari atau setelah kelas, bimbingan sebaya, dll. Juga penting untuk orang tua terlibat dalam pendidikan anak-anak mereka. Para guru memiliki komunikasi terbuka dengan siswa secara langsung atau melalui portal online yang mereka gunakan. Oleh karena itu, permintaan dukungan tambahan ini dapat datang dari siswa dan/atau orang tua juga.",
+    "On the other hand, our administrators are in constant communication with teachers. Homeroom teachers (mentors) are also following students learning in all their subject areas.": "Di sisi lain, para administrator kami berkomunikasi secara konstan dengan para guru. Guru wali kelas (mentor) juga mengikuti pembelajaran siswa di semua bidang mata pelajaran mereka.",
+    "It is for sure parents will think what about exams – IGCSE, UN, or other high-stake exams. Even though, we will not teach for testing, we do want our students to be successful in those exams. Students need only simple revisions and practice before the exams since they have already mastered the content through the lessons. SA implements mock exams, condensed study during their last month for the exams, past papers solutions, etc.": "Pasti orang tua akan bertanya tentang ujian – IGCSE, UN, atau ujian penting lainnya. Meskipun kami tidak akan mengajarkan untuk ujian, kami tetap ingin siswa kami sukses dalam ujian tersebut. Siswa hanya perlu revisi dan latihan sederhana sebelum ujian karena mereka sudah menguasai materi melalui pembelajaran. SA menerapkan ujian percobaan, studi ringkas selama bulan terakhir sebelum ujian, solusi soal-soal sebelumnya, dll.",
+    "Is there a trial class available here?": "Apakah ada kelas percobaan yang tersedia di sini?",
+    "Yes, there is. For further information regarding availability and T&C trial class, we recommend you to contact our admissions team at the following numbers:": "Ya, ada. Untuk informasi lebih lanjut mengenai ketersediaan dan syarat & ketentuan kelas percobaan, kami sarankan Anda menghubungi tim penerimaan kami di nomor-nomor berikut:",
+    "I want to visit the school, is it possible?": "Saya ingin mengunjungi sekolah, apakah itu mungkin?",
+    "We would be happy to schedule a school visit for you. Please contact our admissions team at the following numbers to arrange a special appointment. Our representative will be happy to assist you further.": "Kami dengan senang hati akan menjadwalkan kunjungan sekolah untuk Anda. Silakan hubungi tim penerimaan kami di nomor-nomor berikut untuk mengatur janji khusus. Perwakilan kami akan senang hati membantu Anda lebih lanjut.",
+    "Copies of ID (KTP & KK) or passports (cover page, picture page, expiration date and current visa page) of the students and parents": "Salinan ID (KTP & KK) atau paspor (halaman sampul, halaman foto, tanggal kedaluwarsa, dan halaman visa yang berlaku) siswa dan orang tua",
+    "For international students, copies of KITAS (picture page and expiration date) of the students and parents": "Untuk siswa internasional, salinan KITAS (halaman foto dan tanggal kedaluwarsa) siswa dan orang tua",
+    "If there is a fee increase, by how much will the fees increase?": "Jika ada kenaikan biaya, berapa banyak biaya yang akan meningkat?",
+    "Fee increases are set by management per year.": "Kenaikan biaya ditentukan oleh manajemen setiap tahun.",
+    "May I know the tuition fee, please?": "Bolehkah saya tahu biaya kuliah, tolong?",
+    "Since our tuition fee varies for each campus location, we would recommend you to contact our admissions team for tuition details.": "Karena biaya kuliah kami bervariasi untuk setiap lokasi kampus, kami sarankan Anda menghubungi tim penerimaan kami untuk informasi biaya kuliah.",
+    "How are the subjects taught? What makes Sampoerna Academy unique in comparison to other school?": "Bagaimana mata pelajaran diajarkan? Apa yang membuat Sampoerna Academy unik dibandingkan dengan sekolah lainnya?",
+    "It is not only what we teach it is also how we teach makes the difference. We believe that better-rounded student with experience in various activities and better social skills is the way to go. With the advent of the information age available at our finger-tips, our job as a school is to teach our students “to learn how to learn”. Concepts are taught as deeper knowledge rather than rote memorization.": "Bukan hanya apa yang kami ajarkan, tetapi juga bagaimana kami mengajarkan yang membuat perbedaan. Kami percaya bahwa siswa yang lebih berpengalaman dalam beragam aktivitas dan memiliki keterampilan sosial yang lebih baik adalah jalannya. Dengan hadirnya era informasi yang tersedia di ujung jari kita, tugas kami sebagai sekolah adalah mengajarkan siswa kami “untuk belajar bagaimana belajar”. Konsep diajarkan sebagai pengetahuan yang lebih dalam daripada sekadar menghafal.",
+    "Your child will learn using the 21st century skills through:": "Anak Anda akan belajar menggunakan keterampilan abad ke-21 melalui:",
+    "o Inquiry-based learning": "o Pembelajaran berbasis penyelidikan",
+    "o Problem-based learning": "o Pembelajaran berbasis masalah",
+    "o Project-based learning,": "o Pembelajaran berbasis proyek,",
+    "o STEAM approach": "o Pendekatan STEAM",
+    "o Personalized learning": "o Pembelajaran yang dipersonalisasi",
+    "To facilitate hands-on activities, our teachers will embrace the new technology, such as:": "Untuk memfasilitasi kegiatan praktik, para guru kami akan mengadopsi teknologi baru, seperti:",
+    "o Chromebook": "o Chromebook",
+    "o MacBook Pro": "o MacBook Pro",
+    "o iPad": "o iPad",
+    "o MakeyMakey": "o MakeyMakey",
+    "o Sphero": "o Sphero",
+    "o LittleBits": "o LittleBits",
+    "o LEGO Mindstorms": "o LEGO Mindstorms",
+    "o Arduino": "o Arduino",
+    "Does SA have partnerships with universities local/abroad, and what advantage do these partnerships provide for students/graduates?": "Apakah SA memiliki kemitraan dengan universitas lokal/luar negeri, dan keuntungan apa yang diberikan kemitraan ini untuk siswa/lulusan?",
+    "Sampoerna School System has many MOUs signed with great universities, most of which are American Universities. Those universities offer different advantages. The most important and relevant one is to transfer credits with AC program. Some of those universities are offering scholarship or tuition discounts at various levels as well. Our SPAC team is able to help any interested parents.": "Sistem Sekolah Sampoerna memiliki banyak Nota Kesepahaman (MOU) yang ditandatangani dengan universitas-universitas terbaik, sebagian besar di antaranya adalah Universitas Amerika. Universitas-universitas tersebut menawarkan berbagai keuntungan. Yang paling penting dan relevan adalah untuk mentransfer kredit dengan program AC. Beberapa universitas tersebut juga menawarkan beasiswa atau diskon biaya kuliah di berbagai tingkat. Tim SPAC kami dapat membantu orang tua yang berminat.",
+    "Currently, our payment system can be made quarterly or annually. However, for those who wish to make payments in installments, you can use a credit card that has a payment plan for educational expenses (terms and conditions apply).": "Saat ini, sistem pembayaran kami dapat dilakukan secara triwulan atau tahunan. Namun, bagi mereka yang ingin melakukan pembayaran secara cicilan, Anda dapat menggunakan kartu kredit yang memiliki rencana pembayaran untuk biaya pendidikan (syarat dan ketentuan berlaku).",
+    "How to register for Sampoerna Academy?": "Bagaimana cara mendaftar di Sampoerna Academy?",
+    "Can school fees in SA be installment-based?": "Apakah biaya sekolah di SA dapat dibayarkan dengan cara cicilan?"
+
+
+
 
 
 

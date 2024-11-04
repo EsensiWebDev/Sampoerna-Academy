@@ -4,10 +4,10 @@
         <div class="collapse navbar-collapse" id="navcol-1">
             <div class="ms-auto">
                 <ul class="navbar-nav d-md-flex d-lg-flex ms-auto justify-content-md-end justify-content-lg-end">
-                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/career.html" style="color: var(--bs-white);font-family: Campton;">{{ __("Career") }}</a></li>
-                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/news.html" style="color: var(--bs-white);font-family: Campton;">{{ __("News") }}</a></li>
-                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/contact.html" style="color: var(--bs-white);font-family: Campton;">{{ __("Contact") }}</a></li>
-                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/faqs.html" style="color: var(--bs-white);font-family: Campton;">{{ __("FAQ") }}</a></li>
+                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/career" wire:navigate,hover style="color: var(--bs-white);font-family: Campton;">{{ __("Career") }}</a></li>
+                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/news" wire:navigate.hover style="color: var(--bs-white);font-family: Campton;">{{ __("News") }}</a></li>
+                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/contact" wire:navigate.hover style="color: var(--bs-white);font-family: Campton;">{{ __("Contact") }}</a></li>
+                    <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="/faq" wire:navigate.hover style="color: var(--bs-white);font-family: Campton;">{{ __("FAQ") }}</a></li>
                     <li class="nav-item" style="font-family: Campton;"><a class="nav-link fw-normal link-body-emphasis" href="#" style="color: var(--bs-white);font-family: Campton;"><img src="{{ asset("assets/img/Flag/circle-flags_us.png") }}" style="width: 20px;">&nbsp;English</a></li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
@@ -65,8 +65,8 @@
 
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 7.29289C5.68342 6.90237 6.31658 6.90237 6.70711 7.29289L10 10.5858L13.2929 7.29289C13.6834 6.90237 14.3166 6.90237 14.7071 7.29289C15.0976 7.68342 15.0976 8.31658 14.7071 8.70711L10.7071 12.7071C10.3166 13.0976 9.68342 13.0976 9.29289 12.7071L5.29289 8.70711C4.90237 8.31658 4.90237 7.68342 5.29289 7.29289Z" fill="currentColor"></path>
                                 </svg></a>
-                            <div class="dropdown-menu" style="padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/admissions/admissionoverview.html">{{ __("Admission Overview") }}</a>
-                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/admissions/howtoapply.html">{{ __("How to Apply") }}</a>
+                            <div class="dropdown-menu" style="padding-left: 8px;padding-right: 8px;border-radius: 0px;"><a class="dropdown-item fw-light" href="/admissions/overview" wire:navigate.hover>{{ __("Admission Overview") }}</a>
+                                <div class="dropdown-divider" style="margin: 8px 14px;border-width: 1px;border-color: rgb(0,0,0);"></div><a class="dropdown-item fw-light" href="/admissions/how-to-apply" wire:navigate.hover>{{ __("How to Apply") }}</a>
                             </div>
                         </div>
                     </li>
