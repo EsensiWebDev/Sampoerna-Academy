@@ -6,6 +6,7 @@
         <link rel="icon" type="image/webp" sizes="1131x1345" href="{{ asset("assets/img/Icon/Five%20Icon.webp") }}">
         <link rel="stylesheet" href="{{ asset("assets/bootstrap/css/bootstrap.min.css") }}">
         <link rel="stylesheet" href="{{ asset("assets/css/styles.min.css") }}">
+        <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
         <title>{{ config("app.name") }}</title>
     </head>
     <body>

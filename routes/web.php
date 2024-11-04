@@ -8,6 +8,7 @@ use App\Livewire\Pages\AwardsAchievements;
 use App\Livewire\Pages\BsdSchool;
 use App\Livewire\Pages\Calendar;
 use App\Livewire\Pages\Carrer;
+use App\Livewire\Pages\Contact;
 use App\Livewire\Pages\EarlyYears;
 use App\Livewire\Pages\Extracurricular;
 use App\Livewire\Pages\Faq;
@@ -54,6 +55,7 @@ Route::get("/admissions/overview", OverviewAdmissions::class);
 Route::get("/admissions/how-to-apply", HowToApply::class);
 Route::get("/career", Carrer::class);
 Route::get("/news", News::class);
+Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
 
