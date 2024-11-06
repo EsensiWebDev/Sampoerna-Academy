@@ -27,7 +27,7 @@
     <section style="margin-top: 200px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-4 mb-md-0">
                     <div style="background: url(&quot;../assets/img/Banner/early%20years%20grade.webp&quot;) center / cover no-repeat;max-height: 392px;height: 392px;"></div>
                     <div style="background: #CE3827;">
                         <p class="fw-light" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;padding-left: 24px;padding-right: 24px;padding-top: 20px;padding-bottom: 20px;">{{ __("Toddler (Medan Only) | Playgroup | Pre Kindergarten ") }}<br>{{ __("Kindergarten 1 | Kindergarten 2") }}</p>
