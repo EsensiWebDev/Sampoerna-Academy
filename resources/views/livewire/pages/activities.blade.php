@@ -184,3 +184,7 @@
     </script>
 
 </section>
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection

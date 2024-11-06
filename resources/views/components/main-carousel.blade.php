@@ -6,9 +6,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 fw-semibold car-subtitle" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -19,9 +19,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{ __("Today") }}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{ __("Today") }}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -32,9 +32,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -45,9 +45,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{ __("Today") }}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{ __("Today") }}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -58,9 +58,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -71,9 +71,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -84,9 +84,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -97,9 +97,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -110,9 +110,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -123,9 +123,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -136,9 +136,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -149,9 +149,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("Inspiring") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;"><span class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{__("Today")}}</h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>
@@ -162,9 +162,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1 class="fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
-                                <h1 class="display-3 fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span style="padding-top: 12px;padding-bottom: 12px;padding-left: 12px;padding-right: 12px;background: #292F78;">{{ __("Innovators") }}</span></h1>
-                                <p class="fs-5" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
+                                <h1 class="fw-semibold car-title" style="color: var(--bs-white);font-family: Campton;">{{ __("From Curious Minds To") }}</h1>
+                                <h1 class="display-3 car-subtitle fw-semibold" style="color: var(--bs-white);font-family: Campton;">{{ __("Global") }}&nbsp;<span class="carousel-block-text">{{ __("Innovators") }}</span></h1>
+                                <p class="fs-5 car-trailing" style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">{{ __("Discover your child's potential through") }}<br>{{ __("innovative learning and global exposure") }}</p>
                             </div>
                         </div>
                     </div>

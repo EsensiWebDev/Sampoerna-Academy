@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <section style="margin-top: 200px;">
+    <section style="margin-top: 200px; margin-bottom: 200px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-8 offset-lg-2">

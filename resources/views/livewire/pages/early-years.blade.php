@@ -48,3 +48,7 @@
     @include("components.available")
     @include("components.download")
 </section>
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection

@@ -124,5 +124,9 @@
             </div>
         </div>
     </section>
-    @include("components.footer")
 </section>
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection
+

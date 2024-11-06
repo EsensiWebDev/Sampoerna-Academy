@@ -17,10 +17,12 @@
         @include("components.navbar")
 
         {{ $slot }}
+
+        @yield("sub-footer")
         @include("components.footer")
         <script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>
         <script src="{{ asset("assets/js/script.min.js") }}"></script>
-
+        <script src="{{ asset("assets/js/script.js") }}"></script>
         <script type="text/javascript" src="{{ asset("assets/slick-1.8.1/slick/slick.min.js") }}"></script>
 
     </body>

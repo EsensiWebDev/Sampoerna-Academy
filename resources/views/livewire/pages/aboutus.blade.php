@@ -142,3 +142,7 @@
     </section>
     @include("components.our-teachers")
 </section>
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection
