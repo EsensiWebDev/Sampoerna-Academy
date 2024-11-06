@@ -107,11 +107,70 @@
     color: #f5d8d3;
 }
 
+.event-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between events */
+}
+
+.event-item {
+    display: flex;
+    background: #E4E4EB;
+    border-radius: 5px;
+
+    overflow: hidden; /* Hide overflow if content exceeds */
+}
+
+.date-box {
+    font-family: Campton;
+    font-weight: 500;
+    background: #292F78;
+    color: white;
+    display: inline-block; /* Pastikan elemen diperlakukan sebagai blok berbeda dalam baris */
+    min-width: 150px; /* Atur lebar minimum sesuai kebutuhan */
+    padding: 10px; /* Tambahkan padding untuk ruang di dalam */
+    border: 1px solid #ccc; /* Memberi batas agar lebih terlihat */
+    text-align: center; /* Agar teks terlihat rapi di tengah */
+    margin: 5px; /* Tambahkan jarak antar datebox */
+    box-sizing: border-box; /* Termasuk padding dan border dalam lebar yang ditetapkan */
+}
+
+.content-box {
+    font-family: Campton;
+    font-weight: 500;
+    color: #292F78;
+    padding: 12px 24px;
+    font-size: 24px;
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
 
 
 
 
 @media (max-width: 768px) {
+    .event-container {
+        display: flex;
+        flex-direction: column; /* Keep column layout for mobile */
+        gap: 10px; /* Space between events */
+    }
+
+    .event-item {
+        flex-direction: row; /* Display items in a column stack */
+        width: 100%; /* Full width for event items */
+    }
+
+    .date-box {
+        min-width: 120px; /* Ukuran lebih kecil untuk mobile */
+        padding: 8px; /* Atur padding lebih kecil */
+        font-size: 12px ; /* Decrease font size for mobile */
+    }
+
+    .content-box {
+        width: 100%; /* Full width for content box on mobile */
+        padding: 12px 20px; /* Adjust padding for mobile */
+        font-size: 12px ; /* Decrease font size for mobile */
+    }
 
     .carousel-block-text {
         padding: 4px;

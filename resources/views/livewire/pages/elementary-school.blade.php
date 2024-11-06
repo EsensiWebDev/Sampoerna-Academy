@@ -1,6 +1,6 @@
 <section id="elementary-school">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/Elementary%20School%20Banner.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/Elementary%20School%20Banner.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -27,8 +27,8 @@
     <section style="margin-top: 200px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div style="background: url(&quot;../assets/img/Banner/elementary%20school%20image.jpg&quot;) center / cover no-repeat;max-height: 392px;height: 392px;"></div>
+                <div class="col-md-6  mb-4 mb-md-0">
+                    <div style="background: url(&quot;../assets/img/Banner/elementary%20school%20image.webp&quot;) center / cover no-repeat;max-height: 392px;height: 392px;"></div>
                     <div style="background: #CE3827;">
                         <p class="fw-light" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;padding-left: 24px;padding-right: 24px;padding-top: 20px;padding-bottom: 20px;">{{ __("Grade 1 | Grade 2 | Grade 3 | Grade 4 | Grade 5 | Grade 6") }}</p>
                     </div>
