@@ -1,6 +1,6 @@
 <section id="extracurricular">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/extracurricilar.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/extracurricilar.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -30,10 +30,10 @@
                 <div class="col-md-6 py-5">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-3">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%201.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%202.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%203.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%204.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%201.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%202.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%203.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%204.webp" alt="Slide Image"></div>
                         </div>
                     </div>
                 </div>
@@ -73,9 +73,9 @@
                 <div class="col-md-6 py-5">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-2">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%202.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Drum.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%204.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%202.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Drum.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/L%27Avenue%20Activities%204.webp" alt="Slide Image"></div>
                         </div>
                     </div>
                 </div>
@@ -88,9 +88,9 @@
                 <div class="col-md-6 py-5">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-1">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20class.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20musik.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20piano.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20class.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20musik.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20piano.webp" alt="Slide Image"></div>
                         </div>
                     </div>
                 </div>
@@ -131,8 +131,8 @@
                 <div class="col-md-6 py-5">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-4">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Drum.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/science%20lab.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Drum.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/science%20lab.webp" alt="Slide Image"></div>
                         </div>
                     </div>
                 </div>
@@ -145,9 +145,9 @@
                 <div class="col-md-6 py-5">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-5">
                         <div class="carousel-inner">
-                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20class.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20musik.jpg" alt="Slide Image"></div>
-                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20piano.jpg" alt="Slide Image"></div>
+                            <div class="carousel-item active"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20class.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20musik.webp" alt="Slide Image"></div>
+                            <div class="carousel-item"><img class="w-100 d-block" src="/assets/img/Carousel/Surabaya%20piano.webp" alt="Slide Image"></div>
                         </div>
                     </div>
                 </div>

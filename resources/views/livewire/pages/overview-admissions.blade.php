@@ -1,6 +1,6 @@
 <section id="admission-overview">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/admissions%20overview.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/admissions%20overview.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -106,22 +106,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center align-items-md-center align-items-lg-center justify-content-xxl-center align-items-xxl-center">
-                    <div>
+                <div class="col-12 col-md-5 offset-sm-1 mt-4 d-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center align-items-md-center align-items-lg-center justify-content-xxl-center align-items-xxl-center">
+                    <div style="width: 100%;">
                         <div class="d-flex flex-row">
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">1.</p>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);margin-left: 4px;">{{ __("Student should reach the age before") }}<br>{{ __("1st October of the year being") }} <br>{{ __("applied.") }}</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">1.</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black); margin-left: 4px;">
+                                {{ __("Student should reach the age before") }}<br>{{ __("1st October of the year being") }} <br>{{ __("applied.") }}
+                            </p>
                         </div>
                         <div class="d-flex flex-row">
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">2.</p>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);margin-left: 4px;">{{ __("Student should possess the proper school") }} <br>{{ __("leaving certificate from the previous school") }} <br>{{ __("year plus major examination results where") }} <br>{{ __("applicable.") }}</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">2.</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black); margin-left: 4px;">
+                                {{ __("Student should possess the proper school") }} <br>{{ __("leaving certificate from the previous school") }} <br>{{ __("year plus major examination results where") }} <br>{{ __("applicable.") }}
+                            </p>
                         </div>
                         <div class="d-flex flex-row">
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">3.</p>
-                            <p class="fw-light" style="font-family: Campton;color: var(--bs-black);margin-left: 4px;">{{ __("Students coming from British School Grading") }} <br>{{ __("system (13 Years) will be placed according to") }} <br>{{ __("conversion in our system.") }}</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">3.</p>
+                            <p class="fw-light" style="font-family: Campton; color: var(--bs-black); margin-left: 4px;">
+                                {{ __("Students coming from British School Grading") }} <br>{{ __("system (13 Years) will be placed according to") }} <br>{{ __("conversion in our system.") }}
+                            </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -134,11 +141,25 @@
                             <h1 class="fs-2" style="color: var(--bs-black);font-family: Campton;">{{ __("Nurture your child's curiosity.") }}<br>{{ __("Ignite their passion. Shape their future.") }}</h1>
                             <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("Discover how Sampoerna Academy can foster your child's") }} <br>{{ __("love of learning, creativity, and critical thinking skills.") }}</p>
                         </div>
-                        <div class="d-flex flex-column" style="padding-left: 0px;padding-right: 0px;"><button class="btn btn-primary" type="button" style="margin-bottom: 20px;font-family: Campton;border-style: none;height: 38px;">{{ __("Schedule a Consultation") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
-                                </svg></button><button class="btn btn-outline-danger" type="button" style="font-family: Campton;">{{ __("How to Apply") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
-                                </svg></button></div>
+                        <div class="d-flex flex-column" style="padding-left: 0px; padding-right: 0px;">
+                            <a href="/contact" wire:navigate.hover style="width: 487px;">
+                                <button class="btn btn-primary" type="button" style="margin-bottom: 20px; font-family: Campton; border-style: none; height: 38px; width: 100%;">
+                                    {{ __("Schedule a Consultation") }}&nbsp;
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                            </a>
+                            <a href="/admissions/how-to-apply" wire:navigate.hover style="width: 487px;">
+                                <button class="btn btn-outline-danger" type="button" style="font-family: Campton; width: 100%;">
+                                    {{ __("How to Apply") }}&nbsp;
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
+                                    </svg>
+                                </button>
+                            </a>
+                        </div>
+
                         <div style="padding-left: 0px;padding-right: 0px;margin-top: 46px;">
                             <p class="fs-6 fw-light" style="font-family: Campton;color: var(--bs-black);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="color: #292F78;">
                                     <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -227,7 +248,7 @@
         </div>
         <div class="container mt-4">
             <div class="row">
-                <div class="col-md-12"><a class="fs-5" href="../faqs.html" style="font-family: Campton;color: #292F78;">{{ __("See FAQ") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                <div class="col-md-12"><a class="fs-5" href="/faq" wire:navigate.hover style="font-family: Campton;color: #292F78;">{{ __("See FAQ") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
                         </svg></a></div>
             </div>

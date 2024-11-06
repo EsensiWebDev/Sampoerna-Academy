@@ -1,6 +1,6 @@
 <section id="awards-achievements">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/awards.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/awards.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -28,7 +28,7 @@
         <div class="container" style="margin-bottom: 49px;">
             <div class="row">
                 <div class="col col-6 col-sm-6 col-lg-3 my-2">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/Cover.jpg" style="border-radius: 0px;">
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/Cover.webp" style="border-radius: 0px;">
                         <div class="card-body" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton;color: var(--bs-emphasis-color);margin-bottom: 8px;">Claire Nicole Lin</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: #292F78;">{{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 my-2">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/WhatsApp%20Image%202024-07-03%20at%2015.14.25.jpg" style="border-radius: 0px;">
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/WhatsApp%20Image%202024-07-03%20at%2015.14.25.webp" style="border-radius: 0px;">
                         <div class="card-body" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton;color: var(--bs-emphasis-color);margin-bottom: 8px;">Alaric Wongso</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: #292F78;">{{ __("Grade 4") }}<br>{{ __("Sampoerna Academy Medan") }}</h1>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 my-2">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/7C7877D0-E285-49C8-A926-D5FA84D2C3BA.jpg" style="border-radius: 0px;">
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/7C7877D0-E285-49C8-A926-D5FA84D2C3BA.webp" style="border-radius: 0px;">
                         <div class="card-body" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton;color: var(--bs-emphasis-color);margin-bottom: 8px;">Rayya Amerta Putri</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: #292F78;">{{ __("Grade 2") }}<br>{{ __("Sampoerna Academy Pakuwon Indah") }}</h1>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 my-2">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/38BD808C-FDE3-4A8C-9246-D3DC0E1B59F1.jpg" style="border-radius: 0px;">
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img class="card-img-top w-100 d-block" src="/assets/img/Card/38BD808C-FDE3-4A8C-9246-D3DC0E1B59F1.webp" style="border-radius: 0px;">
                         <div class="card-body" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton;color: var(--bs-emphasis-color);margin-bottom: 8px;">Rayya Amerta Putri</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: #292F78;">Grade 2<br>{{ __("Sampoerna Academy Pakuwon Indah") }}</h1>

@@ -1,6 +1,6 @@
 <section id="faq">
     <section>
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;assets/img/Banner/FAQs%20Banner.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;assets/img/Banner/FAQs%20Banner.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
