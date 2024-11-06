@@ -45,7 +45,7 @@
                             <div class="d-flex flex-row flex-md-column justify-content-between">
                                 <h4 class="fs-5"
                                     style="font-family: Campton;color: var(--bs-body-bg);">{{ __("Early Years") }}</h4>
-                                <a href="#" style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
+                                <a href="/academics/early-years" wire:navigate.hover style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
                                               d="M10.2929 3.29289C10.6834 2.90237 11.3166 2.90237 11.7071 3.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L11.7071 16.7071C11.3166 17.0976 10.6834 17.0976 10.2929 16.7071C9.90237 16.3166 9.90237 15.6834 10.2929 15.2929L14.5858 11L3 11C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L10.2929 4.70711C9.90237 4.31658 9.90237 3.68342 10.2929 3.29289Z"
@@ -67,7 +67,7 @@
                             <div class="d-flex flex-row flex-md-column justify-content-between">
                                 <h4 class="fs-5"
                                     style="font-family: Campton;color: var(--bs-body-bg);">{{ __("Elementary School") }}</h4>
-                                <a href="#" style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
+                                <a href="/academics/elementary-school" wire:navigate.hover style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
                                          fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -89,7 +89,7 @@
                             <div class="d-flex flex-row flex-md-column justify-content-between">
                                 <h4 class="fs-5"
                                     style="font-family: Campton;color: var(--bs-body-bg);">{{ __("Middle School") }}</h4>
-                                <a href="#" style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
+                                <a href="/academics/middle-school" wire:navigate.hover style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
                                          fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -111,7 +111,7 @@
                             <div class="d-flex flex-row flex-md-column justify-content-between">
                                 <h4 class="fs-5"
                                     style="font-family: Campton;color: var(--bs-body-bg);">{{ __("High School") }}</h4>
-                                <a href="#" style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
+                                <a href="/academics/high-school" wire:navigate.hover style="color: var(--bs-body-bg);font-family: Campton;">{{ __("More Info") }}
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
                                          fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -144,15 +144,17 @@
                 <div
                     class="col d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-end align-items-lg-center justify-content-xl-end align-items-xl-center justify-content-xxl-end align-items-xxl-center">
                     <div class="d-lg-flex justify-content-lg-end">
-                        <button class="btn btn-primary" type="button"
-                                style="border-style: none;border-radius: 12px;padding-left: 40px;padding-right: 40px;padding-top: 20px;padding-bottom: 20px;font-family: Campton;">{{ __("More Info") }}
-                            &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
-                                       fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                      d="M10.2929 3.29289C10.6834 2.90237 11.3166 2.90237 11.7071 3.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L11.7071 16.7071C11.3166 17.0976 10.6834 17.0976 10.2929 16.7071C9.90237 16.3166 9.90237 15.6834 10.2929 15.2929L14.5858 11L3 11C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L10.2929 4.70711C9.90237 4.31658 9.90237 3.68342 10.2929 3.29289Z"
-                                      fill="currentColor"></path>
-                            </svg>
-                        </button>
+                        <a href="/steam" wire:navigate.hover>
+                            <button class="btn btn-primary" type="button"
+                                    style="border-style: none;border-radius: 12px;padding-left: 40px;padding-right: 40px;padding-top: 20px;padding-bottom: 20px;font-family: Campton;">{{ __("More Info") }}
+                                &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
+                                           fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M10.2929 3.29289C10.6834 2.90237 11.3166 2.90237 11.7071 3.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L11.7071 16.7071C11.3166 17.0976 10.6834 17.0976 10.2929 16.7071C9.90237 16.3166 9.90237 15.6834 10.2929 15.2929L14.5858 11L3 11C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L10.2929 4.70711C9.90237 4.31658 9.90237 3.68342 10.2929 3.29289Z"
+                                          fill="currentColor"></path>
+                                </svg>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -406,7 +408,7 @@
         </div>
     </section>
 
-    {{--    @include("components.our-teachers")--}}
+        @include("components.our-teachers")
     <section>
         <div class="container" style="margin-bottom: 50px;">
             <div class="row">
