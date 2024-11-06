@@ -1,6 +1,6 @@
 <section id="lavenue-school">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/lavenue.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/lavenue.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -34,7 +34,7 @@
                         <div><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Middle School") }}</span><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Senior High School") }}</span></div>
                     </div>
                 </div>
-                <div class="col-md-6 offset-xxl-0 mt-2" style="padding-left: 0px;padding-right: 0px;background: #E4E4EB;"><img class="img-fluid" src="/assets/img/Banner/leading%20way%20image.jpg"></div>
+                <div class="col-md-6 offset-xxl-0 mt-2" style="padding-left: 0px;padding-right: 0px;background: #E4E4EB;"><img class="img-fluid" src="/assets/img/Banner/leading%20way%20image.webp"></div>
             </div>
         </div>
     </section>
@@ -50,7 +50,7 @@
                 <div class="col-md-12">
                     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-1" style="height: 471px;">
                         <div class="carousel-inner h-100">
-                            <div class="carousel-item active d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/ELC%20Classroom.jpg" alt="Slide Image" style="z-index: -1;">
+                            <div class="carousel-item active d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/ELC%20Classroom.webp" alt="Slide Image" style="z-index: -1;">
                                 <div class="flex-fill" style="padding-top: 0px;padding-left: 24px;padding-bottom: 24px;">
                                     <div class="container">
                                         <div class="row">
@@ -61,7 +61,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Classroom.jpg" alt="Slide Image" style="z-index: -1;">
+                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Classroom.webp" alt="Slide Image" style="z-index: -1;">
                                 <div class="flex-fill" style="padding-top: 0px;padding-left: 24px;padding-bottom: 24px;">
                                     <div class="container">
                                         <div class="row">
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Middle%20Sport%20Field.jpg" alt="Slide Image" style="z-index: -1;">
+                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Middle%20Sport%20Field.webp" alt="Slide Image" style="z-index: -1;">
                                 <div class="flex-fill" style="padding-top: 0px;padding-left: 24px;padding-bottom: 24px;">
                                     <div class="container">
                                         <div class="row">
@@ -83,7 +83,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Music%20Room%202.jpg" alt="Slide Image" style="z-index: -1;">
+                            <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img class="w-100 d-block position-absolute h-100 fit-cover" src="/assets/img/Banner/Music%20Room%202.webp" alt="Slide Image" style="z-index: -1;">
                                 <div class="flex-fill" style="padding-top: 0px;padding-left: 24px;padding-bottom: 24px;">
                                     <div class="container">
                                         <div class="row">
@@ -114,28 +114,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row" style="margin-bottom: 72px;">
-                <div class="col-md-4">
-                    <div><img class="img-fluid" style="margin-bottom: 36px;" src="/assets/img/Article/article%20banner%201.jpg"></div>
-                    <p class="fw-light" style="font-family: Campton;color: #8F90A6;">November 21, 2022</p>
-                    <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">Sekolah Internasional Terbaik di Jakarta dan Keunggulannya</h1>
-                    <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">Jika berbicara tentang&nbsp;sekolah internasional, mungkin sudah tidak asing lagi dengan istilah pendidikan tersebut.</p>
-                </div>
-                <div class="col-md-4">
-                    <div><img class="img-fluid" style="margin-bottom: 36px;" src="/assets/img/Article/article%20banner%202.jpg"></div>
-                    <p class="fw-light" style="font-family: Campton;color: #8F90A6;">November 6, 2022</p>
-                    <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">Berapa Estimasi Biaya Sekolah Internasional di Jakarta?</h1>
-                    <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">Di Indonesia, biaya sekolah internasional bervariasi tergantung pada beberapa faktor, seperti jenis sekolah, lokasi sekolah,</p>
-                </div>
-                <div class="col-md-4">
-                    <div><img class="img-fluid" style="margin-bottom: 36px;" src="/assets/img/Article/article%20banner%203.jpg"></div>
-                    <p class="fw-light" style="font-family: Campton;color: #8F90A6;">November 26, 2021</p>
-                    <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">Sampoerna Academy: Sekolah Favorit International School di Jakarta</h1>
-                    <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">Cukup banyak&nbsp;International School Jakarta&nbsp;yang menawarkan pendidikan berkualitas. Salah satunya adalah...</p>
-                </div>
-            </div>
-        </div>
+        @include("components.articles")
     </section>
     <section>
         <div class="container">
@@ -161,9 +140,17 @@
                                         <p style="margin-bottom: 0px;">{{ __("Monday to Friday, 7:00 AM - 4:00 PM") }}</p>
                                     </div>
                                 </div>
-                                <div class="d-xxl-flex align-items-xxl-center"><button class="btn btn-primary" type="button" style="font-family: Campton;border-style: none;">{{ __("Take Virtual Tour") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                                <div class="d-xxl-flex align-items-xxl-center d-none d-md-block"><button class="btn btn-primary" type="button" style="font-family: Campton;border-style: none;">{{ __("Take Virtual Tour") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
                                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
                                         </svg></button></div>
+                            </div>
+                            <div class="d-md-none" style="padding-left: 40px; padding-right: 40px; margin-top: 20px;">
+                                <button class="btn btn-primary" type="button" style="font-family: Campton; border-style: none;">
+                                    {{ __("Take Virtual Tour") }}&nbsp;
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
+                                    </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
