@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/1-3%20Mr.%20Mustafa%20Guvercin.jpg"></div>
+                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/1-3%20Mr.%20Mustafa%20Guvercin.webp"></div>
                 <div class="col-md-6 d-flex flex-row align-items-center">
                     <div class="px-0 py-4">
                         <div class="d-flex flex-row">
@@ -52,7 +52,7 @@
             <div class="row g-0">
                 <div class="col col-6 col-sm-6 col-lg-3 py-2 px-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/3-3%20Mr.%20Piero%20Botha_.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/3-3%20Mr.%20Piero%20Botha_.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Piero Botha</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy L’Avenue School") }}</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/6-3%20Mrs.%20Frida%20Dwiyanti.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/6-3%20Mrs.%20Frida%20Dwiyanti.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Frida Dwiyanti</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy Sentul School") }}</p>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/15-3%20_Mrs.%20Kelly%20M.%20Wailes.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/15-3%20_Mrs.%20Kelly%20M.%20Wailes.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Kelly M Wailes</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy Medan Cipto & Citro Campus") }}</p>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 py-2 px-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/8-3%20Mrs.%20Mary%20Jane%20Daggao%20Luyon%20Fajardo.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/8-3%20Mrs.%20Mary%20Jane%20Daggao%20Luyon%20Fajardo.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Mary Jane Daggao Luyon Fajardo</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy BSD School") }}</p>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/13-3%20Mrs.%20Anushia%20Senthevadivel.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/13-3%20Mrs.%20Anushia%20Senthevadivel.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Anushia Senthevadivel</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy Grand Pakuwon School") }}</p>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/7-3%20_Ms.%20Adelina%20Holmes.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/7-3%20_Ms.%20Adelina%20Holmes.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Adelina Holmes</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Principal Sampoerna Academy Pakuwon Indah & Sampoerna Academy Online School") }}</p>
@@ -119,7 +119,7 @@
             <div class="row g-0">
                 <div class="col col-6 col-sm-6 col-lg-3 py-2 px-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/9-3%20Mrs.%20Maria%20Nenita%20Silang.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/9-3%20Mrs.%20Maria%20Nenita%20Silang.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Maria Nenita</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Mathematics Curriculum Head") }}</p>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/14-3%20Mr.%20Daniel%20Yong%20Zhang.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/14-3%20Mr.%20Daniel%20Yong%20Zhang.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Daniel Zhang</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Mandarin Curriculum Head") }}</p>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/11-3%20Mrs.%20Nor%20Eny%20Alia%20Md%20Noh.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/11-3%20Mrs.%20Nor%20Eny%20Alia%20Md%20Noh.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Nor Eny Alia MD Noh</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("ELC/IEYC Curriculum Head") }}</p>
@@ -146,7 +146,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 py-2 px-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/5-3%20Mrs.%20Tamara%20James%20Wyachai.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/5-3%20Mrs.%20Tamara%20James%20Wyachai.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Tamara James Wyachai</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("English Curriculum Head") }}</p>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
-                        <div><img class="img-fluid" src="/assets/img/Card/10-3%20Mrs.%20Aliaa%20Mohamed%20Samaha.png"></div>
+                        <div><img class="img-fluid" src="/assets/img/Card/10-3%20Mrs.%20Aliaa%20Mohamed%20Samaha.webp"></div>
                         <div style="margin-top: 32px;">
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Aliaa Mohamed Samaha</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Science Curriculum Head") }}</p>

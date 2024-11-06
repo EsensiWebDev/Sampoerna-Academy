@@ -1,6 +1,6 @@
 <section id="early-years">
     <section style="margin-bottom: 200px;">
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/banner%20early%20years.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/banner%20early%20years.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div style="background: url(&quot;../assets/img/Banner/early%20years%20grade.jpg&quot;) center / cover no-repeat;max-height: 392px;height: 392px;"></div>
+                    <div style="background: url(&quot;../assets/img/Banner/early%20years%20grade.webp&quot;) center / cover no-repeat;max-height: 392px;height: 392px;"></div>
                     <div style="background: #CE3827;">
                         <p class="fw-light" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;padding-left: 24px;padding-right: 24px;padding-top: 20px;padding-bottom: 20px;">{{ __("Toddler (Medan Only) | Playgroup | Pre Kindergarten ") }}<br>{{ __("Kindergarten 1 | Kindergarten 2") }}</p>
                     </div>

@@ -43,7 +43,18 @@
     vertical-align: middle;
 }
 
+.responsive-background {
+    background: url('/assets/img/Banner/Banner for cta 1 in about us.webp') center / cover no-repeat;
+    height: 482px;
+    border-radius: 0;
+    border-style: none;
+}
 
+@media (max-width: 767.98px) { /* Mobile view */
+    .responsive-background {
+        background: url('/assets/img/Banner/DSCF4623-mobile.webp') center / cover no-repeat;
+    }
+}
 
 
 .link-active {
@@ -91,18 +102,10 @@
     visibility: visible; /* Make it visible */
 }
 
-.nav-link.active {
-    color: #CE3827 !important;
-}
 
 .tab-link {
     color: #f5d8d3;
 }
-
-
-
-
-
 
 
 

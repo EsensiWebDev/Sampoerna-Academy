@@ -1,6 +1,6 @@
 <section id="ourapproach">
     <section>
-        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/banner%20our%20approach.jpg&quot;) center / cover no-repeat;">
+        <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/banner%20our%20approach.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
                     <div class="col-md-12">
@@ -14,37 +14,38 @@
         <div class="container">
             <div class="row" style="margin-bottom: 50px;">
                 <div class="col-md-12">
-                    <h1 class="display-5 fw-semibold" style="color: var(--bs-black);font-family: Campton;">{{ __("What Makes Sampoerna Different") }}</h1>
+                    <h1 class="display-5 fw-semibold" style="color: var(--bs-black); font-family: Campton;">{{ __("What Makes Sampoerna Different") }}</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="d-flex flex-column justify-content-between" style="height: 200px;">
-                        <div><img class="img-fluid" src="/assets/img/Logo/Acredited.png"></div>
-                        <p class="fs-5 fw-light text-center" style="font-family: Campton;color: var(--bs-black);margin-bottom: 0px;">{{ __("Tailored International Curriculum") }}</p>
+                        <div><img class="img-fluid" src="/assets/img/Logo/Acredited.webp"></div>
+                        <p class="fs-5 fw-light text-center" style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">{{ __("Tailored International Curriculum") }}</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="d-flex flex-column justify-content-between" style="height: 200px;">
-                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Steam.png" style="height: 72px;"></div>
-                        <p class="fs-5 fw-light text-center" style="font-family: Campton;color: var(--bs-black);margin-bottom: 0px;">{{ __("Pioneer in STEAM") }}</p>
+                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Steam.webp" style="height: 72px;"></div>
+                        <p class="fs-5 fw-light text-center" style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">{{ __("Pioneer in STEAM") }}</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="d-flex flex-column justify-content-between" style="height: 200px;">
-                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Trilingual.png" style="height: 108px;"></div>
-                        <p class="fs-5 fw-light text-center" style="font-family: Campton;color: var(--bs-black);margin-bottom: 0px;">{{ __("Trilingual Program") }}</p>
+                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Trilingual.webp" style="height: 108px;"></div>
+                        <p class="fs-5 fw-light text-center" style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">{{ __("Trilingual Program") }}</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <div class="d-flex flex-column justify-content-between" style="height: 200px;">
-                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Mac.png" style="height: 140px;"></div>
-                        <p class="fs-5 fw-light text-center" style="font-family: Campton;color: var(--bs-black);margin-bottom: 0px;">{{ __("Technology Integration") }}</p>
+                        <div class="d-lg-flex justify-content-lg-center"><img class="img-fluid" src="/assets/img/Logo/Mac.webp" style="height: 140px;"></div>
+                        <p class="fs-5 fw-light text-center" style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">{{ __("Technology Integration") }}</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section style="margin-top: 200px;">
         <div class="container">
             <div class="row">
@@ -55,7 +56,7 @@
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%201.jpg"></div>
+                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%201.webp"></div>
                 <div class="col-md-6 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
@@ -104,12 +105,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%202.jpg"></div>
+                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%202.webp"></div>
             </div>
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%203.jpg"></div>
+                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%203.webp"></div>
                 <div class="col-md-6 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
@@ -164,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%204.jpg"></div>
+                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%204.webp"></div>
             </div>
         </div>
     </section>
