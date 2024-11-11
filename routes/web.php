@@ -9,6 +9,7 @@ use App\Livewire\Pages\BsdSchool;
 use App\Livewire\Pages\Calendar;
 use App\Livewire\Pages\Carrer;
 use App\Livewire\Pages\Contact;
+use App\Livewire\Pages\DetailArticle;
 use App\Livewire\Pages\EarlyYears;
 use App\Livewire\Pages\Extracurricular;
 use App\Livewire\Pages\Faq;
@@ -58,7 +59,7 @@ Route::get("/news", News::class);
 Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
-Route::get("/test", Test::class);
+Route::get("/articles/{slug}", DetailArticle::class);
 
 
 
