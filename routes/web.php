@@ -59,7 +59,7 @@ Route::get("/news", News::class);
 Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
-Route::get("/articles/{slug}", DetailArticle::class);
+Route::get("/news/{slug}", DetailArticle::class);
 
 
 

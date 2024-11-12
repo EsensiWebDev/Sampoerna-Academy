@@ -16,14 +16,18 @@
         <div class="row" style="margin-bottom: 72px;">
             @if(isset($articles))
                 @foreach($articles as $article)
+                    <a href="/news/{{ $article->slugs }}" style="color: black" wire:navigate.hover>
                     <div class="col-md-4" wire:key="{{ $loop->iteration }}">
                         <div><img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("storage/$article->thumbnail") }}"></div>
                         <p class="fw-light" style="font-family: Campton;color: #8F90A6;">{{ Carbon::parse($article->created_at)->format("F j, Y") }}</p>
-                        <a href="/articles/{{ $article->slugs }}">
-                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{{ $article->title }}</h1>
-                        </a>
-                        <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! \Illuminate\Support\Str::limit($article->content, 20, '...') !!}</p>
+
+                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{!! app()->getLocale() == "id" ? $article->title_indonesia : $article->title_english !!}</h1>
+
+                        <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! app()->getLocale() == "id"
+                            ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...')
+                            : \Illuminate\Support\Str::limit($article->content_english, 60, '...') !!}</p>
                     </div>
+                    </a>
                 @endforeach
             @endif
         </div>
@@ -33,16 +37,20 @@
         <div class="slick-slider" style="margin-bottom: 72px;">
             @if(isset($articles))
                 @foreach($articles as $article)
+                    <a href="/news/{{ $article->slugs }}" style="color: black" wire:navigate.hover>
                     <div class="slick-item">
                         <div class="col-md-4" wire:key="{{ $loop->iteration }}">
                             <div><img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("storage/$article->thumbnail") }}"></div>
                             <p class="fw-light" style="font-family: Campton;color: #8F90A6;">{{ Carbon::parse($article->created_at)->format("F j, Y") }}</p>
-                            <a href="/articles/{{ $article->slugs }}">
-                                <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{{ $article->title }}</h1>
-                            </a>
-                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! \Illuminate\Support\Str::limit($article->content, 20, '...') !!}</p>
+
+                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{!! app()->getLocale() == "id" ? $article->title_indonesia : $article->title_english !!}</h1>
+
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! app()->getLocale() == "id"
+                            ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...')
+                            : \Illuminate\Support\Str::limit($article->content_english, 60, '...') !!}</p>
                         </div>
                     </div>
+                    </a>
                 @endforeach
             @endif
         </div>

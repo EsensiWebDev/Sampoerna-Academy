@@ -39,7 +39,12 @@ class ArticleResource extends Resource
                     ->minLength(5)
                     ->maxLength(255)
                     ->unique('articles', 'slugs'),
-                Forms\Components\TextInput::make('title')
+                Forms\Components\TextInput::make('title_indonesia')
+                    ->required()
+                    ->minLength(5)
+                    ->maxLength(255)
+                    ->columnSpanFull(),
+                Forms\Components\TextInput::make('title_english')
                     ->required()
                     ->minLength(5)
                     ->maxLength(255)

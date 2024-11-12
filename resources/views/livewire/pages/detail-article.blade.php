@@ -6,14 +6,20 @@
         </div>
     @else
         <section>
-            <div class="d-flex align-items-end" style="height: 600px;background: url({{ asset("storage/$article->thumbnail") }}) center / cover no-repeat;">
+            <div class="d-flex align-items-end"
+                 style="height: 600px;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%),
+            url('{{ asset("storage/$article->thumbnail") }}') center / cover no-repeat,
+            linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);">
+                <!-- Konten tambahan di dalam div ini, jika ada -->
                 <div class="container" style="padding-bottom: 64px;">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 style="font-family: Campton;color: var(--bs-white);">{{ $article->title }}</h1>
+                            <h1 style="font-family: Campton;color: var(--bs-white);">{!! app()->getLocale() == "id" ? $article->title_indonesia : $article->title_english !!}</h1>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     @endif
