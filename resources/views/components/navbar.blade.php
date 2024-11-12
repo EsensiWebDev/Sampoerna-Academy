@@ -256,7 +256,7 @@
 
 
 
-<nav class="navbar navbar-expand-md fixed-top" style="padding-top: 24px; padding-bottom: 24px;" data-bs-theme="dark">
+<nav class="navbar d-sm-block d-md-none navbar-expand-md fixed-top" style="padding-top: 24px; padding-bottom: 24px;" data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="/" style="background: url({{ asset('assets/img/Logo/Logo%20Sampoerna%20Academy.png') }}) center / contain no-repeat; width: 228px; height: 93.82px; margin-right: 0; padding: 0;"></a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-style: none; border-radius: 0;" aria-controls="navcol-1">
@@ -411,54 +411,73 @@
 
         </div>
     </div>
-</nav>
 
-<style>
-    .navbar {
-        background-color: transparent; /* Warna default transparan */
-        transition: background-color 0.3s ease; /* Efek transisi */
-    }
-
-    .navbar-collapse {
-        height: 100vh !important;
-    }
-
-    .navbar.cg-bg {
-        background-color: #292F78; /* Warna merah saat toggle diklik */
-    }
-
-    .mobile-divider {
-        border: none;
-        border-top: 1px solid white; /* Set warna pemisah */
-        margin: 0; /* Hapus default margin */
-    }
-
-    .navbar.scrolled {
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efek shadow saat scrolled */
-        background-color: rgba(0, 0, 0.2, 0.4); /* Sedikit warna putih saat di-scroll */
-    }
-</style>
+    <style>
 
 
-<script>
-    $(document).ready(function(){
-        $('.navbar-toggler').click(function() {
-            $('.navbar').removeClass('scrolled');
-            $('.navbar').toggleClass('cg-bg'); // Menambahkan atau menghapus kelas 'red-bg'
-        });
+        /* Add mobile-specific CSS here */
+        @media (max-width: 768px) { /* Adjust max-width as needed */
+            .navbar {
+                background-color: transparent; /* Warna default transparan */
+                transition: background-color 0.3s ease; /* Efek transisi */
+            }
 
-        // Mengatur efek scroll
-        $(window).scroll(function() {
-            // Periksa jika collapse tidak aktif
-            if (!$('.navbar-collapse').hasClass('show')) {
-                if ($(this).scrollTop() > 50) { // Deteksi scroll lebih dari 50px
-                    $('.navbar').addClass('scrolled'); // Menambahkan kelas 'scrolled'
+            .navbar {
+                /* Mobile-specific styles */
+            }
+            .navbar-collapse {
+                height: 100vh !important;
+            }
+
+            .navbar.cg-bg {
+                background-color: #292F78; /* Warna saat toggle diklik */
+            }
+
+            .mobile-divider {
+                border: none;
+                border-top: 1px solid white; /* Set warna pemisah */
+                margin: 0; /* Hapus default margin */
+            }
+
+            .navbar.scrolled {
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efek shadow saat scrolled */
+                background-color: rgba(0, 0, 0.2, 0.4); /* Sedikit warna putih saat di-scroll */
+            }
+        }
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            // Function that runs when the window is resized
+            function checkViewport() {
+                if ($(window).width() <= 768) { // Adjust based on your bootstrap breakpoints
+                    $('.navbar-toggler').click(function() {
+                        $('.navbar').removeClass('scrolled');
+                        $('.navbar').toggleClass('cg-bg'); // Adding or removing class 'cg-bg'
+                    });
+
+                    // Setting scroll effect
+                    $(window).scroll(function() {
+                        // Check if collapse is not active
+                        if (!$('.navbar-collapse').hasClass('show')) {
+                            if ($(this).scrollTop() > 50) { // Detect scroll more than 50px
+                                $('.navbar').addClass('scrolled'); // Add class 'scrolled'
+                            } else {
+                                $('.navbar').removeClass('scrolled'); // Remove class 'scrolled'
+                            }
+                        }
+                    });
                 } else {
-                    $('.navbar').removeClass('scrolled'); // Menghapus kelas 'scrolled'
+                    // Remove event handlers for larger sizes
+                    $(window).off("scroll");
                 }
             }
+
+            // Run on load and resize
+            checkViewport();
+            $(window).resize(checkViewport); // Re-check on resize
         });
-    });
-</script>
+    </script>
+</nav>
 
 
