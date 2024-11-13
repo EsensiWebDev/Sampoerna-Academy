@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick-theme.css") }}">
         <script src="{{ asset("assets/js/jquery.js") }}"></script>
         <title>{{ config("app.name") }}</title>
+        @seoTags()
     </head>
     <body>
 

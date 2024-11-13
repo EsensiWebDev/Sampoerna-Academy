@@ -59,7 +59,14 @@ Route::get("/news", News::class);
 Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
-Route::get("/news/{slug}", DetailArticle::class);
+Route::get("/news/{slug}", DetailArticle::class)->name("read-article");
+
+Route::get("/login", function () {
+    \Illuminate\Support\Facades\Auth::attempt([
+        "email" => "admin@gmail.com",
+        "password" => "admin"
+    ]);
+})->name("login");
 
 
 

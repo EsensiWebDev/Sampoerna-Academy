@@ -1,5 +1,6 @@
-<section id="news" style="{{ is_null($article) ? "background-color: #2b3035" : ""}}">
 
+
+<section id="news" style="{{ is_null($article) ? "background-color: #2b3035" : ""}}">
     @if(is_null($article))
         <div style="color: white;display: flex; justify-content: center; align-items: center; height: 100vh;">
             <h1>{{ __("Article Not Found") }}</h1>
