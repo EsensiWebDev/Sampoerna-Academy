@@ -32,7 +32,7 @@
     <section>
         <div class="container" style="margin-top: 72px;padding-left: 24px;padding-right: 24px;">
             <div class="row">
-                <div class="col-md-6 d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-start justify-content-xxl-start" style="background: transparent;padding-left: 20px;padding-right: 20px;">
+                <div class="col-md-4 d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-start justify-content-xxl-start" style="background: transparent;padding-left: 20px;padding-right: 20px;">
                     <h1 class="fs-1" style="font-family: Campton;color: #CE3827;margin-bottom: 15px;">PAKUWON INDAH</h1>
                     <h1 class="fs-5" style="font-family: Campton;color: var(--bs-black);margin-bottom: 30px;">{{ __("Grades offered") }}<br>{{ __("for the current academic year") }}</h1>
                     <div style="background: transparent;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
@@ -41,13 +41,13 @@
                         <div><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Elementary School (G1 & G2)") }}</span></div>
                     </div>
                 </div>
-                <div class="col-md-6 offset-xxl-0" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid" src="/assets/img/Banner/Surabaya%20image%201.webp"></div>
+                <div class="col-md-8 offset-xxl-0" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid" src="/assets/img/Banner/Surabaya%20image%201.webp"></div>
             </div>
         </div>
         <div class="container" style="margin-top: 72px;padding-left: 24px;padding-right: 24px;">
             <div class="row">
-                <div class="col-md-6 offset-xxl-0" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid" src="/assets/img/Banner/Surabaya%20image%202.webp"></div>
-                <div class="col-md-6 d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-start justify-content-xxl-start" style="background: transparent;padding-left: 20px;padding-right: 20px;">
+                <div class="col-md-8 offset-xxl-0" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid" src="/assets/img/Banner/Surabaya%20image%202.webp"></div>
+                <div class="col-md-4 d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-start justify-content-xxl-start" style="background: transparent;padding-left: 20px;padding-right: 20px;">
                     <h1 class="fs-1" style="font-family: Campton;color: #CE3827;margin-bottom: 15px;">GRAND PAKUWON</h1>
                     <h1 class="fs-5" style="font-family: Campton;color: var(--bs-black);margin-bottom: 30px;">{{ __("Grades offered") }}<br>{{ __("for the current academic year") }}</h1>
                     <div style="background: transparent;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">

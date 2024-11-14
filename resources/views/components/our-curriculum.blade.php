@@ -8,33 +8,65 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
-                    <ul class="nav nav-tabs flex-column flex-md-row" role="tablist" style="border-style: none; margin-bottom: 40px;">
+                    <ul class="nav nav-tabs d-flex flex-column" role="tablist" style="border-style: none; margin-bottom: 40px;">
                         <li class="nav-item" role="presentation" style="border-style: none;">
-                            <a class="nav-link active fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-1" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Based%20learning.png" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Inquiry-Based Learning") }}
+                            <a class="nav-link fs-4 active" role="tab" data-bs-toggle="tab" href="#tab-1" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
+                                <span><img src="/assets/img/Icon/Based%20learning.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Inquiry-Based Learning") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation" style="border-style: none;">
-                            <a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-2" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Parents.png" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Parents as Partners") }}
+                            <a class="nav-link fs-4" role="tab" data-bs-toggle="tab" href="#tab-2" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
+                                <span><img src="/assets/img/Icon/Parents.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Parents as Partners") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-3" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Assessment.png" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Outcome-Based Assessment") }}
+                            <a class="nav-link fs-4" role="tab" data-bs-toggle="tab" href="#tab-3" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
+                                <span><img src="/assets/img/Icon/Assessment.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Outcome-Based Assessment") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-4" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Deep%20Learning.png" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("STEAM Deep Learning Projects") }}
+                            <a class="nav-link fs-4" role="tab" data-bs-toggle="tab" href="#tab-4" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
+                                <span><img src="/assets/img/Icon/Deep%20Learning.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("STEAM Deep Learning Projects") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-5" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Curriculum.png" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("International Early Years Curriculum") }}
+                            <a class="nav-link fs-4" role="tab" data-bs-toggle="tab" href="#tab-5" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
+                                <span><img src="/assets/img/Icon/Curriculum.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("International Early Years Curriculum") }}
                             </a>
                         </li>
                     </ul>
+
+                    <style>
+                        .tab-pane {
+                            width: 700px; /* Default width for larger screens */
+                            height: auto;
+                        }
+
+                        .nav-link {
+                            color: gray; /* Default color for inactive tabs */
+                        }
+
+                        .nav-link.active {
+                            color: #292F78 !important; /* Active tab color */
+                        }
+
+                        .tab-icon {
+                            opacity: 0.4;
+                        }
+
+                        .nav-link.active .tab-icon {
+                            opacity: 1 !important;
+                        }
+
+
+                        @media (max-width: 768px) {
+                            .tab-pane {
+                                width: auto; /* Set to auto for mobile devices */
+                            }
+                        }
+                    </style>
+
+
                     <div class="tab-content flex-grow-1" style="background: #E4E4EB; padding: 40px; border-radius: 15px;">
                         <div class="tab-pane fade show active" role="tabpanel" id="tab-1">
                             <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("One of our teaching and learning approach; where children actively engage in asking questions, investigating, exploring, and finding answers to their inquiries through hands-on experiences and guided activities.") }}</p>
@@ -68,3 +100,10 @@
         </div>
     </div>
 </section>
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection
+
+
+

@@ -14,7 +14,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-8 offset-lg-2">
-                    <div class="card" style="border-radius: 15px;border-style: none;box-shadow: 0px 10px 20px rgba(96,97,112,0.16), 0px 2px 5px rgba(40,41,61,0.4);">
+                    <h2 style="font-size: 50px; font-family: Campton; text-align: center;">{{ __("Share Your Thoughts") }}</h2>
+                    <h4 style="font-size: 22px; font-family: Campton; text-align:center; margin-top: 53px;">{{ __("We're here to listen! Whether you have questions, feedback, or simply want to learn more about Sampoerna Academy, we'd love to hear from you.") }}</h4>
+
+
+                    <div class="card" style="border-radius: 15px;border-style: none;box-shadow: 0px 10px 20px rgba(96,97,112,0.16), 0px 2px 5px rgba(40,41,61,0.4); margin-top: 61px">
                         <div class="card-body" style="padding-left: 40px;padding-right: 40px;padding-top: 40px;padding-bottom: 40px;">
                             <form>
                                 <div style="margin-bottom: 40px;"><label class="form-label" style="color: var(--bs-black);font-family: Campton;">{{ __("Parents Name") }}<span class="text-danger">*</span></label><input class="form-control" type="text"></div>

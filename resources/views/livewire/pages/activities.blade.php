@@ -48,50 +48,54 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;">
+                    <div class="card" style="border-style: none; border-radius: 0px;">
                         <img class="card-img-top w-100 d-block" src="assets/img/Card/Cover.webp" style="border-radius: 0px;">
-                        <div class="card-body" style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
-                            <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton;color: var(--bs-emphasis-color);margin-bottom: 8px;">Claire Nicole Lin</h4>
-                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: #292F78;">{{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
-                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton;color: var(--bs-emphasis-color);padding-top: 0px;margin-top: 24px;padding-bottom: 0px;">{{ __("First Place") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
+                        <div class="card-body" style="padding: 16px;">
+                            <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Claire Nicole Lin</h4>
+                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
+                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); margin-top: 24px;">{{ __("First Place") }}</h1>
+                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;">
+                    <div class="card" style="border-style: none; border-radius: 0px;">
                         <img class="card-img-top w-100 d-block" src="assets/img/Card/WhatsApp%20Image%202024-07-03%20at%2015.14.25.webp" style="border-radius: 0px;">
-                        <div class="card-body" style="padding: 0;">
+                        <div class="card-body" style="padding: 16px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Alaric Wongso</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 4") }}<br>{{ __("Sampoerna Academy Medan") }}</h1>
-                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); padding-top: 0; margin-top: 24px;">{{ __("First Place") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton;">{{ __("Indonesia Junior Golf Premier league 5") }}</p>
+                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); margin-top: 24px;">{{ __("First Place") }}</h1>
+                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ __("Indonesia Junior Golf Premier league 5") }}</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;">
+                    <div class="card" style="border-style: none; border-radius: 0px;">
                         <img class="card-img-top w-100 d-block" src="assets/img/Card/7C7877D0-E285-49C8-A926-D5FA84D2C3BA.webp" style="border-radius: 0px;">
-                        <div class="card-body" style="padding: 0;">
+                        <div class="card-body" style="padding: 16px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Rayya Amerta Putri</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 2") }}<br>{{ __("Sampoerna Academy Pakuwon Indah") }}</h1>
-                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); padding-top: 0; margin-top: 24px;">{{ __("Bronze Medal") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton;">{{ __("International Singapore Mathematics Competition 2024") }}</p>
+                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); margin-top: 24px;">{{ __("Bronze Medal") }}</h1>
+                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ __("International Singapore Mathematics Competition 2024") }}</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;">
+                    <div class="card" style="border-style: none; border-radius: 0px;">
                         <img class="card-img-top w-100 d-block" src="assets/img/Card/38BD808C-FDE3-4A8C-9246-D3DC0E1B59F1.webp" style="border-radius: 0px;">
-                        <div class="card-body" style="padding: 0;">
+                        <div class="card-body" style="padding: 16px;">
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Rayya Amerta Putri</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 2") }}<br>{{ __("Sampoerna Academy Pakuwon Indah") }}</h1>
-                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); padding-top: 0; margin-top: 24px;">{{ __("Honour Mention") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton;">{{ __("The 2024-2025 Third SIAT International Youth Art Competition") }}</p>
+                            <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); margin-top: 24px;">{{ __("Honour Mention") }}</h1>
+                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ __("The 2024-2025 Third SIAT International Youth Art Competition") }}</p>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="row" style="margin-top: 50px;">
                 <div class="col-md-12">
                     <div class="d-xxl-flex justify-content-xxl-center">

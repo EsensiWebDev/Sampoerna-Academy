@@ -19,6 +19,7 @@
 
         {{ $slot }}
 
+        @include("toolbox")
         @yield("sub-footer")
         @include("components.footer")
         <script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>

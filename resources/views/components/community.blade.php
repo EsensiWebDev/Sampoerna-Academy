@@ -8,12 +8,56 @@
         <div class="row">
             <div class="col-md-12">
                 <div>
-                    <ul class="nav nav-tabs justify-content-center" role="tablist" style="border-style: none;margin-bottom: 40px;">
-                        <li class="nav-item" role="presentation" style="border-style: none;"><a class="nav-link active fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-1" style="border-style: none;border-radius: 0px;font-family: Campton;"><span><img src="assets/img/Icon/Mask%20group.webp" style="width: 24px;height: 24px;"></span>&nbsp;{{__("Parents")}}</a></li>
-                        <li class="nav-item" role="presentation" style="border-style: none;"><a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-2" style="border-style: none;border-radius: 0px;font-family: Campton;"><span><img src="assets/img/Icon/Mask group-1.webp" style="width: 24px;height: 24px;"></span>&nbsp;{{ __("Students") }}</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-3" style="border-style: none;border-radius: 0px;font-family: Campton;"><span><img src="assets/img/Icon/Mask%20group%20(2).webp" style="width: 24px;height: 24px;"></span>&nbsp;{{ __("Teachers") }}</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-4" style="border-style: none;border-radius: 0px;font-family: Campton;"><span><img src="assets/img/Icon/Mask%20group%20(3).webp" style="width: 24px;height: 24px;"></span>&nbsp;{{ __("Alumni") }}</a></li>
+                    <style>
+                        /* CSS untuk transparansi tab */
+                        .nav-tab {
+                            opacity: 0.5; /* Default opacity untuk tab tidak aktif */
+                            transition: opacity 0.3s; /* Transisi untuk efek halus */
+                            margin-right: 50px;
+                            font-size: 1rem; /* Ukuran font default */
+                        }
+
+                        .nav-tab.active {
+                            opacity: 1; /* Tab aktif penuh */
+                        }
+                    </style>
+
+                    <ul class="nav nav-tabs justify-content-center" role="tablist" style="border-style: none; margin-bottom: 40px;">
+                        <li class="nav-item" role="presentation" style="border-style: none;">
+                            <a class="nav-tab active fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-1" style="border-style: none; border-radius: 0px; font-family: Campton;">
+                                <span><img src="assets/img/Icon/Mask%20group.webp" style="width: 24px; height: 24px;"></span>&nbsp;{{__("Parents")}}
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation" style="border-style: none;">
+                            <a class="nav-tab fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-2" style="border-style: none; border-radius: 0px; font-family: Campton;">
+                                <span><img src="assets/img/Icon/Mask group-1.webp" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Students") }}
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-tab fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-3" style="border-style: none; border-radius: 0px; font-family: Campton;">
+                                <span><img src="assets/img/Icon/Mask%20group%20(2).webp" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Teachers") }}
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-tab fs-4 link-danger" role="tab" data-bs-toggle="tab" href="#tab-4" style="border-style: none; border-radius: 0px; font-family: Campton;">
+                                <span><img src="assets/img/Icon/Mask%20group%20(3).webp" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Alumni") }}
+                            </a>
+                        </li>
                     </ul>
+
+                    <script>
+                        $(document).ready(function(){
+                            // Mengupdate opacity saat tab diubah
+                            $('a[data-bs-toggle="tab"]').on('click', function() {
+                                // Set semua tab menjadi transparan
+                                $('.nav-tab').removeClass('active').css('opacity', 0.5); // Menghapus kelas active dan mengatur opacity
+                                // Set tab yang aktif menjadi tidak transparan
+                                $(this).addClass('active').css('opacity', 1); // Menambahkan kelas active dan mengatur opacity menjadi penuh
+                            });
+                        });
+                    </script>
+
+
                     <div class="tab-content">
                         <div class="tab-pane active" role="tabpanel" id="tab-1">
                             <div class="d-flex flex-column flex-md-row justify-content-around">
