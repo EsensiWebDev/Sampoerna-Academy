@@ -64,7 +64,7 @@
                         <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light"
                                                                                      href="/ourschools/lavenue"
                                                                                      style="font-family: Campton;margin-bottom: 15px;">{{ __("L'Avenue") }}</a><a
-                                class="fw-light link-light" href="/ourschools/bsds"
+                                class="fw-light link-light" href="/ourschools/bsd"
                                 style="font-family: Campton;margin-bottom: 15px;">BSD</a><a class="fw-light link-light"
                                                                                             href="/ourschools/sentul"
                                                                                             style="font-family: Campton;margin-bottom: 15px;">Sentul</a><a
