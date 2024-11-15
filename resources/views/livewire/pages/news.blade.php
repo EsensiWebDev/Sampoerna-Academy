@@ -48,7 +48,7 @@
                 @if(isset($articles) && $articles->count() > 1)
                     @foreach($articles->skip(1) as $article)
                         <div class="col col-6 col-sm-6 col-lg-4 py-2 px-2" wire:key="{{ $loop->iteration }}">
-                            <a href="/news/{{ $article->slugs }}" style="color: black" wire:navigate.hover>
+                            <a href="/news/{{ $article->slugs }}" style="color: black">
                                 <div>
                                     <img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("storage/$article->thumbnail") }}">
                                 </div>

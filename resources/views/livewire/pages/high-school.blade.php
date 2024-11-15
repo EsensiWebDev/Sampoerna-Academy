@@ -71,7 +71,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
                         <style>
                             .tab-pane {
-                                width: 860px; /* Default width for larger screens */
+                                width: 800px; /* Default width for larger screens */
                                 height: auto;
                             }
 

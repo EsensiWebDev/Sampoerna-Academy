@@ -68,7 +68,7 @@
                         <ul class="nav nav-tabs d-flex flex-column" role="tablist"
                             style="border-style: none;margin-bottom: 40px;">
                             <li class="nav-item" role="presentation" style="border-style: none;"><a
-                                    class="nav-link active fs-5 link-danger" role="tab" data-bs-toggle="tab"
+                                    class="nav-link active fs-5" role="tab" data-bs-toggle="tab"
                                     href="#tab-1"
                                     style="border-style: none;border-radius: 0px;font-family: Campton;padding-left: 0px;"><span><img
                                             class="tab-icon"
@@ -245,3 +245,8 @@
     @include("components.available")
     @include("components.download")
 </section>
+
+
+@section("sub-footer")
+    @include("components.sub-footer")
+@endsection

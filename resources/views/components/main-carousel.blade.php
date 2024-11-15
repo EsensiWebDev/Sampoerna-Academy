@@ -170,11 +170,9 @@
                     </div>
                 </div>
             </div>
+            <a href="#section-target" class="arrow d-none d-md-block" style="position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0); z-index: 100;">
+                <img src="{{ asset('assets/img/arrow.png') }}" alt="arrow" style="max-width: 200px;">
+            </a>
         </div>
     </div>
-    <a href="#section-target" class="arrow d-none d-md-block" style="position: absolute; bottom: -24%; left: 50%; transform: translate(-50%, 0); z-index: 100;">
-        <img src="{{ asset('assets/img/arrow.png') }}" alt="arrow" style="max-width: 200px;">
-    </a>
-
-
 </section>

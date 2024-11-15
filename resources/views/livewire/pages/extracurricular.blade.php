@@ -178,7 +178,7 @@
                 <div class="col-md-6 col-lg-4 offset-lg-2">
                     <div class="d-flex flex-column">
 
-                        <a href="/contact" wire:navigate.hover class="btn" style="font-family: Campton; margin-bottom: 16px; padding: 10px 20px; color: white; background-color: #292F78; border: none; border-radius: 5px; text-decoration: none; display: inline-block;">
+                        <a href="/contact" class="btn" style="font-family: Campton; margin-bottom: 16px; padding: 10px 20px; color: white; background-color: #292F78; border: none; border-radius: 5px; text-decoration: none; display: inline-block;">
                             {{ __("Schedule a Consultation") }}
                             &nbsp;
                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -190,7 +190,6 @@
 
 
                         <a href="/admissions/how-to-apply"
-                           wire:navigate.hover
                            class="btn btn-outline-primary"
                            style="font-family: Campton; border-color: var(--bs-white); color: var(--bs-white); text-decoration: none; display: flex; align-items: center; justify-content: center; padding: 10px 20px; text-align: center;">
                             {{ __("How to Apply") }}

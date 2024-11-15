@@ -6,7 +6,7 @@
                      style="border-radius: 15px; border-style: none; box-shadow: 0px 10px 20px rgba(96, 97, 112, 0.16), 0px 2px 5px rgba(40, 41, 61, 0.4);">
                     <div class="card-body"
                          style="padding: 40px;">
-                        <form>
+                        <form action="/form" method="POST">
                             <div class="mb-4">
                                 <label class="form-label" style="color: var(--bs-black); font-family: Campton;">{{ __("Parents Name") }}
                                     <span class="text-danger">*</span></label>
@@ -84,6 +84,13 @@
                                     <option value="3 Months">{{ __("3 Months") }}</option>
                                 </select>
                             </div>
+                            @if ($errors->has('g-recaptcha-response'))
+                                <span class="help-block">
+                                        <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                    </span>
+                            @endif
+                            {!! \Anhskohbo\NoCaptcha\Facades\NoCaptcha::renderJs() !!}
+                            {!! \Anhskohbo\NoCaptcha\Facades\NoCaptcha::display() !!}
                             <div class="d-flex justify-content-end">
                                 <button class="btn btn-primary" type="submit"
                                         style="border-style: none; border-radius: 12px; padding: 20px 40px; font-family: Campton; max-width: 320px;">{{ __("Submit") }}</button>

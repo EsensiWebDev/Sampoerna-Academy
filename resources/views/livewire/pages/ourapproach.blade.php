@@ -56,8 +56,8 @@
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%201.webp"></div>
-                <div class="col-md-5 offset-1 d-flex flex-row align-items-center">
+                <div class="col-md-4"><img class="img-fluid" src="/assets/img/Card/Image%201.webp"></div>
+                <div class="col-md-5 offset-2 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
                             <h1 class="fs-2 fw-semibold" style="color: #292F78;font-family: Campton;">{{ __("Future Ready with 21st") }}<br>{{ __("Century Learning") }}</h1>
@@ -86,7 +86,7 @@
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6 d-flex flex-row align-items-center">
+                <div class="col-md-5 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
                             <h1 class="fs-2 fw-semibold" style="color: #292F78;font-family: Campton;">{{ __("STEAM (Science, Technology, Engineering, Arts, and Math)") }}</h1>
@@ -105,13 +105,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 offset-1"><img class="img-fluid" src="/assets/img/Card/Image%202.webp"></div>
+                <div class="col-md-4 offset-2"><img class="img-fluid" src="/assets/img/Card/Image%202.webp"></div>
             </div>
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6"><img class="img-fluid" src="/assets/img/Card/Image%203.webp"></div>
-                <div class="col-md-4 offset-1 d-flex flex-row align-items-center">
+                <div class="col-md-4"><img class="img-fluid" src="/assets/img/Card/Image%203.webp"></div>
+                <div class="col-md-5 offset-2 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
                             <h1 class="fs-2 fw-semibold" style="color: #292F78;font-family: Campton;">{{ __("Technology Enhanced Learning") }}</h1>
@@ -134,7 +134,7 @@
         </div>
         <div class="container" style="margin-top: 64px;margin-bottom: 80px;">
             <div class="row">
-                <div class="col-md-6 d-flex flex-row align-items-center">
+                <div class="col-md-5 d-flex flex-row align-items-center">
                     <div>
                         <div style="margin-bottom: 28px;">
                             <h1 class="fs-2 fw-semibold" style="color: #292F78;font-family: Campton;">{{ __("Measure Student’s Test in") }}<br>{{ __("International Tests, including:") }}</h1>
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 offset-1"><img class="img-fluid" src="/assets/img/Card/Image%204.webp"></div>
+                <div class="col-md-4 offset-2"><img class="img-fluid" src="/assets/img/Card/Image%204.webp"></div>
             </div>
         </div>
     </section>

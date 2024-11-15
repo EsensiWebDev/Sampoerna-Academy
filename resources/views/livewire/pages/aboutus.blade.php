@@ -184,7 +184,7 @@
                            style="font-family: Campton;color: var(--bs-black);margin-bottom: 0px;padding-top: 32px;padding-bottom: 32px;">{{ __("Sampoerna Academy provides a holistic education that nurtures students academically, socially, and emotionally. We believe that Indonesia's future depends on developing globally competitive leaders.") }}</p>
                     </div>
                     <div>
-                        <a href="/aboutus/ourapproach" wire:navigate.hover>
+                        <a href="/aboutus/ourapproach">
                         <button class="btn btn-link" type="button"
                                 style="font-family: Campton;color: #292F78;padding-left: 0px;">{{ __("More Info") }}
                             &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
