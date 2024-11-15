@@ -142,7 +142,7 @@
                             <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("Discover how Sampoerna Academy can foster your child's") }} <br>{{ __("love of learning, creativity, and critical thinking skills.") }}</p>
                         </div>
                         <div class="d-flex flex-column" style="padding-left: 0px; padding-right: 0px;">
-                            <a href="/contact" wire:navigate.hover style="width: 487px;">
+                            <a href="/contact" style="width: 487px;">
                                 <button class="btn btn-primary" type="button" style="margin-bottom: 20px; font-family: Campton; border-style: none; height: 38px; width: 100%;">
                                     {{ __("Schedule a Consultation") }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -150,7 +150,7 @@
                                     </svg>
                                 </button>
                             </a>
-                            <a href="/admissions/how-to-apply" wire:navigate.hover style="width: 487px;">
+                            <a href="/admissions/how-to-apply" style="width: 487px;">
                                 <button class="btn btn-outline-danger" type="button" style="font-family: Campton; width: 100%;">
                                     {{ __("How to Apply") }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -248,7 +248,7 @@
         </div>
         <div class="container mt-4">
             <div class="row">
-                <div class="col-md-12"><a class="fs-5" href="/faq" wire:navigate.hover style="font-family: Campton;color: #292F78;">{{ __("See FAQ") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
+                <div class="col-md-12"><a class="fs-5" href="/faq" style="font-family: Campton;color: #292F78;">{{ __("See FAQ") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2929 5.29289C12.6834 4.90237 13.3166 4.90237 13.7071 5.29289L17.7071 9.29289C18.0976 9.68342 18.0976 10.3166 17.7071 10.7071L13.7071 14.7071C13.3166 15.0976 12.6834 15.0976 12.2929 14.7071C11.9024 14.3166 11.9024 13.6834 12.2929 13.2929L14.5858 11H3C2.44772 11 2 10.5523 2 10C2 9.44772 2.44772 9 3 9H14.5858L12.2929 6.70711C11.9024 6.31658 11.9024 5.68342 12.2929 5.29289Z" fill="currentColor"></path>
                         </svg></a></div>
             </div>

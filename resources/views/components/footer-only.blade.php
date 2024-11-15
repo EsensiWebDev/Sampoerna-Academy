@@ -45,13 +45,13 @@
                         <h1 class="fs-4"
                             style="font-family: Campton; color: var(--bs-white); margin-bottom: 0px;">{{ __("MENU") }}</h1>
                         <div class="d-flex flex-column" style="margin-top: 24px;">
-                            <a class="fw-light link-light" href="/" wire:navigate.hover
+                            <a class="fw-light link-light" href="/"
                                style="font-family: Campton; margin-bottom: 15px;">Home</a>
-                            <a class="fw-light link-light" href="/faq" wire:navigate.hover
+                            <a class="fw-light link-light" href="/faq"
                                style="font-family: Campton; margin-bottom: 15px;">FAQ</a>
-                            <a class="fw-light link-light" href="/career" wire:navigate.hover
+                            <a class="fw-light link-light" href="/career"
                                style="font-family: Campton; margin-bottom: 15px;">Career</a>
-                            <a class="fw-light link-light" href="/contact" wire:navigate.hover
+                            <a class="fw-light link-light" href="/contact"
                                style="font-family: Campton; margin-bottom: 15px;">{{ __("Contact Us") }}</a>
                         </div>
                     </div>
@@ -63,15 +63,14 @@
                             style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">{{ __("SCHOOL") }}</h1>
                         <div class="d-flex flex-column" style="margin-top: 24px;"><a class="fw-light link-light"
                                                                                      href="/ourschools/lavenue"
-                                                                                     wire:navigate.hover
                                                                                      style="font-family: Campton;margin-bottom: 15px;">{{ __("L'Avenue") }}</a><a
-                                class="fw-light link-light" href="/ourschools/bsds" wire:navigate.hover
+                                class="fw-light link-light" href="/ourschools/bsds"
                                 style="font-family: Campton;margin-bottom: 15px;">BSD</a><a class="fw-light link-light"
                                                                                             href="/ourschools/sentul"
                                                                                             style="font-family: Campton;margin-bottom: 15px;">Sentul</a><a
-                                class="fw-light link-light" href="/ourschools/surabaya" wire:navigate.hover
+                                class="fw-light link-light" href="/ourschools/surabaya"
                                 style="font-family: Campton;margin-bottom: 15px;">Surabaya</a><a
-                                class="fw-light link-light" href="/ourschools/medan" wire:navigate.hover
+                                class="fw-light link-light" href="/ourschools/medan"
                                 style="font-family: Campton;margin-bottom: 15px;">Medan</a></div>
                     </div>
                 </div>
