@@ -6,9 +6,11 @@
         <link rel="icon" type="image/webp" sizes="1131x1345" href="{{ asset("assets/img/Icon/Five%20Icon.webp") }}">
         <link rel="stylesheet" href="{{ asset("assets/bootstrap/css/bootstrap.min.css") }}">
         <link rel="stylesheet" href="{{ asset("assets/css/styles.min.css") }}">
-        <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
-        <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick.css") }}">
-        <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick-theme.css") }}">
+        <!-- Load non-critical CSS files with media print / onload for later -->
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick.css') }}" media="print" onload="this.media='all'">
+        <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick-theme.css') }}" media="print" onload="this.media='all'">
+
         <script src="{{ asset("assets/js/jquery.js") }}"></script>
         <title>{{ config("app.name") }}</title>
         @seoTags()
