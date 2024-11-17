@@ -2,7 +2,7 @@
     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false" data-bs-keyboard="false" data-bs-touch="false" id="carousel-1" style="height: 860px;">
         <div class="carousel-inner h-100">
             <div class="carousel-item active d-flex d-lg-flex align-items-end h-100">
-                <img class="w-100 d-block position-absolute h-100 fit-cover" rel="preload" src="../assets/img/Carousel/carousel%201.webp" alt="Slide Image" loading="lazy" style="z-index: -1;">
+                <img class="w-100 d-block position-absolute h-100 fit-cover" src="../assets/img/Carousel/carousel%201.webp" alt="Slide Image" loading="lazy" style="z-index: -1;">
                 <div class="flex-fill" style="padding-top: 0px;padding-bottom: 156px;">
                     <div class="container">
                         <div class="row">

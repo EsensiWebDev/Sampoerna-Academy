@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}">
     <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick.css") }}">
     <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick-theme.css") }}">
-    <script src="{{ asset("assets/js/jquery.js") }}"></script>
+    <script src="{{ asset("assets/js/jquery.js") }}" defer></script>
     <title>{{ config("app.name") }}</title>
     @seoTags()
 </head>
