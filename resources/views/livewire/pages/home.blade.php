@@ -46,6 +46,7 @@
             <div class="row">
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img class="card-img w-100 d-block"
+                                                                                          loading="lazy"
                                                                                           width="380"
                                                                                           height="500"
                                                                                           style="border-radius: 0px;"
@@ -70,6 +71,7 @@
                 </div>
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img class="card-img w-100 d-block"
+                                                                                          loading="lazy"
                                                                                           width="380"
                                                                                           height="500"
                                                                                           style="border-radius: 0px;"
@@ -94,6 +96,7 @@
                 </div>
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img class="card-img w-100 d-block"
+                                                                                          loading="lazy"
                                                                                           width="380"
                                                                                           height="500"
                                                                                           style="border-radius: 0px;"
@@ -118,6 +121,7 @@
                 </div>
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img class="card-img w-100 d-block"
+                                                                                          loading="lazy"
                                                                                           width="380"
                                                                                           height="500"
                                                                                           style="border-radius: 0px;"
