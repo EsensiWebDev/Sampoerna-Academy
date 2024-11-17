@@ -1,5 +1,5 @@
 <section id="home">
-{{--    @include("components.main-carousel")--}}
+    @include("components.main-carousel")
     <section style="margin-top: 200px;" id="section-target">
         <div class="container">
             <div class="row">
