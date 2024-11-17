@@ -28,7 +28,10 @@ use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
 use Illuminate\Support\Facades\Route;
 
-Route::get("/", Home::class);
+//Route::get("/", Home::class);
+Route::get("/", function () {
+    return view("home");
+});
 Route::get("/aboutus", Aboutus::class);
 Route::get("/aboutus/ourapproach", Ourapproach::class);
 Route::get('/aboutus/leadership', Leadership::class);
