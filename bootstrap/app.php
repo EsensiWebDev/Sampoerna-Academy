@@ -18,6 +18,8 @@ return Application::configure(basePath: dirname(__DIR__))
             CacheResponse::class
         ]);
 
+        $middleware->append( \App\Http\Middleware\CompressResponse::class);
+
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
