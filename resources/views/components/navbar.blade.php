@@ -2,7 +2,7 @@
 <nav class="d-none d-md-block navbar navbar-expand-md fixed-top" style="padding-top: 24px;padding-bottom: 24px;"
      data-bs-theme="dark">
     <div class="container"><a class="navbar-brand" href="/"
-                              style="background: url({{ asset("assets/img/Logo/Logo%20Sampoerna%20Academy.png") }}) center / contain no-repeat;width: 228px;height: 93.82px;margin-right: 0px;padding-bottom: 0px;padding-top: 0px;"></a>
+                              style="background: url({{ asset("assets/img/Logo/Logo%20Sampoerna%20Academy.webp") }}) center / contain no-repeat;width: 228px;height: 93.82px;margin-right: 0px;padding-bottom: 0px;padding-top: 0px;"></a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"
                 style="border-style: none;border-radius: 0px;"><span
                 class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -48,7 +48,7 @@
                            style="color: var(--bs-white);font-family: Campton;">
                             @php
                                 $currentLocale = app()->getLocale();
-                                $flagImage = $currentLocale == 'id' ? 'circle-flags_id.png' : 'circle-flags_us.png';
+                                $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'circle-flags_us.webp';
                                 $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                             @endphp
                             <img src="{{ asset("assets/img/Flag/$flagImage") }}"
@@ -57,12 +57,12 @@
                         <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                             <li>
                                 <a class="dropdown-item" href="/language/en">
-                                    <img src="{{ asset("assets/img/Flag/circle-flags_us.png") }}" style="width: 20px;">&nbsp;English
+                                    <img src="{{ asset("assets/img/Flag/circle-flags_us.webp") }}" style="width: 20px;">&nbsp;English
                                 </a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/language/id">
-                                    <img src="{{ asset("assets/img/Flag/circle-flags_id.png") }}" style="width: 20px;">&nbsp;Bahasa
+                                    <img src="{{ asset("assets/img/Flag/circle-flags_id.webp") }}" style="width: 20px;">&nbsp;Bahasa
                                     Indonesia
                                 </a>
                             </li>
@@ -266,7 +266,7 @@
      data-bs-theme="dark">
     <div class="container">
         <a class="navbar-brand" href="/"
-           style="background: url({{ asset('assets/img/Logo/Logo%20Sampoerna%20Academy.png') }}) center / contain no-repeat; width: 228px; height: 93.82px; margin-right: 0; padding: 0;"></a>
+           style="background: url({{ asset('assets/img/Logo/Logo%20Sampoerna%20Academy.webp') }}) center / contain no-repeat; width: 228px; height: 93.82px; margin-right: 0; padding: 0;"></a>
         <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"
                 style="border-style: none; border-radius: 0;" aria-controls="navcol-1">
             <span class="visually-hidden">Toggle navigation</span>
@@ -451,7 +451,7 @@
                                style="cursor: pointer;">
                                 @php
                                     $currentLocale = app()->getLocale();
-                                    $flagImage = $currentLocale == 'id' ? 'circle-flags_id.png' : 'circle-flags_us.png';
+                                    $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'circle-flags_us.webp';
                                     $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                                 @endphp
                                 <img src="{{ asset("assets/img/Flag/$flagImage") }}"
@@ -474,11 +474,11 @@
                                  style="background-color: transparent; color:white; border:none;">
                                 <a class="dropdown-item fw-light mt-2" href="/language/en"
                                    style="color: var(--bs-white);">
-                                    <img src="{{ asset('assets/img/Flag/circle-flags_us.png') }}" style="width: 20px;">&nbsp;English
+                                    <img src="{{ asset('assets/img/Flag/circle-flags_us.webp') }}" style="width: 20px;">&nbsp;English
                                 </a>
                                 <a class="dropdown-item fw-light mt-2" href="/language/id"
                                    style="color: var(--bs-white);">
-                                    <img src="{{ asset('assets/img/Flag/circle-flags_id.png') }}" style="width: 20px;">&nbsp;Bahasa
+                                    <img src="{{ asset('assets/img/Flag/circle-flags_id.webp') }}" style="width: 20px;">&nbsp;Bahasa
                                     Indonesia
                                 </a>
                             </div>
