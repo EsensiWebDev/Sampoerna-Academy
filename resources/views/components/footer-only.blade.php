@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div
-                        style="width: 228px;height: 93.82px;background: url(&quot;/assets/img/Logo/Logo%20Sampoerna%20Academy%20white.png&quot;) center / contain no-repeat;"></div>
+                        style="width: 228px;height: 93.82px;background: url(&quot;/assets/img/Logo/Logo%20Sampoerna%20Academy%20white.webp&quot;) center / contain no-repeat;"></div>
                     <div style="padding-top: 24px;padding-bottom: 24px;">
                         <p class="fw-light" style="font-family: Campton;color: var(--bs-white);margin-bottom: 0px;">
                             L’Avenue School Jln. Raya Pasar Minggu, Kav. 16 Pancoran, Jakarta 12780 (021) 50 222 234 /
@@ -81,11 +81,11 @@
                         <div class="d-flex flex-row align-items-lg-center align-items-xxl-center"
                              style="margin-top: 24px;">
                             <div
-                                style="background: url(&quot;/assets/img/Logo/acc%20iyce.png&quot;) center / contain no-repeat;width: 83px;height: 82px;"></div>
+                                style="background: url(&quot;/assets/img/Logo/acc%20iyce.webp&quot;) center / contain no-repeat;width: 83px;height: 82px;"></div>
                             <div
-                                style="background: url(&quot;/assets/img/Logo/acc%20cambridge.png&quot;) center / contain no-repeat;width: 144px;height: 63px;margin-left: 10px;margin-right: 10px;"></div>
+                                style="background: url(&quot;/assets/img/Logo/acc%20cambridge.webp&quot;) center / contain no-repeat;width: 144px;height: 63px;margin-left: 10px;margin-right: 10px;"></div>
                             <div
-                                style="background: url(&quot;/assets/img/Logo/acc%20diploma%20programe.png&quot;) center / contain no-repeat;width: 268px;height: 82px;"></div>
+                                style="background: url(&quot;/assets/img/Logo/acc%20diploma%20programe.webp&quot;) center / contain no-repeat;width: 268px;height: 82px;"></div>
                         </div>
                     </div>
                 </div>
