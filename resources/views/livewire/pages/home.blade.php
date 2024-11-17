@@ -219,7 +219,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img width="358" height="358"
                             class="card-img-top w-100 d-block" src="assets/img/Card/Cover.webp"
                             style="border-radius: 0px;">
                         <div class="card-body"
@@ -238,7 +238,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img width="358" height="358"
                             class="card-img-top w-100 d-block"
                             src="assets/img/Card/WhatsApp%20Image%202024-07-03%20at%2015.14.25.webp"
                             style="border-radius: 0px;">
@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card" style="border-style: none;border-radius: 0px;"><img
-                            class="card-img-top w-100 d-block"
+                            class="card-img-top w-100 d-block" width="358" height="358"
                             src="assets/img/Card/7C7877D0-E285-49C8-A926-D5FA84D2C3BA.webp" style="border-radius: 0px;">
                         <div class="card-body"
                              style="padding-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;margin-top: 32px;">
@@ -277,7 +277,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card" style="border-style: none;border-radius: 0px;"><img
+                    <div class="card" style="border-style: none;border-radius: 0px;"><img width="358" height="358"
                             class="card-img-top w-100 d-block"
                             src="assets/img/Card/38BD808C-FDE3-4A8C-9246-D3DC0E1B59F1.webp" style="border-radius: 0px;">
                         <div class="card-body"
