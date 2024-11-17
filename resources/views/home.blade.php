@@ -569,10 +569,13 @@
 @include("toolbox")
 @yield("sub-footer")
 @include("components.footer")
-<script src="{{ asset("assets/bootstrap/js/bootstrap.min.js") }}"></script>
-<script src="{{ asset("assets/js/script.min.js") }}"></script>
-<script src="{{ asset("assets/js/script.js") }}"></script>
-<script type="text/javascript" src="{{ asset("assets/slick-1.8.1/slick/slick.min.js") }}"></script>
+<!-- Defer loading of Bootstrap script -->
+<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}" defer></script>
+
+<!-- Combine script.min.js and script.js if possible -->
+<script src="{{ asset('assets/js/script.min.js') }}" defer></script>
+
+
 
 </body>
 </html>
