@@ -51,13 +51,13 @@
                                 $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'circle-flags_us.webp';
                                 $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                             @endphp
-                            <img src="{{ asset("assets/img/Flag/$flagImage") }}"
+                            <img src="{{ asset("assets/img/Flag/$flagImage") }}" width="26" height="20"
                                  style="width: 20px;">&nbsp;{{ $languageText }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                             <li>
                                 <a class="dropdown-item" href="/language/en">
-                                    <img src="{{ asset("assets/img/Flag/circle-flags_us.webp") }}" style="width: 20px;">&nbsp;English
+                                    <img src="{{ asset("assets/img/Flag/circle-flags_us.webp") }}" width="26" height="20" style="width: 20px;">&nbsp;English
                                 </a>
                             </li>
                             <li>
@@ -474,11 +474,11 @@
                                  style="background-color: transparent; color:white; border:none;">
                                 <a class="dropdown-item fw-light mt-2" href="/language/en"
                                    style="color: var(--bs-white);">
-                                    <img src="{{ asset('assets/img/Flag/circle-flags_us.webp') }}" style="width: 20px;">&nbsp;English
+                                    <img width="26" height="26" src="{{ asset('assets/img/Flag/circle-flags_us.webp') }}" style="width: 20px;">&nbsp;English
                                 </a>
                                 <a class="dropdown-item fw-light mt-2" href="/language/id"
                                    style="color: var(--bs-white);">
-                                    <img src="{{ asset('assets/img/Flag/circle-flags_id.webp') }}" style="width: 20px;">&nbsp;Bahasa
+                                    <img width="26" height="26" src="{{ asset('assets/img/Flag/circle-flags_id.webp') }}" style="width: 20px;">&nbsp;Bahasa
                                     Indonesia
                                 </a>
                             </div>

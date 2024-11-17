@@ -172,7 +172,7 @@
                 </div>
             </div>
             <a href="#section-target" class="arrow d-none d-md-block" style="position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0); z-index: 100;">
-                <img src="{{ asset('assets/img/arrow.png') }}" alt="arrow" style="max-width: 200px;">
+                <img src="{{ asset('assets/img/arrow.webp') }}" width="200" height="70" alt="arrow" style="max-width: 200px;">
             </a>
         </div>
     </div>

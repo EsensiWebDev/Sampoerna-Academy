@@ -154,7 +154,7 @@
                     <div>
                         <h1 class="display-4 fw-semibold"
                             style="color: var(--bs-emphasis-color);font-family: Campton;margin-bottom: 24px;"><span><img
-                                    class="img-fluid" src="assets/img/Logo/STEAM%20LOGO%201.webp" style="width: 166px;"></span>&nbsp;{{ __("Powered Curriculum") }}
+                                    class="img-fluid" width="166" height="60" src="assets/img/Logo/STEAM%20LOGO%201.webp" style="width: 166px;"></span>&nbsp;{{ __("Powered Curriculum") }}
                         </h1>
                         <p>{{ __("The STEAM education model at Sampoerna Academy is an instructional approach") }}
                             <br>{{ __("that emphasizes collaboration and personalized learning. Through STEAM learning,") }}
@@ -454,51 +454,51 @@
         <div class="marquee-container">
             <div class="marquee">
                 <div class="marquee-content">
-                    <img src="assets/img/Campus/Arts%20University%20Bournemouth.webp" alt="Arts University Bournemouth"
+                    <img width="146" height="76" src="assets/img/Campus/Arts%20University%20Bournemouth.webp" alt="Arts University Bournemouth"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Deakin%20University.webp" alt="Deakin University" class="brand-logo">
-                    <img src="assets/img/Campus/Universitas%20Gajah%20Mada.webp" alt="Universitas Gajah Mada"
+                    <img width="146" height="76" src="assets/img/Campus/Deakin%20University.webp" alt="Deakin University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Universitas%20Gajah%20Mada.webp" alt="Universitas Gajah Mada"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Hanyang%20University.webp" alt="Hanyang University" class="brand-logo">
-                    <img src="assets/img/Campus/Kuas.webp" alt="Kuas" class="brand-logo">
-                    <img src="assets/img/Campus/Monash%20University.webp" alt="Monash University" class="brand-logo">
-                    <img src="assets/img/Campus/SMU.webp" alt="SMU" class="brand-logo">
-                    <img src="assets/img/Campus/Universitas%20Indonesia.webp" alt="Universitas Indonesia"
+                    <img width="146" height="76" src="assets/img/Campus/Hanyang%20University.webp" alt="Hanyang University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Kuas.webp" alt="Kuas" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Monash%20University.webp" alt="Monash University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/SMU.webp" alt="SMU" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Universitas%20Indonesia.webp" alt="Universitas Indonesia"
                          class="brand-logo">
-                    <img src="assets/img/Campus/University%20of%20Amsterdam.webp" alt="University of Amsterdam"
+                    <img width="146" height="76" src="assets/img/Campus/University%20of%20Amsterdam.webp" alt="University of Amsterdam"
                          class="brand-logo">
-                    <img src="assets/img/Campus/UIC.webp" alt="UIC" class="brand-logo">
-                    <img src="assets/img/Campus/University%20of%20Toronto.webp" alt="University of Toronto"
+                    <img width="146" height="76" src="assets/img/Campus/UIC.webp" alt="UIC" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/University%20of%20Toronto.webp" alt="University of Toronto"
                          class="brand-logo">
-                    <img src="assets/img/Campus/UNSW%20College.webp" alt="UNSW College" class="brand-logo">
-                    <img src="assets/img/Campus/The%20University%20of%20Utah.webp" alt="The University of Utah"
+                    <img width="146" height="76" src="assets/img/Campus/UNSW%20College.webp" alt="UNSW College" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/The%20University%20of%20Utah.webp" alt="The University of Utah"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Xian%20Jiaotong.webp" alt="Xian Jiaotong" class="brand-logo">
-                    <img src="assets/img/Campus/Xiamen%20Malaysia.webp" alt="Xiamen Malaysia" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Xian%20Jiaotong.webp" alt="Xian Jiaotong" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Xiamen%20Malaysia.webp" alt="Xiamen Malaysia" class="brand-logo">
                 </div>
                 <!-- Satu set konten lagi untuk transisi mulus -->
                 <div class="marquee-content">
-                    <img src="assets/img/Campus/Arts%20University%20Bournemouth.webp" alt="Arts University Bournemouth"
+                    <img width="146" height="76" src="assets/img/Campus/Arts%20University%20Bournemouth.webp" alt="Arts University Bournemouth"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Deakin%20University.webp" alt="Deakin University" class="brand-logo">
-                    <img src="assets/img/Campus/Universitas%20Gajah%20Mada.webp" alt="Universitas Gajah Mada"
+                    <img width="146" height="76" src="assets/img/Campus/Deakin%20University.webp" alt="Deakin University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Universitas%20Gajah%20Mada.webp" alt="Universitas Gajah Mada"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Hanyang%20University.webp" alt="Hanyang University" class="brand-logo">
-                    <img src="assets/img/Campus/Kuas.webp" alt="Kuas" class="brand-logo">
-                    <img src="assets/img/Campus/Monash%20University.webp" alt="Monash University" class="brand-logo">
-                    <img src="assets/img/Campus/SMU.webp" alt="SMU" class="brand-logo">
-                    <img src="assets/img/Campus/Universitas%20Indonesia.webp" alt="Universitas Indonesia"
+                    <img width="146" height="76" src="assets/img/Campus/Hanyang%20University.webp" alt="Hanyang University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Kuas.webp" alt="Kuas" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Monash%20University.webp" alt="Monash University" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/SMU.webp" alt="SMU" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Universitas%20Indonesia.webp" alt="Universitas Indonesia"
                          class="brand-logo">
-                    <img src="assets/img/Campus/University%20of%20Amsterdam.webp" alt="University of Amsterdam"
+                    <img width="146" height="76" src="assets/img/Campus/University%20of%20Amsterdam.webp" alt="University of Amsterdam"
                          class="brand-logo">
-                    <img src="assets/img/Campus/UIC.webp" alt="UIC" class="brand-logo">
-                    <img src="assets/img/Campus/University%20of%20Toronto.webp" alt="University of Toronto"
+                    <img width="146" height="76" src="assets/img/Campus/UIC.webp" alt="UIC" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/University%20of%20Toronto.webp" alt="University of Toronto"
                          class="brand-logo">
-                    <img src="assets/img/Campus/UNSW%20College.webp" alt="UNSW College" class="brand-logo">
-                    <img src="assets/img/Campus/The%20University%20of%20Utah.webp" alt="The University of Utah"
+                    <img width="146" height="76" src="assets/img/Campus/UNSW%20College.webp" alt="UNSW College" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/The%20University%20of%20Utah.webp" alt="The University of Utah"
                          class="brand-logo">
-                    <img src="assets/img/Campus/Xian%20Jiaotong.webp" alt="Xian Jiaotong" class="brand-logo">
-                    <img src="assets/img/Campus/Xiamen%20Malaysia.webp" alt="Xiamen Malaysia" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Xian%20Jiaotong.webp" alt="Xian Jiaotong" class="brand-logo">
+                    <img width="146" height="76" src="assets/img/Campus/Xiamen%20Malaysia.webp" alt="Xiamen Malaysia" class="brand-logo">
                 </div>
             </div>
         </div>

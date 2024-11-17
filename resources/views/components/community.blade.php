@@ -63,7 +63,7 @@
                             <div class="d-flex flex-column flex-md-row justify-content-around">
                                 <div class="d-flex" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/bimbim.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("The International curriculum is excellent,") }}&nbsp;</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person.") }}</p>
@@ -76,7 +76,7 @@
                                 </div>
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340"  src="assets/img/Tab/melani%20ricardo.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img class="img-fluid" width="58" height="58" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress.") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English.") }}</p>
@@ -93,7 +93,7 @@
                             <div class="d-flex flex-column flex-md-row  justify-content-around">
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/benecdito.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("The library at Sampoerna Academy BSD is very spacious and has a wide variety of books.") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("There is also a cozy mezzanine that offers a different environment. It's like mini house and I enjoy spending time there.") }}</p>
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/jonah.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("What I love about Sampoerna Academy is the trilingual environment.") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("where we can speak English, Bahasa, and Mandarin. The Bahasa teacher is always helpful in translating words I don't know during class.") }}</p>
@@ -121,7 +121,7 @@
                             <div class="d-flex flex-column flex-md-row  justify-content-between">
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/mr%20heize.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("Math at Sampoerna Academi is unique") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("because it integrates STEAM approach into daily activities, providing students opportunities to apply mathematics concept to real-world projects.") }}</p>
@@ -134,7 +134,7 @@
                                 </div>
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/Airene%20Gonzales%20Orencio.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("The playroom in Sampoerna Academy is designed to resemble real-life buildings") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("like a police station, hospital, and fire station. This gives kids a pratical experience and applying their learningin a real-world situations.") }}</p>
@@ -151,7 +151,7 @@
                             <div class="d-flex flex-column flex-md-row  justify-content-around">
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img class="tab-img" width="229" height="340" src="assets/img/Tab/FARALUNA%20SABIA%20GUNADI.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("The International curriculum is excellent,") }}&nbsp;</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person.") }}</p>
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="d-flex flex-row" style="padding-left: 10px;padding-right: 10px;padding-top: 10px;padding-bottom: 10px;">
                                     <div style="height: initial;"><img width="229" height="340" class="tab-img" src="assets/img/Tab/putri%20yasmina.webp" style="width: 229px;"></div>
-                                    <div><span style="margin-left: 30px;"><img class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
+                                    <div><span style="margin-left: 30px;"><img width="58" height="58" class="img-fluid" src="assets/img/Tab/“%20(Stroke).webp" style="width: 40px;"></span>
                                         <div style="margin-left: 30px;margin-bottom: 20px;">
                                             <h1 class="fs-5 fw-semibold" style="font-family: Campton;color: var(--bs-black);margin-bottom: 12px;">{{ __("We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress.") }}</h1>
                                             <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English.") }}</p>
