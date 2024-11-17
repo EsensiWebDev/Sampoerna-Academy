@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="icon" type="image/webp" sizes="1131x1345" href="{{ asset("assets/img/Icon/Five%20Icon.webp") }}">
-    <link rel="stylesheet" href="{{ asset("assets/bootstrap/css/bootstrap.min.css") }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset("assets/css/styles.min.css") }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset("assets/css/style.css") }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset("assets/slick-1.8.1/slick/slick.css") }}" media="print" onload="this.media='all'">
