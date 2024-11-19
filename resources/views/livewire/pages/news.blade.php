@@ -16,6 +16,8 @@
             <div class="row">
                 <div class="col-md-12">
                     @php
+                        // $locale = app()->getLocale();
+                        // $article = \App\Models\Article::where('lang', $locale)->orderBy('created_at', 'DESC')->first();
                         $article = \App\Models\Article::orderBy('created_at', 'DESC')->first();
                     @endphp
 
