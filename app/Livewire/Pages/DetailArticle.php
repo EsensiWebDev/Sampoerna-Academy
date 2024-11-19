@@ -16,7 +16,8 @@ class DetailArticle extends Component
         return view('livewire.pages.detail-article', compact('article'));
     }
 
-    public function detailPage(string $slugs) {
+    public function detailPage(string $slugs)
+    {
         $this->redirect("/articles/{$slugs}");
     }
 }
