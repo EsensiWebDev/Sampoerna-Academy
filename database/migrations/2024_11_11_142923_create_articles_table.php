@@ -21,10 +21,10 @@ return new class extends Migration
                 'MEDAN'
             ])->default("LAVENUE");
             $table->string('slug', 255)->nullable(false)->unique();
-            $table->string('title_indonesia', 255)->nullable(false);
-            $table->string('title_english', 255)->nullable(false);
-            $table->longText('content_indonesia')->nullable();
-            $table->longText('content_english')->nullable();
+            $table->string('title_indonesia', 255)->nullable(true);
+            $table->string('title_english', 255)->nullable(true);
+            $table->longText('content_indonesia')->nullable(true);
+            $table->longText('content_english')->nullable(true);
             $table->string('thumbnail', 255)->nullable(false);
             $table->timestamps();
         });

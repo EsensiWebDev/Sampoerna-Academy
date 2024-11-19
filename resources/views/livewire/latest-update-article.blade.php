@@ -17,16 +17,40 @@
             @if(isset($articles))
                 @foreach($articles as $article)
                     <a href="/news/{{ $article->slug }}" style="color: black">
-                    <div class="col-md-4" wire:key="{{ $loop->iteration }}">
-                        <div><img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("$article->thumbnail") }}"></div>
-                        <p class="fw-light" style="font-family: Campton;color: #8F90A6;">{{ Carbon::parse($article->created_at)->format("F j, Y") }}</p>
+                        <div class="col-md-4" wire:key="{{ $loop->iteration }}">
+                            <div>
+                                <img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("$article->thumbnail") }}">
+                            </div>
+                            <p class="fw-light" style="font-family: Campton;color: #8F90A6;">
+                                {{ Carbon::parse($article->created_at)->format("F j, Y") }}
+                            </p>
 
-                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{!! app()->getLocale() == "id" ? $article->title_indonesia : $article->title_english !!}</h1>
+                            @php
+                                $locale = app()->getLocale();
+                                $title = '';
+                                $content = '';
 
-                        <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! app()->getLocale() == "id"
-                            ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...')
-                            : \Illuminate\Support\Str::limit($article->content_english, 60, '...') !!}</p>
-                    </div>
+                                if ($locale == "id") {
+                                    $title = !is_null($article->title_indonesia) ? $article->title_indonesia : $article->title_english;
+                                } elseif ($locale == "en") {
+                                    $title = !is_null($article->title_english) ? $article->title_english : $article->title_indonesia;
+                                }
+
+                                if ($locale == "id") {
+                                    $content = !is_null($article->content_indonesia) ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...') : \Illuminate\Support\Str::limit($article->content_english, 60, '...');
+                                } elseif ($locale == "en") {
+                                    $content = !is_null($article->content_english) ? \Illuminate\Support\Str::limit($article->content_english, 60, '...') : \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...');
+                                }
+                            @endphp
+
+                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">
+                                {!! $title !!}
+                            </h1>
+
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                {!! $content !!}
+                            </p>
+                        </div>
                     </a>
                 @endforeach
             @endif
@@ -38,18 +62,40 @@
             @if(isset($articles))
                 @foreach($articles as $article)
                     <a href="/news/{{ $article->slug }}" style="color: black">
-                    <div class="slick-item">
                         <div class="col-md-4" wire:key="{{ $loop->iteration }}">
-                            <div><img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("$article->thumbnail") }}"></div>
-                            <p class="fw-light" style="font-family: Campton;color: #8F90A6;">{{ Carbon::parse($article->created_at)->format("F j, Y") }}</p>
+                            <div>
+                                <img class="img-fluid" style="margin-bottom: 36px; height: 334px;" src="{{ asset("$article->thumbnail") }}">
+                            </div>
+                            <p class="fw-light" style="font-family: Campton;color: #8F90A6;">
+                                {{ Carbon::parse($article->created_at)->format("F j, Y") }}
+                            </p>
 
-                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">{!! app()->getLocale() == "id" ? $article->title_indonesia : $article->title_english !!}</h1>
+                            @php
+                                $locale = app()->getLocale();
+                                $title = '';
+                                $content = '';
 
-                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">{!! app()->getLocale() == "id"
-                            ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...')
-                            : \Illuminate\Support\Str::limit($article->content_english, 60, '...') !!}</p>
+                                if ($locale == "id") {
+                                    $title = !is_null($article->title_indonesia) ? $article->title_indonesia : $article->title_english;
+                                } elseif ($locale == "en") {
+                                    $title = !is_null($article->title_english) ? $article->title_english : $article->title_indonesia;
+                                }
+
+                                if ($locale == "id") {
+                                    $content = !is_null($article->content_indonesia) ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...') : \Illuminate\Support\Str::limit($article->content_english, 60, '...');
+                                } elseif ($locale == "en") {
+                                    $content = !is_null($article->content_english) ? \Illuminate\Support\Str::limit($article->content_english, 60, '...') : \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...');
+                                }
+                            @endphp
+
+                            <h1 class="fs-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">
+                                {!! $title !!}
+                            </h1>
+
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                {!! $content !!}
+                            </p>
                         </div>
-                    </div>
                     </a>
                 @endforeach
             @endif
