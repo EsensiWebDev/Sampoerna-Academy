@@ -21,15 +21,18 @@
 
                     @if (isset($article))
                         <div class="d-flex flex-row justify-content-start align-items-end"
-                            style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 100%), url('{{ asset("storage/{$article->thumbnail}") }}') center / cover no-repeat; height: 676px;">
+                            style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url('{{ asset("{$article->thumbnail}") }}') center / cover no-repeat; height: 676px;">
                             <div class="flex-fill px-5" style="padding-left: 140px;padding-bottom: 36px;">
                                 <h1 class="fs-4 fw-semibold"
                                     style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">
                                     {!! app()->getLocale() == 'id' ? $article->title_indonesia : $article->title_english !!}</h1>
                                 <p class="fw-light"
                                     style="font-family: Campton;color: var(--bs-black);color:white!important;margin-top: 10px;">
-                                    {!! app()->getLocale() == 'id' ? $article->content_indonesia : $article->content_english !!}</p>
-                                <a href="/news/{{ $article->slugs }}"
+                                    {!! app()->getLocale() == 'id'
+                                        ? \Illuminate\Support\Str::limit($article->content_indonesia, 250, '...')
+                                        : \Illuminate\Support\Str::limit($article->content_english, 250, '...') !!}
+                                </p>
+                                <a href="/news/{{ $article->slug }}"
                                     style="font-family: Campton;color: #292F78;">{{ __('Read More') }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
                                         viewBox="0 0 20 20" fill="none">
@@ -50,11 +53,13 @@
             <div class="row">
                 @if (isset($articles) && $articles->count() > 1)
                     @foreach ($articles->skip(1) as $article)
-                        <div class="col col-6 col-sm-6 col-lg-4 py-2 px-2" wire:key="{{ $loop->iteration }}">
-                            <a href="/news/{{ $article->slugs }}" style="color: black">
+                        <div class="col col-6 col-sm-6 col-lg-4 py-4 px-4" wire:key="{{ $loop->iteration }}">
+                            <a href="/news/{{ $article->slug }}" style="color: black">
                                 <div>
-                                    <img class="img-fluid" style="margin-bottom: 36px; height: 334px;"
-                                        src="{{ asset("storage/$article->thumbnail") }}">
+                                    <img class="img-fluid"
+                                        style="margin-bottom: 36px; height: 334px; width: 100%; object-fit: cover;"
+                                        src="{{ asset($article->thumbnail) }}" alt="Article Thumbnail">
+
                                 </div>
                                 <p class="fw-light" style="font-family: Campton;color: #8F90A6;">
                                     {{ \Carbon\Carbon::parse($article->created_at)->format('F j, Y') }}
@@ -65,8 +70,8 @@
                                 </h1>
                                 <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
                                     {!! app()->getLocale() == 'id'
-                                        ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...')
-                                        : \Illuminate\Support\Str::limit($article->content_english, 60, '...') !!}
+                                        ? \Illuminate\Support\Str::limit($article->content_indonesia, 150, '...')
+                                        : \Illuminate\Support\Str::limit($article->content_english, 150, '...') !!}
                                 </p>
                             </a>
                         </div>
@@ -77,7 +82,7 @@
             </div>
 
             @if (isset($articles))
-                {{ $articles->links(data: ['scrollTo' => false]) }}
+                {{ $articles->links() }}
             @endif
         </div>
 

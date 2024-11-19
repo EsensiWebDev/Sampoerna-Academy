@@ -233,7 +233,7 @@
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2"
                                 style="font-family: Campton;color: var(--bs-emphasis-color);padding-top: 0px;margin-top: 24px;padding-bottom: 0px;">{{ __("First Place") }}</h1>
                             <p class="fw-light card-text"
-                               style="font-family: Campton;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
+                               style="font-family: Campton;">{{ __("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
                         </div>
                     </div>
                 </div>
@@ -314,7 +314,7 @@
                         <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">
                             {{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
                         <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); padding-top: 0; margin-top: 24px;">{{ __("First Place") }}</h1>
-                        <p class="fw-light card-text" style="font-family: Campton;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
+                        <p class="fw-light card-text" style="font-family: Campton;">{{ __("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@
             <div class="d-flex align-items-end"
                 style="height: 600px;
             background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%),
-            url('{{ asset("storage/$article->thumbnail") }}') center / cover no-repeat,
+            url('{{ asset("$article->thumbnail") }}') center / cover no-repeat,
             linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);">
                 <!-- Konten tambahan di dalam div ini, jika ada -->
                 <div class="container" style="padding-bottom: 64px;">
@@ -24,7 +24,7 @@
     @endif
 
 
-    <section id="content" class="px-4 py-4">
+    <section id="content" class="px-4 py-4 mx-4">
         {!! app()->getLocale() == 'id' ? $article->content_indonesia : $article->content_english !!}
     </section>
 
