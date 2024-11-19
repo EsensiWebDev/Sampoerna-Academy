@@ -16,8 +16,6 @@
             <div class="row">
                 <div class="col-md-12">
                     @php
-                        // $locale = app()->getLocale();
-                        // $article = \App\Models\Article::where('lang', $locale)->orderBy('created_at', 'DESC')->first();
                         $article = \App\Models\Article::orderBy('created_at', 'DESC')->first();
                     @endphp
 
@@ -72,8 +70,8 @@
                                 </h1>
                                 <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
                                     {!! app()->getLocale() == 'id'
-                                        ? \Illuminate\Support\Str::limit($article->content_indonesia, 150, '...')
-                                        : \Illuminate\Support\Str::limit($article->content_english, 150, '...') !!}
+                                        ? \Illuminate\Support\Str::limit(strip_tags($article->content_indonesia), 100, '...')
+                                        : \Illuminate\Support\Str::limit(strip_tags($article->content_english), 100, '...') !!}
                                 </p>
                             </a>
                         </div>
@@ -85,10 +83,10 @@
 
             {{-- ini pagination --}}
             @if ($articles->hasPages())
-                <div class="row justify-content-center mt-4">
-                    <div class="col-12">
-                        <div class="pagination-container" style="place-items: center;">
-                            {{ $articles->links('pagination::bootstrap-4') }}
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="pagination-container">
+                            {{ $articles->onEachSide(0)->links('pagination::bootstrap-4') }}
                         </div>
                     </div>
                 </div>
