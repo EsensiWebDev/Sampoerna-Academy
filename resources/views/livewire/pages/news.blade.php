@@ -56,7 +56,7 @@
             <div class="row">
                 @if (isset($articles) && $articles->count() > 1)
                     @foreach ($articles->skip(1) as $article)
-                        <div class="col col-6 col-sm-6 col-lg-4 py-4 px-4" wire:key="{{ $loop->iteration }}">
+                        <div class="col col-6 col-sm-6 col-lg-4 py-4 px-3" wire:key="{{ $loop->iteration }}">
                             <a href="/news/{{ $article->slug }}" style="color: black">
                                 <div>
                                     <img class="img-fluid"
@@ -71,10 +71,19 @@
                                     style="color: var(--bs-black);font-family: Campton;margin-top: 8px;margin-bottom: 8px;">
                                     {!! app()->getLocale() == 'id' ? $article->title_indonesia : $article->title_english !!}
                                 </h1>
-                                <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                <p class="fs-5 fw-light"
+                                    style="color: var(--bs-black);font-family: Campton;word-wrap: break-word; ">
                                     {!! app()->getLocale() == 'id'
-                                        ? \Illuminate\Support\Str::limit(strip_tags($article->content_indonesia), 100, '...')
-                                        : \Illuminate\Support\Str::limit(strip_tags($article->content_english), 100, '...') !!}
+                                        ? \Illuminate\Support\Str::limit(
+                                            preg_replace('/\[[^\]]*\]/', '', strip_tags($article->content_indonesia)),
+                                            100,
+                                            '...',
+                                        )
+                                        : \Illuminate\Support\Str::limit(
+                                            preg_replace('/\[[^\]]*\]/', '', strip_tags($article->content_english)),
+                                            100,
+                                            '...',
+                                        ) !!}
                                 </p>
                             </a>
                         </div>
