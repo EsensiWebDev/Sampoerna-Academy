@@ -17,6 +17,7 @@
             <div class="row">
                 <div class="col-md-12">
                     @php
+
                         $article = \App\Models\Article::orderBy('created_at', 'DESC')->first();
                     @endphp
 
