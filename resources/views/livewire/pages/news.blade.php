@@ -81,8 +81,15 @@
                 @endif
             </div>
 
-            @if (isset($articles))
-                {{ $articles->links() }}
+            {{-- ini pagination --}}
+            @if ($articles->hasPages())
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12">
+                        <div class="pagination-container" style="place-items: center;">
+                            {{ $articles->links('pagination::bootstrap-4') }}
+                        </div>
+                    </div>
+                </div>
             @endif
         </div>
 
