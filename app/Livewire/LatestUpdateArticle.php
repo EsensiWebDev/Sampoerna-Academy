@@ -11,7 +11,8 @@ class LatestUpdateArticle extends Component
 {
     public ?string $articleFor = "ALL";
 
-    public function detailPage() {
+    public function detailPage()
+    {
         $this->js("alert('asd')");
     }
 
@@ -30,9 +31,26 @@ class LatestUpdateArticle extends Component
 
     public function render()
     {
-        $articles = Article::where('article_for', $this->articleFor)
-            ->orderBy('created_at', 'DESC')
-            ->get();
+        // $articles = Article::where('article_for', $this->articleFor)
+        //     ->orderBy('created_at', 'DESC')
+        //     ->get();
+        $locale = app()->getLocale();
+        if ($locale == "en") {
+            // $articles = Article::orderBy('created_at', 'DESC')
+            //     ->limit(4)
+            //     ->get();
+
+            $articles = Article::where('lang', $locale)
+                ->orderBy('created_at', 'DESC')
+                ->limit(3)
+                ->get();
+        } else {
+            $articles = Article::where('lang', $locale)
+                ->orderBy('created_at', 'DESC')
+                ->limit(3)
+                ->get();
+        }
+
 
 
         return view('livewire.latest-update-article', [
