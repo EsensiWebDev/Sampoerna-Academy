@@ -205,9 +205,9 @@
             <div class="container">
                 <div class="border-0 d-flex flex-column justify-content-center align-items-start p-4 py-5 responsive-background">
                     <div class="row">
-                        <div class="col-md-10 col-lg-12 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center" style="width: 400px;">
+                        <div class="col-md-10 col-lg-12 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center" style="max-width: 600px;">
                             <div>
-                                <p class="fs-5 fw-light mb-4" style="padding-bottom: 0; color: var(--bs-white); text-align: left; font-family: Campton;">
+                                <p class="fs-5 fw-light mb-4" style="padding-bottom: 0; color: var(--bs-white); text-align: left; font-family: Campton;text-shadow: 2px 2px 4px rgb(0, 0, 0);">
                                     {{ __("Our rigorous curriculum and supportive environment equip students with the skills and mindset to thrive in today's global landscape. As a result, Sampoerna Academy graduates are prepared to gain acceptance into top universities worldwide and excel in their chosen fields.") }}
                                 </p>
                             </div>

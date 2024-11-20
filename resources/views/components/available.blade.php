@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row" style="margin-bottom: 72px;">
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20lavenue.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">L’Avenue</h4><a class="fs-6 link-light" href="../ourschools/lavenueschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -15,7 +15,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20bsd.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">BSD</h4><a class="fs-6 link-light" href="../ourschools/bsdschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20sentul.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">Sentul</h4><a class="fs-6 link-light" href="../ourschools/sentulschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20surabaya.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">Surabaya</h4><a class="fs-6 link-light" href="../ourschools/surabayaschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20medan.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">Medan (Cipta School)</h4><a class="fs-6 link-light" href="../ourschools/medanschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-6 col-sm-6 col-lg-4 my-2">
+            <div class="col-md-6 col-sm-12 col-lg-4 my-2">
                 <div class="card" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;"><img class="card-img w-100 d-block" src="/assets/img/Location/Location%20medan%20citra.jpg" style="border-style: none;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
                         <h4 class="fs-5" style="color: var(--bs-white);font-family: Campton;margin-bottom: 8px;">Medan (Citra School)</h4><a class="fs-6 link-light" href="../ourschools/medanschool.html" style="font-family: Campton;">{{ __("More Info") }}&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
