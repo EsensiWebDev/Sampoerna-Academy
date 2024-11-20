@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container d-none d-md-block">
         <div class="row">
             @if (isset($articles))
                 @foreach ($articles as $article)
