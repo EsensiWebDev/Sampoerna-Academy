@@ -75,7 +75,7 @@
                     <a href="/news/{{ $article->slug }}" style="color: black">
                         <div class="col-md-4" wire:key="{{ $loop->iteration }}">
                             <div>
-                                <img class="img-fluid" style="margin-bottom: 36px; height: 334px;"
+                                <img class="img-fluid" style="margin-bottom: 36px; height: 334px; width: 100%; object-fit: cover;"
                                     src="{{ asset("$article->thumbnail") }}">
                             </div>
                             <p class="fw-light" style="font-family: Campton;color: #8F90A6;">
