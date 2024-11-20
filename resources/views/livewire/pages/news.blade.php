@@ -81,7 +81,7 @@
             <div class="row">
                 @if (isset($articles) && $articles->count() > 1)
                     @foreach ($articles->skip(1) as $article)
-                        <div class="col col-6 col-sm-6 col-lg-4 py-4 px-3" wire:key="{{ $loop->iteration }}">
+                        <div class="col col-6 col-sm-12 col-lg-4 py-4 px-3" wire:key="{{ $loop->iteration }}">
                             <a href="/news/{{ $article->slug }}" style="color: black">
                                 <div>
                                     <img class="img-fluid"
