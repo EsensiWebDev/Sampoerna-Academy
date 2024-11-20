@@ -6,7 +6,7 @@
     @else
         <section>
             <div class="d-flex align-items-end"
-                 style="height: 600px;
+                style="height: 600px;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%),
         url('{{ asset($article->thumbnail) }}') center / cover no-repeat,
         linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);">
@@ -19,16 +19,24 @@
                                 $title = '';
                                 $content = '';
 
-                                if ($locale == "id") {
-                                    $title = !is_null($article->title_indonesia) ? $article->title_indonesia : $article->title_english;
-                                } elseif ($locale == "en") {
-                                    $title = !is_null($article->title_english) ? $article->title_english : $article->title_indonesia;
+                                if ($locale == 'id') {
+                                    $title = !is_null($article->title_indonesia)
+                                        ? $article->title_indonesia
+                                        : $article->title_english;
+                                } elseif ($locale == 'en') {
+                                    $title = !is_null($article->title_english)
+                                        ? $article->title_english
+                                        : $article->title_indonesia;
                                 }
 
-                                if ($locale == "id") {
-                                    $content = !is_null($article->content_indonesia) ? \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...') : \Illuminate\Support\Str::limit($article->content_english, 60, '...');
-                                } elseif ($locale == "en") {
-                                    $content = !is_null($article->content_english) ? \Illuminate\Support\Str::limit($article->content_english, 60, '...') : \Illuminate\Support\Str::limit($article->content_indonesia, 60, '...');
+                                if ($locale == 'id') {
+                                    $content = !is_null($article->content_indonesia)
+                                        ? $article->content_indonesia
+                                        : $article->content_english;
+                                } elseif ($locale == 'en') {
+                                    $content = !is_null($article->content_english)
+                                        ? $article->content_english
+                                        : $article->content_indonesia;
                                 }
                             @endphp
 
@@ -39,7 +47,6 @@
 
             </div>
         </section>
-
     @endif
 
 
