@@ -2,16 +2,41 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Lead;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+
 
 class FormController extends Controller
 {
 
-    public function submit(Request $request) {
-        $request->validate([
-            'g-recaptcha-response' => 'required|captcha'
-        ]);
+    public function submit(Request $request)
+    {
+        try {
+            $validatedData = $request->validate([
+                'parents_name'      => 'required|string|max:255',
+                'kids_name'         => 'required|string|max:255',
+                'phone_number'      => 'required|numeric|digits_between:10,15',
+                'email'             => 'required|email|max:255',
+                'province'          => 'required|string|max:255',
+                'prev_curriculum'   => 'required|string|max:255',
+                'school_choice'     => 'required|string|max:255',
+                'grade_interested'  => 'required|string|max:255',
+                'timeframe_visit'   => 'required|string|max:255',
+            ]);
+            Lead::create($validatedData);
+            // dd($validatedData);
+            return redirect()->back()->with('success', 'Data successfully saved!')->withFragment('#formSection');
+        } catch (\Exception $e) {
+            // Log error untuk debugging (opsional)
+            // Log::error($e->getMessage());
+            // dd($e->getMessage());
+            return redirect()->back()->with('error', 'Failed to save data. Please try again.')->withFragment('#formSection');
+        }
 
-        // do process
+
+        // Proses data yang diterima dari form
+        //$validatedData = $request->all(); // Ambil semua data form tanpa validasi
+
     }
 }

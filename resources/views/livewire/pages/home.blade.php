@@ -273,7 +273,8 @@
                                 style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
                                 <a href="https://www.instagram.com/p/DCfw7wtTrLC/?utm_source=ig_embed&amp;utm_campaign=loading"
                                     style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
-                                    target="_blank">A post shared by Sampoerna Academy (@sampoerna.academy)</a></p>
+                                    target="_blank">A post shared by Sampoerna Academy (@sampoerna.academy)</a>
+                            </p>
                         </div>
                     </blockquote>
                 </div>
