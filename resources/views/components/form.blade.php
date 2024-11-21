@@ -53,11 +53,9 @@
                                     <span class="text-danger">*</span></label>
                                 <select class="form-select" name="province" required>
                                     <option value="" selected>{{ __('Choose one') }}</option>
-                                    <option value="Jakarta">Jakarta</option>
-                                    <option value="South Tangerang">{{ __('South Tangerang') }}</option>
-                                    <option value="West Java">{{ __('West Java') }}</option>
-                                    <option value="East Java">{{ __('East Java') }}</option>
-                                    <option value="North Sumatra">{{ __('North Sumatra') }}</option>
+                                    @foreach ($provinces as $province)
+                                        <option value="{{ $province['id'] }}">{{ $province['name'] }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="mb-4">
