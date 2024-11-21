@@ -49,7 +49,7 @@
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('Province') }}<span
                                             class="text-danger">*</span></label><select class="form-select ">
                                         <optgroup label="Province">
-                                            <option value="0" selected="">{{ __('Chose one') }}</option>
+                                            <option value="0" selected="">{{ __('Choose one') }}</option>
                                             @foreach ($provinces as $province)
                                                 <option value="{{ $province['id'] }}">{{ $province['name'] }}</option>
                                             @endforeach
@@ -59,7 +59,7 @@
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('Previous Curriculume') }}<span
                                             class="text-danger">*</span></label><select class="form-select">
                                         <optgroup label="Province">
-                                            <option value="12" selected="">{{ __('Chose one') }}</option>
+                                            <option value="12" selected="">{{ __('Choose one') }}</option>
                                             <option value="13">This is item 2</option>
                                             <option value="14">This is item 3</option>
                                         </optgroup>
@@ -68,7 +68,7 @@
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('School Choice') }}<span
                                             class="text-danger">*</span></label><select class="form-select">
                                         <optgroup label="School Choice">
-                                            <option value="12" selected="">{{ __('Chose one') }}</option>
+                                            <option value="12" selected="">{{ __('Choose one') }}</option>
                                             <option value="13">{{ __('L’Avenue School, Jakarta') }}</option>
                                             <option value="14">{{ __('BSD School, South Tangerang') }}</option>
                                             <option value="">{{ __('Sentul School, West Java') }}</option>
@@ -81,7 +81,7 @@
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('Grade Interested') }}</label><span
                                         class="text-danger">*</span><select class="form-select">
                                         <optgroup label="Grade Interested">
-                                            <option value="12">{{ __('Chose one') }}</option>
+                                            <option value="12">{{ __('Choose one') }}</option>
                                             <option value="">{{ __('Early Years') }}</option>
                                             <option value="">{{ __('Elementary School') }}</option>
                                             <option value="">{{ __('Middle School') }}</option>
@@ -93,7 +93,7 @@
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('Timeframe Visit') }}<span
                                             class="text-danger">*</span></label><select class="form-select">
                                         <optgroup label="Timeframe Visit">
-                                            <option value="12" selected="">{{ __('Chose one') }}</option>
+                                            <option value="12" selected="">{{ __('Choose one') }}</option>
                                             <option value="">{{ __('Within This Week') }}</option>
                                             <option value="">{{ __('This Month') }}</option>
                                             <option value="">{{ __('3 Months') }}</option>
