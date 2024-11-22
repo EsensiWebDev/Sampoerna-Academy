@@ -54,7 +54,7 @@
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Claire Nicole Lin</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); margin-top: 24px;">{{ __("First Place") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
+                            <p class="fw-light card-text" style="font-family: Campton; margin-top: 12px;">{{ __("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                             <h4 class="fs-5 fw-semibold card-title" style="font-family: Campton; color: var(--bs-emphasis-color); margin-bottom: 8px;">Claire Nicole Lin</h4>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: #292F78;">{{ __("Grade 7") }}<br>{{ __("Sampoerna Academy Online") }}</h1>
                             <h1 class="fs-6 fw-semibold card-subtitle mb-2" style="font-family: Campton; color: var(--bs-emphasis-color); padding-top: 0; margin-top: 24px;">{{ __("First Place") }}</h1>
-                            <p class="fw-light card-text" style="font-family: Campton;">{{ _("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
+                            <p class="fw-light card-text" style="font-family: Campton;">{{ __("The 3rd Tokyo International Youth Piano Competition Final Round") }}</p>
                         </div>
                     </div>
                     <div class="slick-item" style="border-style: none; border-radius: 0px;">

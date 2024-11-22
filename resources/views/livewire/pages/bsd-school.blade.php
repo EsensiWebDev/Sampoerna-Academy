@@ -1,5 +1,5 @@
 <section id="bsd-schools">
-    <section style="margin-bottom: 200px;">
+    <section style="margin-bottom: 10%;">
         <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Carousel/bsd.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <section style="margin-top: 200px;">
+    <section >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -31,21 +31,21 @@
         </div>
     </section>
     <section>
-        <div class="container" style="margin-top: 72px;padding-left: 24px;padding-right: 24px;">
-            <div class="row">
-                <div class="col-md-6 d-flex d-lg-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-start justify-content-xxl-start" style="background: transparent;padding-left: 20px;padding-right: 20px;">
-                    <h1 class="fs-5" style="font-family: Campton;color: var(--bs-black);margin-bottom: 30px;">{{ __("Grades offered") }}<br>{{ __("for the current academic year") }}</h1>
+        <div class="container" style="margin-top: 72px;">
+            <div class="row justify-content-between">
+                <div class="col-md-4 d-flex d-lg-flex flex-column " style="background: transparent;">
+                    <h1 class="fs-4" style="font-family: Campton;color: var(--bs-black);margin-bottom: 30px;">{{ __("Grades offered") }}<br>{{ __("for the current academic year") }}</h1>
                     <div style="background: transparent;padding-left: 0px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;">
                         <div style="margin-bottom: 12px;"><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Playgroup (PG)") }}</span><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Kindergarten") }}</span></div>
                         <div style="margin-bottom: 12px;"><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Elementary School") }}</span><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("Middle School") }}</span></div>
                         <div><span class="badge rounded-pill fw-normal" style="background: #292F78;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px;">{{ __("High School") }}</span></div>
                     </div>
                 </div>
-                <div class="col-md-6 offset-xxl-0" style="padding-left: 0px;padding-right: 0px;background: #E4E4EB;"><img class="img-fluid" src="/assets/img/Banner/leading%20way%20image%20bsd.webp"></div>
+                <div class="col-md-6 offset-xxl-0 mt-2" style="padding-left: 0px;padding-right: 0px;background: #E4E4EB;"><img class="img-fluid" src="/assets/img/Banner/leading%20way%20image%20bsd.webp"></div>
             </div>
         </div>
     </section>
-    <section style="margin-top: 200px;">
+    <section style="margin-top: 10%;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -136,7 +136,7 @@
         <div class="container">
             <div class="row d-xxl-flex align-items-xxl-center">
                 <div class="col-md-6 col-xxl-6">
-                    <div class="d-xxl-flex justify-content-xxl-center"><div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.744947933179!2d106.66342317464749!3d-6.297209561631402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb2f95ef57af%3A0x5c68703245df029f!2sSampoerna%20Academy%20BSD!5e0!3m2!1sid!2sid!4v1729033076094!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
+                    <div class="d-xxl-flex justify-content-xxl-center"><div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.744947933179!2d106.66342317464749!3d-6.297209561631402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb2f95ef57af%3A0x5c68703245df029f!2sSampoerna%20Academy%20BSD!5e0!3m2!1sid!2sid!4v1729033076094!5m2!1sid!2sid" width="500" height="300" style="border:0; max-width:100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
                 </div>
                 <div class="col-md-6 col-xxl-6">
                     <div class="card" style="border-top-left-radius: 15px;border-top-right-radius: 15px;border-bottom-right-radius: 15px;border-bottom-left-radius: 15px;border-style: none;background: #E4E4EB;">

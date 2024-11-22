@@ -1,5 +1,5 @@
 <section id="awards-achievements">
-    <section style="margin-bottom: 200px;">
+    <section style="margin-bottom: 10%;">
         <div class="d-flex align-items-end" style="height: 600px;background: url(&quot;../assets/img/Banner/awards.webp&quot;) center / cover no-repeat;">
             <div class="container" style="padding-bottom: 64px;">
                 <div class="row">
@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <section style="margin-top: 200px;">
+    <section >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

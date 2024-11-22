@@ -34,11 +34,11 @@ class ArticleResource extends Resource
                     ])
                     ->default("LAVENUE")
                     ->required(),
-                Forms\Components\TextInput::make('slugs')
+                Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
                     ->maxLength(255)
-                    ->unique('articles', 'slugs'),
+                    ->unique('articles', 'slug'),
                 Forms\Components\TextInput::make('title_indonesia')
                     ->required()
                     ->minLength(5)
@@ -65,7 +65,7 @@ class ArticleResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('slugs'),
+                Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('article_for'),
                 Tables\Columns\TextColumn::make('title'),
             ])

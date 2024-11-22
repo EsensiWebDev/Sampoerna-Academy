@@ -11,12 +11,13 @@ class DetailArticle extends Component
 
     public function render()
     {
-        $article = Article::where('slugs', $this->slug)->first();
+        $article = Article::where('slug', $this->slug)->first();
 
         return view('livewire.pages.detail-article', compact('article'));
     }
 
-    public function detailPage(string $slugs) {
-        $this->redirect("/articles/{$slugs}");
+    public function detailPage(string $slug)
+    {
+        $this->redirect("/articles/{$slug}");
     }
 }

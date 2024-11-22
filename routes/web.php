@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FormController;
 use App\Livewire\Pages\Aboutus;
 use App\Livewire\Pages\Academics;
 use App\Livewire\Pages\Activities;
@@ -28,10 +29,8 @@ use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
 use Illuminate\Support\Facades\Route;
 
-//Route::get("/", Home::class);
-Route::get("/", function () {
-    return view("home");
-});
+Route::post('/form', [FormController::class, 'submit']);
+Route::get("/", Home::class);
 Route::get("/aboutus", Aboutus::class);
 Route::get("/aboutus/ourapproach", Ourapproach::class);
 Route::get('/aboutus/leadership', Leadership::class);

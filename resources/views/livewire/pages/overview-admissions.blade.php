@@ -142,7 +142,7 @@
                             <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">{{ __("Discover how Sampoerna Academy can foster your child's") }} <br>{{ __("love of learning, creativity, and critical thinking skills.") }}</p>
                         </div>
                         <div class="d-flex flex-column" style="padding-left: 0px; padding-right: 0px;">
-                            <a href="/contact" style="width: 487px;">
+                            <a href="/contact" style="width: 100%;">
                                 <button class="btn btn-primary" type="button" style="margin-bottom: 20px; font-family: Campton; border-style: none; height: 38px; width: 100%;">
                                     {{ __("Schedule a Consultation") }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">
@@ -150,7 +150,7 @@
                                     </svg>
                                 </button>
                             </a>
-                            <a href="/admissions/how-to-apply" style="width: 487px;">
+                            <a href="/admissions/how-to-apply" style="width: 100%;">
                                 <button class="btn btn-outline-danger" type="button" style="font-family: Campton; width: 100%;">
                                     {{ __("How to Apply") }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none">

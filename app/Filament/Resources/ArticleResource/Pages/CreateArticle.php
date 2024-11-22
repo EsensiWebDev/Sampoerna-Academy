@@ -18,7 +18,7 @@ class CreateArticle extends CreateRecord
         Log::info($article);
 
         if ($article) {
-            \SEO\Seo::save($article, route('read-article', $article->slugs), [
+            \SEO\Seo::save($article, route('read-article', $article->slug), [
                 'title' => $article->title_indonesia,
             ]);
         }
