@@ -55,7 +55,7 @@
                                     {!! $title !!}
                                 </h1>
                                 <p class="fw-light"
-                                    style="font-family: Campton;color: var(--bs-black);color:white!important;margin-top: 10px;">
+                                    style="font-family: Campton;color: var(--bs-black);color:black!important;margin-top: 10px;">
                                     {!! $content !!}
                                 </p>
                                 <a href="/news/{{ $article->slug }}"
