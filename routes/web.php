@@ -71,8 +71,32 @@ Route::get("/login", function () {
 })->name("login");
 
 
+// Redirect Area
 
+Route::get('/id/tentang-kami', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/aboutus', 301); // 301 untuk redirect permanen
 
+});
+Route::get('/id/sekolah-menengah-atas', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/academics/high-school', 301); // 301 untuk redirect permanen
+
+});
+Route::get('id/kampus-lavenue/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/ourschools/lavenue', 301); // 301 untuk redirect permanen
+
+});
+Route::get('id/karir/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/career', 301); // 301 untuk redirect permanen
+
+});
 
 
 Route::get('language/{locale}', function ($locale) {
