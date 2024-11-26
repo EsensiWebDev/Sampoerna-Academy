@@ -55,7 +55,7 @@
                                             @endforeach
                                         </optgroup>
                                     </select></div>
-                                <div style="margin-bottom: 40px;"><label class="form-label"
+                                {{-- <div style="margin-bottom: 40px;"><label class="form-label"
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('Previous Curriculume') }}<span
                                             class="text-danger">*</span></label><select class="form-select">
                                         <optgroup label="Province">
@@ -63,7 +63,7 @@
                                             <option value="13">This is item 2</option>
                                             <option value="14">This is item 3</option>
                                         </optgroup>
-                                    </select></div>
+                                    </select></div> --}}
                                 <div style="margin-bottom: 40px;"><label class="form-label"
                                         style="color: var(--bs-black);font-family: Campton;">{{ __('School Choice') }}<span
                                             class="text-danger">*</span></label><select class="form-select">

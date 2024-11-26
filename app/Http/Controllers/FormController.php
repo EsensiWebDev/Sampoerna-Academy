@@ -19,7 +19,7 @@ class FormController extends Controller
                 'phone_number'      => 'required|numeric|digits_between:10,15',
                 'email'             => 'required|email|max:255',
                 'province'          => 'required|string|max:255',
-                'prev_curriculum'   => 'required|string|max:255',
+                // 'prev_curriculum'   => 'required|string|max:255',
                 'school_choice'     => 'required|string|max:255',
                 'grade_interested'  => 'required|string|max:255',
                 'timeframe_visit'   => 'required|string|max:255',

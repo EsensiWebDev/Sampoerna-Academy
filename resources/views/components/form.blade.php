@@ -58,7 +58,7 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="mb-4">
+                            {{-- <div class="mb-4">
                                 <label class="form-label"
                                     style="color: var(--bs-black); font-family: Campton;">{{ __('Previous Curriculum') }}
                                     <span class="text-danger">*</span></label>
@@ -67,7 +67,7 @@
                                     <option value="item2">This is item 2</option>
                                     <option value="item3">This is item 3</option>
                                 </select>
-                            </div>
+                            </div> --}}
                             <div class="mb-4">
                                 <label class="form-label"
                                     style="color: var(--bs-black); font-family: Campton;">{{ __('School Choice') }}
