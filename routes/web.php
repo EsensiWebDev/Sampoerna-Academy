@@ -97,6 +97,24 @@ Route::get('id/karir/', function () {
     return redirect('/career', 301); // 301 untuk redirect permanen
 
 });
+Route::get('id/beranda/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/', 301); // 301 untuk redirect permanen
+
+});
+Route::get('id/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/', 301); // 301 untuk redirect permanen
+
+});
+Route::get('id/kampus-bsd/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/ourschools/bsd', 301); // 301 untuk redirect permanen
+
+});
 
 
 Route::get('language/{locale}', function ($locale) {
