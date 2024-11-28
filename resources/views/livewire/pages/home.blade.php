@@ -971,7 +971,6 @@
         </style>
     </section>
     @include('components.community')
-    @include('components.form')
 </section>
 
 <script async src="//www.instagram.com/embed.js"></script>

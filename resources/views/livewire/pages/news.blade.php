@@ -145,4 +145,6 @@
         </div>
 
     </section>
+    @include('components.form')
+
 </section>

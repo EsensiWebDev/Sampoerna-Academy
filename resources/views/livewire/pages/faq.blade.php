@@ -124,6 +124,7 @@
             </div>
         </div>
     </section>
+    @include('components.form')
 
     <section style="margin-top: 200px;background: #CE3827;padding-top: 72px;padding-bottom: 72px;">
         <div class="container">

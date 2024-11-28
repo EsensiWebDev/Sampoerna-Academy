@@ -53,5 +53,6 @@
     <section id="content" class="px-4 py-4 mx-4">
         {!! $content !!}
     </section>
+    @include('components.form')
 
 </section>

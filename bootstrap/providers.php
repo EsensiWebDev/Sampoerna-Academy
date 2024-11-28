@@ -3,5 +3,6 @@
 return [
     App\Providers\AppServiceProvider::class,
     App\Providers\Filament\AdminPanelProvider::class,
-    SEO\SeoServiceProvider::class
+    App\Providers\ViewServiceProvider::class,
+    SEO\SeoServiceProvider::class,
 ];

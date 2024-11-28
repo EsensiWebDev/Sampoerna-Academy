@@ -8,6 +8,9 @@ class PageLayout extends Component
 {
     public function render()
     {
-        return view('livewire.page-layout');
+
+        $provincesJson = file_get_contents(public_path('assets/json/province.json'));
+        $provinces = json_decode($provincesJson, true);
+        return view('livewire.page-layout', compact('provinces'));
     }
 }

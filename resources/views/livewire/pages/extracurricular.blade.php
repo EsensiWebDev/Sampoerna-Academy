@@ -355,6 +355,8 @@
             </div>
         </div>
     </section>
+    @include('components.form')
+
     <section style="background: #CE3827;padding-top: 72px;padding-bottom: 72px;">
         <div class="container">
             <div class="row">
