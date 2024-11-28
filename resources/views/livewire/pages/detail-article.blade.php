@@ -64,7 +64,7 @@
                                     <div>
 
                                         <img class="img-fluid rounded-top"
-                                            style="margin-bottom: 36px; height: 204px; width: 100%; object-fit: cover;"
+                                            style=" height: 204px; width: 100%; object-fit: cover;"
                                             src="{{ asset($article->thumbnail) }}" alt="Article Thumbnail">
                                     </div>
 
@@ -96,7 +96,7 @@
                                                 );
                                     @endphp
 
-                                    <div class="px-4">
+                                    <div class="px-4 py-3">
 
                                         <p class="fw-light" style="font-family: Campton; color: white;">
                                             {{ \Carbon\Carbon::parse($article->created_at)->format('F j, Y') }}
