@@ -103,6 +103,12 @@ Route::get('id/beranda/', function () {
     return redirect('/', 301); // 301 untuk redirect permanen
 
 });
+Route::get('/id/penerimaan-siswa-sampoerna-academy/', function () {
+    // app()->setLocale("id");
+    session()->put('locale', "id");
+    return redirect('/admissions/overview', 301); // 301 untuk redirect permanen
+
+});
 Route::get('id/', function () {
     // app()->setLocale("id");
     session()->put('locale', "id");
