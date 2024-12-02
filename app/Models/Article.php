@@ -19,6 +19,7 @@ class Article extends Model
         'content_indonesia',
         'content_english',
         'lang',  // Ensure 'lang' is fillable
+        'isPublished',
         'updated_at',
         'created_at',
     ];

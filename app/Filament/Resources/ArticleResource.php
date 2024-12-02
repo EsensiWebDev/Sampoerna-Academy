@@ -62,6 +62,10 @@ class ArticleResource extends Resource
                     ->default('id') // Set the default value
                     ->hidden() // Keep it uneditable
                     ->columnSpanFull(),
+                Forms\Components\TextInput::make('isPublished')
+                    ->default(true) // Set the default value
+                    ->hidden() // Keep it uneditable
+                    ->columnSpanFull(),
             ]);
     }
 
