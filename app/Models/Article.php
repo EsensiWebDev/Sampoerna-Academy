@@ -11,17 +11,5 @@ class Article extends Model
     use HasFactory;
 
     protected $guarded = [];
-    protected $fillable = [
-        'slug',
-        'title_indonesia',
-        'title_english',
-        'thumbnail',
-        'content_indonesia',
-        'content_english',
-        'lang',  // Ensure 'lang' is fillable
-        'isPublished',
-        'link',
-        'updated_at',
-        'created_at',
-    ];
+    
 }
