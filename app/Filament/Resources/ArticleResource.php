@@ -59,10 +59,6 @@ class ArticleResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
-                Forms\Components\TextInput::make('lang')
-                    ->default('en') // Set the default value to 'id'
-                    ->disabled() // Make it uneditable
-                    ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
             ]);
