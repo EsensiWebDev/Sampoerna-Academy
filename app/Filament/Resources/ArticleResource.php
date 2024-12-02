@@ -60,7 +60,7 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\TextInput::make('lang')
                     ->default('id') // Set the default value
-                    ->disabled() // Keep it uneditable
+                    ->hidden() // Keep it uneditable
                     ->visible(fn($get) => false) // Hide it visually (but still send value)
                     ->columnSpanFull(),
             ]);
