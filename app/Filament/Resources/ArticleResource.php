@@ -24,16 +24,15 @@ class ArticleResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Select::make('article_for')
-                    ->options([
-                        "LAVENUE" => 'LAVENUE',
-                        "BSD" => 'BSD',
-                        "SENTUL" => 'SENTUL',
-                        "SURABAYA" => 'SURABAYA',
-                        "MEDAN" => "MEDAN"
-                    ])
-                    ->default("LAVENUE")
-                    ->required(),
+                // Forms\Components\Select::make('article_for')
+                //     ->options([
+                //         "LAVENUE" => 'LAVENUE',
+                //         "BSD" => 'BSD',
+                //         "SENTUL" => 'SENTUL',
+                //         "SURABAYA" => 'SURABAYA',
+                //         "MEDAN" => "MEDAN"
+                //     ])
+                //     ->default("LAVENUE"),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
@@ -66,7 +65,7 @@ class ArticleResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('slug'),
-                Tables\Columns\TextColumn::make('article_for'),
+                // Tables\Columns\TextColumn::make('article_for'),
                 Tables\Columns\TextColumn::make('title'),
             ])
             ->filters([
