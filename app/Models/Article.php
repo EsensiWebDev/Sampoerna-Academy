@@ -20,6 +20,7 @@ class Article extends Model
         'content_english',
         'lang',  // Ensure 'lang' is fillable
         'isPublished',
+        'link',
         'updated_at',
         'created_at',
     ];
