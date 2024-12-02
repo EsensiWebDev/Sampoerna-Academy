@@ -73,6 +73,7 @@ class ArticleResource extends Resource
                 Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('title_indonesia'),
                 Tables\Columns\TextColumn::make('title_english'),
+                Tables\Columns\TextColumn::make('lang'),
             ])
             ->filters([])
             ->actions([
