@@ -50,10 +50,10 @@ class ArticleResource extends Resource
                     ->maxLength(255)
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')
-                    ->image()
-                    ->imageEditor()
-                    ->columnSpan(4)
-                    ->required(),
+                    ->image()             
+                    ->directory('images')  
+                    ->preserveFilenames()  
+                    ->columnSpanFull(),     
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
