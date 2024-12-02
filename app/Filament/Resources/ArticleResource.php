@@ -55,7 +55,6 @@ class ArticleResource extends Resource
                     ->required(),
                 Forms\Components\TextInput::make('lang')
                     ->default('id') // Set the default value to 'id'
-                    ->disabled() // Make it uneditable
                     ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
