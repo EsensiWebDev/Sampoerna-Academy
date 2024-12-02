@@ -60,9 +60,11 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\TextInput::make('lang')
                     ->default('id') // Set the default value
+                    ->visible(fn($get) => false) // Hide it visually (but still send value)
                     ->columnSpanFull(),
                 Forms\Components\TextInput::make('isPublished')
                     ->default(true) // Set the default value
+                    ->visible(fn($get) => false) // Hide it visually (but still send value)
                     ->columnSpanFull(),
             ]);
     }
