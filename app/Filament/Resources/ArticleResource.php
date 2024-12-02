@@ -58,13 +58,11 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
-                Forms\Components\TextInput::make('lang')
+                Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
-                    ->hidden() // Make it hidden, but still send the value
                     ->columnSpanFull(),
-                Forms\Components\TextInput::make('isPublished')
+                Forms\Components\Hidden::make('isPublished')
                     ->default(true) // Set the default value
-                    ->hidden() // Make it hidden, but still send the value
                     ->columnSpanFull(),
 
             ]);
