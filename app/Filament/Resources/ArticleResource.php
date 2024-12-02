@@ -23,6 +23,8 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Filament\Forms\Components\FileUpload;
+use Illuminate\Support\Facades\Storage;
 
 class ArticleResource extends Resource
 {
@@ -49,11 +51,21 @@ class ArticleResource extends Resource
                     ->minLength(5)
                     ->maxLength(255)
                     ->columnSpanFull(),
-                Forms\Components\FileUpload::make('thumbnail')
-                    ->image()             
-                    ->directory('storage/images')  
-                    ->preserveFilenames()  
-                    ->columnSpanFull(),     
+                FileUpload::make('thumbnail')
+                    ->image()                         
+                    ->directory('images')              
+                    ->preserveFilenames()              
+                    ->columnSpanFull()
+                    ->afterStateUpdated(function ($state, $get) {
+                        $filename = $state->getClientOriginalName();
+
+                        $fileUrl = asset('storage/images/' . $filename);
+
+                        // Store the URL in the database (e.g., in the 'thumbnail' field)
+                        $article = $get('article'); // Assuming you're working with an article model or form
+                        $article->thumbnail = $fileUrl; // Save the full URL to the 'thumbnail' field
+                        $article->save();
+                    }),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
