@@ -14,6 +14,16 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
+namespace App\Filament\Resources;
+
+use App\Filament\Resources\ArticleResource\Pages;
+use App\Models\Article;
+use Filament\Forms;
+use Filament\Forms\Form;
+use Filament\Resources\Resource;
+use Filament\Tables;
+use Filament\Tables\Table;
+
 class ArticleResource extends Resource
 {
     protected static ?string $model = Article::class;
@@ -24,15 +34,6 @@ class ArticleResource extends Resource
     {
         return $form
             ->schema([
-                // Forms\Components\Select::make('article_for')
-                //     ->options([
-                //         "LAVENUE" => 'LAVENUE',
-                //         "BSD" => 'BSD',
-                //         "SENTUL" => 'SENTUL',
-                //         "SURABAYA" => 'SURABAYA',
-                //         "MEDAN" => "MEDAN"
-                //     ])
-                //     ->default("LAVENUE"),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
@@ -53,14 +54,14 @@ class ArticleResource extends Resource
                     ->imageEditor()
                     ->columnSpan(4)
                     ->required(),
-                Forms\Components\TextInput::make('lang')
-                    ->default('id') // Set the default value to 'id'
-                    ->disabled() // Make it uneditable
-                    ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
+                Forms\Components\TextInput::make('lang')
+                    ->default('id') // Set the default value
+                    ->disabled() // Make it uneditable
+                    ->columnSpanFull(),
             ]);
     }
 
@@ -69,12 +70,12 @@ class ArticleResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('slug'),
-                // Tables\Columns\TextColumn::make('article_for'),
-                Tables\Columns\TextColumn::make('title'),
+                Tables\Columns\TextColumn::make('title_indonesia'),
+                Tables\Columns\TextColumn::make('title_english'),
+                Tables\Columns\TextColumn::make('lang'),
+
             ])
-            ->filters([
-                //
-            ])
+            ->filters([])
             ->actions([
                 Tables\Actions\EditAction::make(),
             ])
@@ -87,9 +88,7 @@ class ArticleResource extends Resource
 
     public static function getRelations(): array
     {
-        return [
-            //
-        ];
+        return [];
     }
 
     public static function getPages(): array
