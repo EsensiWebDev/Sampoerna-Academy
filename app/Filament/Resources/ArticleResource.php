@@ -64,6 +64,9 @@ class ArticleResource extends Resource
                 Forms\Components\Hidden::make('isPublished')
                     ->default(true) // Set the default value
                     ->columnSpanFull(),
+                Forms\Components\Hidden::make('link') // Add the hidden link field
+                    ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
+                    ->columnSpanFull(),
 
             ]);
     }
