@@ -51,9 +51,12 @@ class ArticleResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')
                     ->image()
-                    ->disk('public') // Specify the disk
+                    ->disk('public')
                     ->directory('images')
-                    ->columnSpanFull(),
+                    ->columnSpanFull()
+                    ->preserveFilenames()
+                    ->preview()
+                    ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
@@ -75,12 +78,6 @@ class ArticleResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('thumbnail')
-                    ->label('Thumbnail') // Optional label for the column
-                    ->getStateUsing(function ($record) {
-                        // Use the full path stored in the database
-                        return $record->thumbnail;
-                    }),
                 Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('title_indonesia'),
                 Tables\Columns\TextColumn::make('title_english'),
