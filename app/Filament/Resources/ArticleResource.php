@@ -75,7 +75,12 @@ class ArticleResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\ImageColumn::make('thumbnail'),
+                Tables\Columns\ImageColumn::make('thumbnail')
+                    ->label('Thumbnail') // Optional label for the column
+                    ->getStateUsing(function ($record) {
+                        // Use the full path stored in the database
+                        return $record->thumbnail;
+                    }),
                 Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('title_indonesia'),
                 Tables\Columns\TextColumn::make('title_english'),
