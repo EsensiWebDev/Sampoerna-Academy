@@ -51,14 +51,9 @@ class ArticleResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')
                     ->image()
-                    ->disk('public')  // Save to the public disk
-                    ->directory('images')  // Save in the 'images' folder
-                    ->preserveFilenames()  // Keep the original filename
-                    ->columnSpanFull()
-                    ->afterStateUpdated(function ($state, $set) {
-                        // Generate the URL dynamically
-                        $set('thumbnail', $state ? '/storage/images/' . $state : null);
-                    }),
+                    ->directory('images')
+                    ->preserveFilenames()
+                    ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
