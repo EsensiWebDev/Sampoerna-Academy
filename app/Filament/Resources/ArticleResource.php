@@ -55,7 +55,12 @@ class ArticleResource extends Resource
                     ->directory('images')
                     ->columnSpanFull()
                     ->preserveFilenames()
-                    ->label('Thumbnail'),
+                    ->label('Thumbnail')
+                    ->afterStateHydrated(function ($state, $set) {
+                        if ($state) {
+                            $set('thumbnail_preview', '/storage/' . $state);
+                        }
+                    }),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
