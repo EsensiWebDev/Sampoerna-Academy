@@ -16,6 +16,6 @@ class Article extends Model
     // Mutator for the thumbnail attribute
     public function setThumbnailAttribute($value)
     {
-        $this->attributes['thumbnail'] = $value ? '/storage/images/' . ltrim($value, '/') : null;
+        $this->attributes['thumbnail'] = $value ? '/storage/' . ltrim($value, '/') : null;
     }
 }

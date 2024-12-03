@@ -51,6 +51,7 @@ class ArticleResource extends Resource
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')
                     ->image()
+                    ->directory('images')
                     ->preserveFilenames()
                     ->columnSpanFull(),
                 Forms\Components\RichEditor::make('content_indonesia')
