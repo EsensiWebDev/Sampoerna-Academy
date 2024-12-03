@@ -55,7 +55,6 @@ class ArticleResource extends Resource
                     ->directory('images')
                     ->columnSpanFull()
                     ->preserveFilenames()
-                    ->preview()
                     ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
