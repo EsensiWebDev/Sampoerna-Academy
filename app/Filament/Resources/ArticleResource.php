@@ -57,7 +57,9 @@ class ArticleResource extends Resource
                     ->preserveFilenames()
                     ->label('Thumbnail')
                     ->afterStateHydrated(function ($state, $set) {
-                        if ($state) {
+                        // Ensure that $state is not null and is a valid string
+                        if (is_string($state) && !empty($state)) {
+                            // Set the preview URL
                             $set('thumbnail_preview', '/storage/' . $state);
                         }
                     }),
@@ -74,9 +76,9 @@ class ArticleResource extends Resource
                 Forms\Components\Hidden::make('link') // Add the hidden link field
                     ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
                     ->columnSpanFull(),
-
             ]);
     }
+
 
     public static function table(Table $table): Table
     {
