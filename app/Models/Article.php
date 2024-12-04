@@ -10,6 +10,12 @@ class Article extends Model
 {
     use HasFactory;
 
+    // Allow mass assignment for all attributes
     protected $guarded = [];
-    
+
+    // Mutator for the thumbnail attribute
+    public function setThumbnailAttribute($value)
+    {
+        $this->attributes['thumbnail'] = $value ? '/storage/' . ltrim($value, '/') : null;
+    }
 }

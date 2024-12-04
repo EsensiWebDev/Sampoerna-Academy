@@ -50,10 +50,12 @@ class ArticleResource extends Resource
                     ->maxLength(255)
                     ->columnSpanFull(),
                 Forms\Components\FileUpload::make('thumbnail')
-                    ->image()             
-                    ->directory('images')  
-                    ->preserveFilenames()  
-                    ->columnSpanFull(),     
+                    ->image()
+                    ->disk('public')
+                    ->directory('images')
+                    ->columnSpanFull()
+                    ->preserveFilenames()
+                    ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
@@ -67,9 +69,9 @@ class ArticleResource extends Resource
                 Forms\Components\Hidden::make('link') // Add the hidden link field
                     ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
                     ->columnSpanFull(),
-
             ]);
     }
+
 
     public static function table(Table $table): Table
     {
