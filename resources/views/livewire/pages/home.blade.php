@@ -75,7 +75,8 @@
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img
                             class="card-img w-100 d-block" loading="lazy" width="380" height="500"
-                            style="border-radius: 0px; object-fit: cover;" src="assets/img/Card/Rectangle%209036%20(1).webp">
+                            style="border-radius: 0px; object-fit: cover;"
+                            src="assets/img/Card/Rectangle%209036%20(1).webp">
                         <div class="card-img-overlay d-flex flex-column justify-content-end justify-content-sm-end justify-content-lg-end align-items-lg-start"
                             style="border-radius: 0px;background: linear-gradient(rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 80%);border-style: none;">
                             <div class="d-flex flex-row flex-md-column justify-content-between">
@@ -97,7 +98,8 @@
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img
                             class="card-img w-100 d-block" loading="lazy" width="380" height="500"
-                            style="border-radius: 0px; object-fit: cover;" src="assets/img/Card/Rectangle%209036%20(2).webp">
+                            style="border-radius: 0px; object-fit: cover;"
+                            src="assets/img/Card/Rectangle%209036%20(2).webp">
                         <div class="card-img-overlay d-flex flex-column justify-content-end justify-content-lg-end align-items-lg-start"
                             style="border-radius: 0px;background: linear-gradient(rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 80%);border-style: none;">
                             <div class="d-flex flex-row flex-md-column justify-content-between">
@@ -119,7 +121,8 @@
                 <div class="col-md-3" style="padding-left: 0px;padding-right: 0px;">
                     <div class="card" style="border-radius: 0px;border-style: none;"><img
                             class="card-img w-100 d-block" loading="lazy" width="380" height="500"
-                            style="border-radius: 0px; object-fit: cover;" src="assets/img/Card/Rectangle%209036%20(3).webp">
+                            style="border-radius: 0px; object-fit: cover;"
+                            src="assets/img/Card/Rectangle%209036%20(3).webp">
                         <div class="card-img-overlay d-flex flex-column justify-content-end justify-content-lg-end align-items-lg-start"
                             style="border-radius: 0px;background: linear-gradient(rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 80%);border-style: none;">
                             <div class="d-flex flex-row flex-md-column justify-content-between">

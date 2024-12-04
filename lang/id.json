@@ -1,250 +1,238 @@
 {
-    "Career" : "Karir",
-    "News" : "Berita",
-    "Contact" : "Kontak",
-    "FAQ" : "FAQ",
+    "Career": "Karir",
+    "News": "Berita",
+    "Contact": "Kontak",
+    "FAQ": "FAQ",
     "aboutUs": "Tentang Kami",
-    "steam" : "STEAM",
-    "academics" : "Akademik",
-    "Our Schools" : "Sekolah Kami",
-    "Activities" : "Kegiatan",
-    "Admissions" : "Penerimaan",
-    "Our Approach" : "Pendekatan Kami",
-    "Leadership" : "Kepemimpinan",
-    "Early Years" : "Tahun Awal",
-    "Elementary School" : "Sekolah Dasar",
-    "Middle School" : "Sekolah Menengah Pertama",
-    "High School" : "Sekolah Menengah Atas",
-    "Online School" : "Sekolah Daring",
-    "Calendars" : "Kalendar",
-    "Library" : "Perpustakaan",
-    "L’Avenue School" : "Sekolah L’Avenue",
-    "BSD School" : "Sekolah BSD",
-    "Sentul School" : "Sekolah Sentul",
-    "Surabaya School" : "Sekolah Surabaya",
-    "Medan School" : "Sekolah Medan",
-    "Extracurricular" : "Kegiatan Ekstrakurikuler",
-    "Awards & Achievements" : "Penghargaan & Prestasi",
-    "Admission Overview" : "Tinjauan Penerimaan",
-    "How to Apply" : "Cara Mendaftar",
-    "Your Child's Future Starts Here" : "Masa Depan Anak Anda Dimulai Di Sini",
-    "Explore the opportunities at Sampoerna Academy and discover how we can foster your child's curiosity, creativity, and critical thinking skills." : "Jelajahi peluang di Sampoerna Academy dan temukan bagaimana kami dapat mendorong rasa ingin tahu, kreativitas, dan keterampilan berpikir kritis anak Anda.",
-    "Schedule a Consultation" : "Jadwalkan Konsultasi",
-    "MENU" : "MENU",
-    "Contact Us" : "Hubungi Kami",
+    "steam": "STEAM",
+    "academics": "Akademik",
+    "Our Schools": "Sekolah Kami",
+    "Activities": "Kegiatan",
+    "Admissions": "Penerimaan",
+    "Our Approach": "Pendekatan Kami",
+    "Leadership": "Kepemimpinan",
+    "Early Years": "Tahun Awal",
+    "Elementary School": "Sekolah Dasar",
+    "Middle School": "Sekolah Menengah Pertama",
+    "High School": "Sekolah Menengah Atas",
+    "Online School": "Sekolah Daring",
+    "Calendars": "Kalendar",
+    "Library": "Perpustakaan",
+    "L’Avenue School": "Sekolah L’Avenue",
+    "BSD School": "Sekolah BSD",
+    "Sentul School": "Sekolah Sentul",
+    "Surabaya School": "Sekolah Surabaya",
+    "Medan School": "Sekolah Medan",
+    "Extracurricular": "Kegiatan Ekstrakurikuler",
+    "Awards & Achievements": "Penghargaan & Prestasi",
+    "Admission Overview": "Tinjauan Penerimaan",
+    "How to Apply": "Cara Mendaftar",
+    "Your Child's Future Starts Here": "Masa Depan Anak Anda Dimulai Di Sini",
+    "Explore the opportunities at Sampoerna Academy and discover how we can foster your child's curiosity, creativity, and critical thinking skills.": "Jelajahi peluang di Sampoerna Academy dan temukan bagaimana kami dapat mendorong rasa ingin tahu, kreativitas, dan keterampilan berpikir kritis anak Anda.",
+    "Schedule a Consultation": "Jadwalkan Konsultasi",
+    "MENU": "MENU",
+    "Contact Us": "Hubungi Kami",
     "SCHOOL": "SEKOLAH",
-    "ACCREDITED BY" : "DIAKREDITASI OLEH",
-    "©2024 Sampoerna Academy. All Rights Reserved" : "©2024 Sampoerna Academy. Semua Hak Dilindungi",
+    "ACCREDITED BY": "DIAKREDITASI OLEH",
+    "©2024 Sampoerna Academy. All Rights Reserved": "©2024 Sampoerna Academy. Semua Hak Dilindungi",
 
-    "From Curious Minds To" : "Dari Pikiran Penasaran Menjadi",
-    "Global" : "Global",
-    "Innovators" : "Inovator",
-    "Discover your child's potential through innovative learning and global exposure" : "Temukan potensi anak Anda melalui pembelajaran inovatif dan paparan global",
-    "Discover your child's potential through" : "Temukan potensi anak Anda melalui",
-    "innovative learning and global exposure" : "pembelajaran inovatif dan paparan global",
-    "Inspiring" : "Menginspirasi",
-    "Tomorrow's Leaders" : "Pemimpin Masa Depan",
-    "Today" : "Hari Ini",
-    "How We IGNITE the Curiosity?" : "Bagaimana Kami MENYALAKAN Rasa Ingin Tahu?",
-    "More Info" : "Info Lebih Lanjut",
-    "Powered Curriculum" : "Kurikulum Berbasis",
-    "The STEAM education model at Sampoerna Academy is an instructional approach" : "Model pendidikan STEAM di Sampoerna Academy adalah pendekatan instruksional",
-    "that emphasizes collaboration and personalized learning. Through STEAM learning," : "yang menekankan kolaborasi dan pembelajaran yang dipersonalisasi. Melalui pembelajaran STEAM,",
-    "student groups engage in a meaningful inquiry that aligns with their personal" : "kelompok siswa terlibat dalam penelitian yang bermakna yang sesuai dengan",
-    "interests" : "minat mereka",
-    "Grade 7" : "Kelas 7",
-    "Sampoerna Academy Online" : "Sampoerna Academy Daring",
-    "First Place" : "Juara Pertama",
-    "The 3rd Tokyo International Youth Piano Competition Final Round" : "Putaran Final Kompetisi Piano Remaja Internasional Tokyo ke-3",
+    "From Curious Minds To": "Dari Pikiran Penasaran Menjadi",
+    "Global": "Global",
+    "Innovators": "Inovator",
+    "Discover your child's potential through innovative learning and global exposure": "Temukan potensi anak Anda melalui pembelajaran inovatif dan paparan global",
+    "Discover your child's potential through": "Temukan potensi anak Anda melalui",
+    "innovative learning and global exposure": "pembelajaran inovatif dan paparan global",
+    "Inspiring": "Menginspirasi",
+    "Tomorrow's Leaders": "Pemimpin Masa Depan",
+    "Today": "Hari Ini",
+    "How We IGNITE the Curiosity?": "Bagaimana Kami MENYALAKAN Rasa Ingin Tahu?",
+    "More Info": "Info Lebih Lanjut",
+    "Powered Curriculum": "Metodologi",
+    "The STEAM education model at Sampoerna Academy is an instructional approach": "Model pendidikan STEAM di Sampoerna Academy adalah pendekatan instruksional",
+    "that emphasizes collaboration and personalized learning. Through STEAM learning,": "yang menekankan kolaborasi dan pembelajaran yang dipersonalisasi. Melalui pembelajaran STEAM,",
+    "student groups engage in a meaningful inquiry that aligns with their personal": "kelompok siswa terlibat dalam penelitian yang bermakna yang sesuai dengan",
+    "interests": "minat mereka",
+    "Grade 7": "Kelas 7",
+    "Sampoerna Academy Online": "Sampoerna Academy Daring",
+    "First Place": "Juara Pertama",
+    "The 3rd Tokyo International Youth Piano Competition Final Round": "Putaran Final Kompetisi Piano Remaja Internasional Tokyo ke-3",
     "Grade 4": "Kelas 4",
-    "Sampoerna Academy Medan" : "Sampoerna Academy Medan",
-    "Indonesia Junior Golf Premier league 5" : "Liga Golf Junior Indonesia Premier 5",
-    "Grade 2" : "Kelas 2",
-    "Sampoerna Academy Pakuwon Indah" : "Sampoerna Academy Pakuwon Indah",
-    "Bronze Medal" : "Medali Perunggu",
-    "International Singapore Mathematics Competition 2024" : "Kompetisi Matematika Internasional Singapura 2024",
-    "Honour Mention" : "Penyebutan Kehormatan",
-    "The 2024-2025 Third SIAT International Youth Art Competition" : "Kompetisi Seni Remaja Internasional SIAT ke-3 2024-2025",
-    "An Overview of Sampoerna Academy" : "Tinjauan Sampoerna Academy",
-    "Students Gets" : "Siswa Mendapat",
-    "Distinction (A* & A)" : "Keberhasilan (A* & A)",
-    "from Medan & Surabaya" : "dari Medan & Surabaya",
-    "Gets Distinction (A* & A)" : "Mendapatkan Keberhasilan (A* & A)",
-    "BSD & L'Avenue Has" : "BSD & L'Avenue Memiliki",
-    "Pass Rate" : "Tingkat Lulus",
-    "of our students were" : "dari siswa kami mendapatkan",
-    "awarded the IB Diploma" : "diwawartakan Diploma IB",
-    "Where Our Teachers Come From" : "Dari Mana Guru Kami Berasal",
-    "Where Our Students Shine" : "Di Mana Siswa Kami Bersinar",
-    "Here from Our Community" : "Berikut dari Komunitas Kami",
-    "Parents" : "Orang Tua",
-    "Students" : "Siswa",
-    "Teachers" : "Guru",
-    "Alumni" : "Alumni",
-    "The International curriculum is excellent," : "Kurikulum internasional sangat baik,",
-    "so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person." : "jadi kami ingin memberikan yang terbaik untuk Talullah. Dia telah belajar banyak; pelajaran tersebut menantang, tetapi Talullah telah mampu berprestasi di dalamnya. Proses ini telah membentuknya menjadi orang yang lebih baik.",
-    "Bimo Setiawan & Reni Setiawati" : "Bimo Setiawan & Reni Setiawati",
-    "Parents of Talullah Alami, Sampoerna Academy L’Avenue" : "Orang Tua Talullah Alami, Sampoerna Academy L’Avenue",
+    "Sampoerna Academy Medan": "Sampoerna Academy Medan",
+    "Indonesia Junior Golf Premier league 5": "Liga Golf Junior Indonesia Premier 5",
+    "Grade 2": "Kelas 2",
+    "Sampoerna Academy Pakuwon Indah": "Sampoerna Academy Pakuwon Indah",
+    "Bronze Medal": "Medali Perunggu",
+    "International Singapore Mathematics Competition 2024": "Kompetisi Matematika Internasional Singapura 2024",
+    "Honour Mention": "Penyebutan Kehormatan",
+    "The 2024-2025 Third SIAT International Youth Art Competition": "Kompetisi Seni Remaja Internasional SIAT ke-3 2024-2025",
+    "An Overview of Sampoerna Academy": "Tinjauan Sampoerna Academy",
+    "Students Gets": "Siswa Mendapat",
+    "Distinction (A* & A)": "Keberhasilan (A* & A)",
+    "from Medan & Surabaya": "dari Medan & Surabaya",
+    "Gets Distinction (A* & A)": "Mendapatkan Keberhasilan (A* & A)",
+    "BSD & L'Avenue Has": "BSD & L'Avenue Memiliki",
+    "Pass Rate": "Tingkat Lulus",
+    "of our students were": "dari siswa kami mendapatkan",
+    "awarded the IB Diploma": "diwawartakan Diploma IB",
+    "Where Our Teachers Come From": "Dari Mana Guru Kami Berasal",
+    "Where Our Students Shine": "Di Mana Siswa Kami Bersinar",
+    "Here from Our Community": "Berikut dari Komunitas Kami",
+    "Parents": "Orang Tua",
+    "Students": "Siswa",
+    "Teachers": "Guru",
+    "Alumni": "Alumni",
+    "The International curriculum is excellent,": "Kurikulum internasional sangat baik,",
+    "so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person.": "jadi kami ingin memberikan yang terbaik untuk Talullah. Dia telah belajar banyak; pelajaran tersebut menantang, tetapi Talullah telah mampu berprestasi di dalamnya. Proses ini telah membentuknya menjadi orang yang lebih baik.",
+    "Bimo Setiawan & Reni Setiawati": "Bimo Setiawan & Reni Setiawati",
+    "Parents of Talullah Alami, Sampoerna Academy L’Avenue": "Orang Tua Talullah Alami, Sampoerna Academy L’Avenue",
 
-    "We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress." : "Kami Memilih Sampoerna Academy karena rekomendasi kuat dari teman, dan kami senang dengan perkembangan Chloe.",
-    "Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English." : "Pemahaman Chloe tentang semua mata pelajaran telah meningkat, dan kami sangat senang dengan itu. Kami tidak memaksanya terlalu keras; selama dia melakukan yang terbaik, itulah yang terpenting bagi kami. Kami juga senang dia lebih ingin berbicara bahasa Inggris.",
-    "Melaney & Tyson" : "Melaney & Tyson",
-    "Parents of Chloe Lynch, Sampoerna Academy L’Avenue" : "Orang Tua Chloe Lynch, Sampoerna Academy L’Avenue",
-    "The library at Sampoerna Academy BSD is very spacious and has a wide variety of books." : "Perpustakaan di Sampoerna Academy BSD sangat luas dan memiliki berbagai macam buku.",
-    "There is also a cozy mezzanine that offers a different environment. It's like mini house and I enjoy spending time there." : "Ada juga mezzanine yang nyaman yang menawarkan lingkungan yang berbeda. Itu seperti rumah mini dan saya menikmati menghabiskan waktu di sana.",
-    "What I love about Sampoerna Academy is the trilingual environment." : "Yang saya suka tentang Sampoerna Academy adalah lingkungan trilingual.",
-    "where we can speak English, Bahasa, and Mandarin. The Bahasa teacher is always helpful in translating words I don't know during class." : "di mana kami bisa berbicara Bahasa Inggris, Bahasa, dan Mandarin. Guru Bahasa selalu membantu dalam menerjemahkan kata-kata yang tidak saya tahu selama kelas.",
+    "We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress.": "Kami Memilih Sampoerna Academy karena rekomendasi kuat dari teman, dan kami senang dengan perkembangan Chloe.",
+    "Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English.": "Pemahaman Chloe tentang semua mata pelajaran telah meningkat, dan kami sangat senang dengan itu. Kami tidak memaksanya terlalu keras; selama dia melakukan yang terbaik, itulah yang terpenting bagi kami. Kami juga senang dia lebih ingin berbicara bahasa Inggris.",
+    "Melaney & Tyson": "Melaney & Tyson",
+    "Parents of Chloe Lynch, Sampoerna Academy L’Avenue": "Orang Tua Chloe Lynch, Sampoerna Academy L’Avenue",
+    "The library at Sampoerna Academy BSD is very spacious and has a wide variety of books.": "Perpustakaan di Sampoerna Academy BSD sangat luas dan memiliki berbagai macam buku.",
+    "There is also a cozy mezzanine that offers a different environment. It's like mini house and I enjoy spending time there.": "Ada juga mezzanine yang nyaman yang menawarkan lingkungan yang berbeda. Itu seperti rumah mini dan saya menikmati menghabiskan waktu di sana.",
+    "What I love about Sampoerna Academy is the trilingual environment.": "Yang saya suka tentang Sampoerna Academy adalah lingkungan trilingual.",
+    "where we can speak English, Bahasa, and Mandarin. The Bahasa teacher is always helpful in translating words I don't know during class.": "di mana kami bisa berbicara Bahasa Inggris, Bahasa, dan Mandarin. Guru Bahasa selalu membantu dalam menerjemahkan kata-kata yang tidak saya tahu selama kelas.",
 
-    "Math at Sampoerna Academi is unique" : "Matematika di Sampoerna Academy adalah unik",
-    "because it integrates STEAM approach into daily activities, providing students opportunities to apply mathematics concept to real-world projects." : "karena mengintegrasikan pendekatan STEAM ke dalam aktivitas sehari-hari, memberikan siswa kesempatan untuk menerapkan konsep matematika ke proyek dunia nyata.",
-    "Mr. Heize" : "Mr. Heize",
+    "Math at Sampoerna Academi is unique": "Matematika di Sampoerna Academy adalah unik",
+    "because it integrates STEAM approach into daily activities, providing students opportunities to apply mathematics concept to real-world projects.": "karena mengintegrasikan pendekatan STEAM ke dalam aktivitas sehari-hari, memberikan siswa kesempatan untuk menerapkan konsep matematika ke proyek dunia nyata.",
+    "Mr. Heize": "Mr. Heize",
 
     "Math Teacher, Sampoerna Academy L'Avenue": "Guru Matematika, Sampoerna Academy L'Avenue",
-    "The playroom in Sampoerna Academy is designed to resemble real-life buildings" : "Ruang bermain di Sampoerna Academy dirancang menyerupai bangunan kehidupan nyata",
-    "like a police station, hospital, and fire station. This gives kids a pratical experience and applying their learningin a real-world situations." : "seperti kantor polisi, rumah sakit, dan pemadam kebakaran. Ini memberikan anak-anak pengalaman praktis dan menerapkan pembelajaran mereka dalam situasi dunia nyata.",
-    "Ms. Airene" : "Ms. Airene",
-    "K2 Homeroom Teacher, Sampoerna Academy BSD" : "Guru Kelas 2, Sampoerna Academy BSD",
-    "The International curriculum is excellent," : "Kurikulum internasional sangat baik,",
-    "so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person." : "jadi kami ingin memberikan yang terbaik untuk Talullah. Dia telah belajar banyak; pelajaran tersebut menantang, tetapi Talullah telah mampu berprestasi di dalamnya. Proses ini telah membentuknya menjadi orang yang lebih baik.",
-    "Parents of Talullah Alami, Sampoerna Academy L’Avenue" : "Orang Tua Talullah Alami, Sampoerna Academy L’Avenue",
-    "We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress." : "Kami Memilih Sampoerna Academy karena rekomendasi kuat dari teman, dan kami senang dengan perkembangan Chloe.",
-    "Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English." : "Pemahaman Chloe tentang semua mata pelajaran telah meningkat, dan kami sangat senang dengan itu. Kami tidak memaksanya terlalu keras; selama dia melakukan yang terbaik, itulah yang terpenting bagi kami. Kami juga senang dia lebih ingin berbicara bahasa Inggris.",
-    "Parents of Chloe Lynch, Sampoerna Academy L’Avenue" : "Orang Tua Chloe Lynch, Sampoerna Academy L’Avenue",
-    "Parents Name" : "Nama Orang Tua",
-    "Kids Name" : "Nama Anak",
-    "Phone Number" : "Nomor Telepon",
-    "Province" : "Provinsi",
-    "Chose one" : "Pilih salah satu",
-    "South Tangerang" : "Tangerang Selatan",
-    "West Java" : "Jawa Barat",
-    "East Java" : "Jawa Timur",
-    "North Sumatra" : "Sumatera Utara",
-    "School Choice" : "Pilihan Sekolah",
-    "L’Avenue School, Jakarta" : "Sekolah L’Avenue, Jakarta",
-    "BSD School, South Tangerang" : "Sekolah BSD, Tangerang Selatan",
-    "Sentul School, West Java" : "Sekolah Sentul, Jawa Barat",
-    "Pakuwon Indah & Grand Pakuwon School, Surabaya" : "Sekolah Pakuwon Indah & Grand Pakuwon, Surabaya",
-    "Cipto & Citra School, Medan" : "Sekolah Cipto & Citra, Medan",
-    "Grade Interested" : "Kelas yang Diminati",
-    "Timeframe Visit" : "Waktu Kunjungan",
-    "Within This Week" : "Dalam Minggu Ini",
-    "This Month" : "Bulan Ini",
-    "3 Months" : "3 Bulan",
-    "Submit" : "Kirim",
-    "A Journey of Lifelong Learning" : "Perjalanan Pembelajaran Sepanjang Hayat",
-    "Instagram Content" : "Konten Instagram",
+    "The playroom in Sampoerna Academy is designed to resemble real-life buildings": "Ruang bermain di Sampoerna Academy dirancang menyerupai bangunan kehidupan nyata",
+    "like a police station, hospital, and fire station. This gives kids a pratical experience and applying their learningin a real-world situations.": "seperti kantor polisi, rumah sakit, dan pemadam kebakaran. Ini memberikan anak-anak pengalaman praktis dan menerapkan pembelajaran mereka dalam situasi dunia nyata.",
+    "Ms. Airene": "Ms. Airene",
+    "K2 Homeroom Teacher, Sampoerna Academy BSD": "Guru Kelas 2, Sampoerna Academy BSD",
+    "The International curriculum is excellent,": "Kurikulum internasional sangat baik,",
+    "so we wanted to give Talullah the best. She's learned so much; the lessons are challenging, but Talullah has been able to excel at them. The process has shaped her into a better person.": "jadi kami ingin memberikan yang terbaik untuk Talullah. Dia telah belajar banyak; pelajaran tersebut menantang, tetapi Talullah telah mampu berprestasi di dalamnya. Proses ini telah membentuknya menjadi orang yang lebih baik.",
+    "Parents of Talullah Alami, Sampoerna Academy L’Avenue": "Orang Tua Talullah Alami, Sampoerna Academy L’Avenue",
+    "We Chose Sampoerna Academy because of strong recommendations from friends, and we're pleased with Chloe's progress.": "Kami Memilih Sampoerna Academy karena rekomendasi kuat dari teman, dan kami senang dengan perkembangan Chloe.",
+    "Chloe's understanding of all subjects has improved, and we're very happy about that. We don't push her too hard; as long as she's doing her best, that's what matters to us. We're also glad she's more eager to speak English.": "Pemahaman Chloe tentang semua mata pelajaran telah meningkat, dan kami sangat senang dengan itu. Kami tidak memaksanya terlalu keras; selama dia melakukan yang terbaik, itulah yang terpenting bagi kami. Kami juga senang dia lebih ingin berbicara bahasa Inggris.",
+    "Parents of Chloe Lynch, Sampoerna Academy L’Avenue": "Orang Tua Chloe Lynch, Sampoerna Academy L’Avenue",
+    "Parents Name": "Nama Orang Tua",
+    "Kids Name": "Nama Anak",
+    "Phone Number": "Nomor Telepon",
+    "Province": "Provinsi",
+    "Chose one": "Pilih salah satu",
+    "South Tangerang": "Tangerang Selatan",
+    "West Java": "Jawa Barat",
+    "East Java": "Jawa Timur",
+    "North Sumatra": "Sumatera Utara",
+    "School Choice": "Pilihan Sekolah",
+    "L’Avenue School, Jakarta": "Sekolah L’Avenue, Jakarta",
+    "BSD School, South Tangerang": "Sekolah BSD, Tangerang Selatan",
+    "Sentul School, West Java": "Sekolah Sentul, Jawa Barat",
+    "Pakuwon Indah & Grand Pakuwon School, Surabaya": "Sekolah Pakuwon Indah & Grand Pakuwon, Surabaya",
+    "Cipto & Citra School, Medan": "Sekolah Cipto & Citra, Medan",
+    "Grade Interested": "Kelas yang Diminati",
+    "Timeframe Visit": "Waktu Kunjungan",
+    "Within This Week": "Dalam Minggu Ini",
+    "This Month": "Bulan Ini",
+    "3 Months": "3 Bulan",
+    "Submit": "Kirim",
+    "A Journey of Lifelong Learning": "Perjalanan Pembelajaran Sepanjang Hayat",
+    "Instagram Content": "Konten Instagram",
 
-    "About Us" : "Tentang Kami",
-    "Sampoerna Academy" : "Sampoerna Academy",
-    "At Sampoerna Academy, we nurture curiosity, innovation, and communication to equip our students for global leadership. Our internationally recognized curriculum and STEAM-based approach provide a strong foundation for academic and personal success. With a focus on global exposure, multilingualism, and collaborative learning, we empower our students to thrive in the digital age and become future innovators." : "Di Sampoerna Academy, kami mengembangkan rasa ingin tahu, inovasi, dan komunikasi untuk mempersiapkan siswa kami menjadi pemimpin global. Kurikulum kami yang diakui secara internasional dan pendekatan berbasis STEAM memberikan dasar yang kuat untuk kesuksesan akademis dan personal. Dengan fokus pada paparan global, multibahasa, dan pembelajaran kolaboratif, kami memberdayakan siswa kami untuk berkembang di era digital dan menjadi inovator masa depan.",
-    "Vision" : "Visi",
-    "Mision" : "Misi",
-    "Sampoerna Academy graduates will assume leadership roles in global society by being creative, passionate, life-long learners who are able to meet the challenges of a rapidly changing world and who care deeply for their fellow men and the environment." : "Lulusan Sampoerna Academy akan mengambil peran kepemimpinan dalam masyarakat global dengan menjadi pembelajar yang kreatif, penuh semangat, dan belajar seumur hidup yang mampu menghadapi tantangan dunia yang berubah dengan cepat serta peduli terhadap sesama dan lingkungan.",
-    "The mission of Sampoerna Academy is to provide a safe, caring, and collaborative learning environment that is of the highest quality and meets global expectations for student achievement and character development.  Our educational foundation is student-centered with a strong emphasis on Science, Technology, Engineering, Arts, and Mathematics (STEAM) that enables students to become mature, confident global citizens with a strong sense of purpose. Our end goal is to prepare students for a tertiary education and to make them work ready and world ready. " : "Misi Sampoerna Academy adalah untuk menyediakan lingkungan belajar yang aman, peduli, dan kolaboratif yang berkualitas tinggi serta memenuhi harapan global untuk pencapaian dan pengembangan karakter siswa. Landasan pendidikan kami berpusat pada siswa dengan penekanan yang kuat pada Sains, Teknologi, Teknik, Seni, dan Matematika (STEAM) yang memungkinkan siswa untuk menjadi warga global yang matang, percaya diri, dengan tujuan yang kuat. Tujuan akhir kami adalah mempersiapkan siswa untuk pendidikan tinggi dan membuat mereka siap bekerja dan siap menghadapi dunia.",
-    "Our Visionary Leaders" : "Pemimpin Visioner Kami",
+    "About Us": "Tentang Kami",
+    "Sampoerna Academy": "Sampoerna Academy",
+    "At Sampoerna Academy, we nurture curiosity, innovation, and communication to equip our students for global leadership. Our internationally recognized curriculum and STEAM-based approach provide a strong foundation for academic and personal success. With a focus on global exposure, multilingualism, and collaborative learning, we empower our students to thrive in the digital age and become future innovators.": "Di Sampoerna Academy, kami mengembangkan rasa ingin tahu, inovasi, dan komunikasi untuk mempersiapkan siswa kami menjadi pemimpin global. Kurikulum kami yang diakui secara internasional dan pendekatan berbasis STEAM memberikan dasar yang kuat untuk kesuksesan akademis dan personal. Dengan fokus pada paparan global, multibahasa, dan pembelajaran kolaboratif, kami memberdayakan siswa kami untuk berkembang di era digital dan menjadi inovator masa depan.",
+    "Vision": "Visi",
+    "Mision": "Misi",
+    "Sampoerna Academy graduates will assume leadership roles in global society by being creative, passionate, life-long learners who are able to meet the challenges of a rapidly changing world and who care deeply for their fellow men and the environment.": "Lulusan Sampoerna Academy akan mengambil peran kepemimpinan dalam masyarakat global dengan menjadi pembelajar yang kreatif, penuh semangat, dan belajar seumur hidup yang mampu menghadapi tantangan dunia yang berubah dengan cepat serta peduli terhadap sesama dan lingkungan.",
+    "The mission of Sampoerna Academy is to provide a safe, caring, and collaborative learning environment that is of the highest quality and meets global expectations for student achievement and character development.  Our educational foundation is student-centered with a strong emphasis on Science, Technology, Engineering, Arts, and Mathematics (STEAM) that enables students to become mature, confident global citizens with a strong sense of purpose. Our end goal is to prepare students for a tertiary education and to make them work ready and world ready. ": "Misi Sampoerna Academy adalah untuk menyediakan lingkungan belajar yang aman, peduli, dan kolaboratif yang berkualitas tinggi serta memenuhi harapan global untuk pencapaian dan pengembangan karakter siswa. Landasan pendidikan kami berpusat pada siswa dengan penekanan yang kuat pada Sains, Teknologi, Teknik, Seni, dan Matematika (STEAM) yang memungkinkan siswa untuk menjadi warga global yang matang, percaya diri, dengan tujuan yang kuat. Tujuan akhir kami adalah mempersiapkan siswa untuk pendidikan tinggi dan membuat mereka siap bekerja dan siap menghadapi dunia.",
+    "Our Visionary Leaders": "Pemimpin Visioner Kami",
     "What We Believe In": "Apa yang Kami Percayai",
-    "Academically, we prioritize the development of cognitive and communication skills over rote memorization because we believe that more than acquiring facts, students must be able to apply their knowledge in real situations." : "Secara akademis, kami mengutamakan pengembangan keterampilan kognitif dan komunikasi di atas menghafal karena kami percaya bahwa lebih dari sekadar mengakuisisi fakta, siswa harus mampu menerapkan pengetahuan mereka dalam situasi nyata.",
-    "We maintain a strong Asian cultural value system that celebrates social harmony, order, and respect." : "Kami memelihara sistem nilai budaya Asia yang kuat yang merayakan harmoni sosial, ketertiban, dan rasa hormat.",
-    "We seek opportunities to engage all stakeholders to play a part in the success of our students." : "Kami mencari peluang untuk melibatkan semua pemangku kepentingan untuk berperan dalam keberhasilan siswa kami.",
-    "Competency in the STEAM methodology will differentiate our students from those attending other schools." : "Kompetensi dalam metodologi STEAM akan membedakan siswa kami dari mereka yang bersekolah di tempat lain.",
-    "Our learning spaces are a platform for hands-on activities, exploration, inquiry, and the creation of knowledge and dialogue." : "Ruang belajar kami adalah platform untuk aktivitas praktis, eksplorasi, penelitian, dan penciptaan pengetahuan serta dialog.",
-    "Holistic Education for Balanced Student Development" : "Pendidikan Holistik untuk Pengembangan Siswa yang Seimbang",
-    "Sampoerna Academy provides a holistic education that nurtures students academically, socially, and emotionally. We believe that Indonesia's future depends on developing globally competitive leaders." : "Sampoerna Academy memberikan pendidikan holistik yang mengembangkan siswa secara akademis, sosial, dan emosional. Kami percaya bahwa masa depan Indonesia bergantung pada pengembangan pemimpin yang kompetitif secara global.",
-    "Our rigorous curriculum and supportive environment equip students with the skills and mindset to thrive in today's global landscape. As a result, Sampoerna Academy graduates are prepared to gain acceptance into top universities worldwide and excel in their chosen fields." : "Kurikulum kami yang ketat dan lingkungan yang mendukung membekali siswa dengan keterampilan dan pola pikir untuk sukses di lanskap global saat ini. Sebagai hasilnya, lulusan Sampoerna Academy siap diterima di universitas terbaik di seluruh dunia dan unggul di bidang yang mereka pilih.",
+    "Academically, we prioritize the development of cognitive and communication skills over rote memorization because we believe that more than acquiring facts, students must be able to apply their knowledge in real situations.": "Secara akademis, kami mengutamakan pengembangan keterampilan kognitif dan komunikasi di atas menghafal karena kami percaya bahwa lebih dari sekadar mengakuisisi fakta, siswa harus mampu menerapkan pengetahuan mereka dalam situasi nyata.",
+    "We maintain a strong Asian cultural value system that celebrates social harmony, order, and respect.": "Kami memelihara sistem nilai budaya Asia yang kuat yang merayakan harmoni sosial, ketertiban, dan rasa hormat.",
+    "We seek opportunities to engage all stakeholders to play a part in the success of our students.": "Kami mencari peluang untuk melibatkan semua pemangku kepentingan untuk berperan dalam keberhasilan siswa kami.",
+    "Competency in the STEAM methodology will differentiate our students from those attending other schools.": "Kompetensi dalam metodologi STEAM akan membedakan siswa kami dari mereka yang bersekolah di tempat lain.",
+    "Our learning spaces are a platform for hands-on activities, exploration, inquiry, and the creation of knowledge and dialogue.": "Ruang belajar kami adalah platform untuk aktivitas praktis, eksplorasi, penelitian, dan penciptaan pengetahuan serta dialog.",
+    "Holistic Education for Balanced Student Development": "Pendidikan Holistik untuk Pengembangan Siswa yang Seimbang",
+    "Sampoerna Academy provides a holistic education that nurtures students academically, socially, and emotionally. We believe that Indonesia's future depends on developing globally competitive leaders.": "Sampoerna Academy memberikan pendidikan holistik yang mengembangkan siswa secara akademis, sosial, dan emosional. Kami percaya bahwa masa depan Indonesia bergantung pada pengembangan pemimpin yang kompetitif secara global.",
+    "Our rigorous curriculum and supportive environment equip students with the skills and mindset to thrive in today's global landscape. As a result, Sampoerna Academy graduates are prepared to gain acceptance into top universities worldwide and excel in their chosen fields.": "Kurikulum kami yang ketat dan lingkungan yang mendukung membekali siswa dengan keterampilan dan pola pikir untuk sukses di lanskap global saat ini. Sebagai hasilnya, lulusan Sampoerna Academy siap diterima di universitas terbaik di seluruh dunia dan unggul di bidang yang mereka pilih.",
 
+    "What Makes Sampoerna Different": "Apa yang Membuat Sampoerna Berbeda",
+    "Tailored International Curriculum": "Kurikulum Internasional yang Disesuaikan",
+    "Pioneer in STEAM": "Pionir dalam STEAM",
+    "Trilingual Program": "Program Trilingual",
+    "Technology Integration": "Integrasi Teknologi",
+    "Our Innovative Teaching Methods": "Metode Pengajaran Inovatif Kami",
+    "Future Ready with 21st": "Siap Masa Depan dengan Abad ke-21",
+    "Century Learning": "Pembelajaran Abad ke-21",
+    "Hands-on tasks are created at all grade levels to encourage research, collaboration, creativity and application of knowledge and skills.": "Tugas praktis dibuat di semua tingkat kelas untuk mendorong penelitian, kolaborasi, kreativitas, dan penerapan pengetahuan serta keterampilan.",
+    "Students learn about personal accountability and develop interpersonal skills as teachers facilitate learning through group projects and real-life learning scenarios.": "Siswa belajar tentang tanggung jawab pribadi dan mengembangkan keterampilan interpersonal saat guru memfasilitasi pembelajaran melalui proyek kelompok dan skenario pembelajaran kehidupan nyata.",
+    "Understand deeper about 21st Century Learning framework here.": "Pahami lebih dalam tentang kerangka Pembelajaran Abad ke-21 di sini.",
+    "STEAM (Science, Technology, Engineering, Arts, and Math)": "STEAM (Sains, Teknologi, Teknik, Seni, dan Matematika)",
+    "Project Based Learning (PBL), a constructivist instructional approach where students engage in meaningful inquiry of personal interest to them and where collaboration and personalized learning are emphasized.": "Pembelajaran Berbasis Proyek (PBL), pendekatan instruksional konstruktivis di mana siswa terlibat dalam penyelidikan yang berarti yang mereka minati dan di mana kolaborasi dan pembelajaran yang dipersonalisasi ditekankan.",
+    "PBL on STEAM subjects are proven to develop 21st century skills, such as creativity and innovation, communication and collaboration, research, critical thinking and problem solving, digital citizenship, life and career skills.": "PBL pada subjek STEAM terbukti mengembangkan keterampilan abad ke-21, seperti kreativitas dan inovasi, komunikasi dan kolaborasi, penelitian, berpikir kritis dan pemecahan masalah, kewarganegaraan digital, serta keterampilan hidup dan karir.",
+    "Technology Enhanced Learning": "Pembelajaran yang Ditingkatkan oleh Teknologi",
+    "By integrating best-in-class digital resources, we use powerful learning tools that allow students to enjoy learning both inside and outside the classroom.": "Dengan mengintegrasikan sumber daya digital terbaik, kami menggunakan alat belajar yang kuat yang memungkinkan siswa menikmati pembelajaran baik di dalam maupun di luar kelas.",
+    "Students are guided to think about and use technology as more than just a social means for enjoyment, but as a tool to access information, resources and work collaboratively.": "Siswa dipandu untuk memikirkan dan menggunakan teknologi sebagai lebih dari sekadar sarana sosial untuk bersenang-senang, tetapi sebagai alat untuk mengakses informasi, sumber daya, dan bekerja secara kolaboratif.",
+    "Measure Student’s Test in": "Ukur Ujian Siswa di",
+    "International Tests, including:": "Ujian Internasional, termasuk:",
+    "NWEA MAP Growth Assessment (Kindergarten through Grade 9)": "Penilaian Pertumbuhan NWEA MAP (TK hingga Kelas 9)",
+    "Cambridge Checkpoint (Grades 6 & 8)": "Checkpoint Cambridge (Kelas 6 & 8)",
+    "Cambridge IGCSE and Cambridge A Levels": "Cambridge IGCSE dan Cambridge A Levels",
+    "IB Diploma Program Exams": "Ujian Program Diploma IB",
 
-    "What Makes Sampoerna Different" : "Apa yang Membuat Sampoerna Berbeda",
-    "Tailored International Curriculum" : "Kurikulum Internasional yang Disesuaikan",
-    "Pioneer in STEAM" : "Pionir dalam STEAM",
-    "Trilingual Program" : "Program Trilingual",
-    "Technology Integration" : "Integrasi Teknologi",
-    "Our Innovative Teaching Methods" : "Metode Pengajaran Inovatif Kami",
-    "Future Ready with 21st" : "Siap Masa Depan dengan Abad ke-21",
-    "Century Learning" : "Pembelajaran Abad ke-21",
-    "Hands-on tasks are created at all grade levels to encourage research, collaboration, creativity and application of knowledge and skills." : "Tugas praktis dibuat di semua tingkat kelas untuk mendorong penelitian, kolaborasi, kreativitas, dan penerapan pengetahuan serta keterampilan.",
-    "Students learn about personal accountability and develop interpersonal skills as teachers facilitate learning through group projects and real-life learning scenarios." : "Siswa belajar tentang tanggung jawab pribadi dan mengembangkan keterampilan interpersonal saat guru memfasilitasi pembelajaran melalui proyek kelompok dan skenario pembelajaran kehidupan nyata.",
-    "Understand deeper about 21st Century Learning framework here." : "Pahami lebih dalam tentang kerangka Pembelajaran Abad ke-21 di sini.",
-    "STEAM (Science, Technology, Engineering, Arts, and Math)" : "STEAM (Sains, Teknologi, Teknik, Seni, dan Matematika)",
-    "Project Based Learning (PBL), a constructivist instructional approach where students engage in meaningful inquiry of personal interest to them and where collaboration and personalized learning are emphasized." : "Pembelajaran Berbasis Proyek (PBL), pendekatan instruksional konstruktivis di mana siswa terlibat dalam penyelidikan yang berarti yang mereka minati dan di mana kolaborasi dan pembelajaran yang dipersonalisasi ditekankan.",
-    "PBL on STEAM subjects are proven to develop 21st century skills, such as creativity and innovation, communication and collaboration, research, critical thinking and problem solving, digital citizenship, life and career skills." : "PBL pada subjek STEAM terbukti mengembangkan keterampilan abad ke-21, seperti kreativitas dan inovasi, komunikasi dan kolaborasi, penelitian, berpikir kritis dan pemecahan masalah, kewarganegaraan digital, serta keterampilan hidup dan karir.",
-    "Technology Enhanced Learning" : "Pembelajaran yang Ditingkatkan oleh Teknologi",
-    "By integrating best-in-class digital resources, we use powerful learning tools that allow students to enjoy learning both inside and outside the classroom." : "Dengan mengintegrasikan sumber daya digital terbaik, kami menggunakan alat belajar yang kuat yang memungkinkan siswa menikmati pembelajaran baik di dalam maupun di luar kelas.",
-    "Students are guided to think about and use technology as more than just a social means for enjoyment, but as a tool to access information, resources and work collaboratively." : "Siswa dipandu untuk memikirkan dan menggunakan teknologi sebagai lebih dari sekadar sarana sosial untuk bersenang-senang, tetapi sebagai alat untuk mengakses informasi, sumber daya, dan bekerja secara kolaboratif.",
-    "Measure Student’s Test in" : "Ukur Ujian Siswa di",
-    "International Tests, including:" : "Ujian Internasional, termasuk:",
-    "NWEA MAP Growth Assessment (Kindergarten through Grade 9)" : "Penilaian Pertumbuhan NWEA MAP (TK hingga Kelas 9)",
-    "Cambridge Checkpoint (Grades 6 & 8)" : "Checkpoint Cambridge (Kelas 6 & 8)",
-    "Cambridge IGCSE and Cambridge A Levels"  : "Cambridge IGCSE dan Cambridge A Levels",
-    "IB Diploma Program Exams" : "Ujian Program Diploma IB",
+    "Greetings from the School Director": "Salam dari Direktur Sekolah",
+    "We believe our initiative is the best we can offer": "Kami percaya inisiatif kami adalah yang terbaik yang dapat kami tawarkan",
+    "for our beloved sons and daughters in order": "untuk putra dan putri tercinta kami agar",
+    "to contribute to the betterment of Indonesia’s future!": "dapat berkontribusi untuk perbaikan masa depan Indonesia!",
+    "Sampoerna Academy is an educational institution that upholds Asian values at the forefront of learning. Since its first establishment, the Academy has been producing passionate lifelong learners who are able to meet the challenges of the rapidly changing world, and who care deeply for their fellows and the environment.": "Sampoerna Academy adalah lembaga pendidikan yang menjunjung tinggi nilai-nilai Asia di garis depan pembelajaran. Sejak didirikan, Akademi ini telah menghasilkan pembelajar seumur hidup yang penuh semangat yang mampu menghadapi tantangan dunia yang berubah dengan cepat, dan yang sangat peduli terhadap sesama dan lingkungan.",
+    "High-quality education provided in Sampoerna Academy is not accidental, but intentional. In our schools, we instill 21st Century Skills within the Cambridge International Examination curriculum. We also believe that children learn more by doing. This is why Project Based Learning and STEAM are at the core of our teaching philosophy.\u2028": "Pendidikan berkualitas tinggi yang diberikan di Sampoerna Academy bukanlah kebetulan, tetapi disengaja. Di sekolah kami, kami menanamkan Keterampilan Abad ke-21 dalam kurikulum Cambridge International Examination. Kami juga percaya bahwa anak-anak belajar lebih banyak dengan melakukan. Inilah mengapa Pembelajaran Berbasis Proyek dan STEAM menjadi inti dari filosofi pengajaran kami.\u2028",
+    "The era of globalization and the ASEAN Economic Community has greatly impacted Indonesia. Among them is the increased competitiveness as the job market became global. Furthermore, technology advancement has caused a significant shifting in our lives and transformed business models in all sectors.": "Era globalisasi dan Komunitas Ekonomi ASEAN telah berdampak besar pada Indonesia. Di antaranya adalah meningkatnya daya saing saat pasar kerja menjadi global. Selain itu, kemajuan teknologi telah menyebabkan pergeseran signifikan dalam kehidupan kita dan mengubah model bisnis di semua sektor.",
+    "Director of Sampoerna Academy": "Direktur Sampoerna Academy",
+    "Meet Our Principals": "Temui Kepala Sekolah Kami",
+    "Principal Sampoerna Academy L’Avenue School": "Kepala Sekolah Sampoerna Academy L’Avenue School",
+    "Principal Sampoerna Academy Sentul School": "Kepala Sekolah Sampoerna Academy Sentul School",
+    "Principal Sampoerna Academy Medan Cipto & Citro Campus": "Kepala Sekolah Sampoerna Academy Medan Cipto & Citro Campus",
+    "Principal Sampoerna Academy BSD School": "Kepala Sekolah Sampoerna Academy BSD School",
+    "Principal Sampoerna Academy Grand Pakuwon School": "Kepala Sekolah Sampoerna Academy Grand Pakuwon School",
+    "Principal Sampoerna Academy Pakuwon Indah & Sampoerna Academy Online School": "Kepala Sekolah Sampoerna Academy Pakuwon Indah & Sampoerna Academy Online School",
+    "Meet Our Curriculum Heads": "Temui Kepala Kurikulum Kami",
+    "Mathematics Curriculum Head": "Kepala Kurikulum Matematika",
+    "Mandarin Curriculum Head": "Kepala Kurikulum Mandarin",
+    "ELC/IEYC Curriculum Head": "Kepala Kurikulum ELC/IEYC",
+    "English Curriculum Head": "Kepala Kurikulum Bahasa Inggris",
+    "Science Curriculum Head": "Kepala Kurikulum Sains",
 
+    "Academics": "Akademik",
+    "We nurture your child’s curiosity through play.": "Kami membina rasa ingin tahu anak Anda melalui permainan.",
+    "Our curriculum helps young learners develop": "Kurikulum kami membantu pelajar muda mengembangkan",
+    "essential language, math, and social skills in a": "keterampilan bahasa, matematika, dan sosial yang esensial dalam",
+    "fun and meaningful way.": "cara yang menyenangkan dan bermakna.",
+    "Read More": "Baca Selengkapnya",
+    "Through engaging projects and hands-on activities,<br>students develop critical thinking, problem-solving, and": "Melalui proyek yang menarik dan aktivitas praktis,<br> siswa mengembangkan pemikiran kritis, pemecahan masalah, dan",
+    "teamwork skills essential for success in the 21st century.": "keterampilan kerja sama yang esensial untuk sukses di abad ke-21.",
+    "We prepare students for academic excellence.": "Kami mempersiapkan siswa untuk keunggulan akademik.",
+    "With our intensive STEAM curriculum, focusing": "Dengan kurikulum STEAM intensif kami, yang berfokus",
+    "on Cambridge IGCSE and Ujian Nasional exams.": "pada ujian Cambridge IGCSE dan Ujian Nasional.",
+    "With our global-focused curriculum, students<br>develop essential skills, gain international": "Dengan kurikulum yang berfokus pada global, siswa<br>mengembangkan keterampilan penting, mendapatkan perspektif internasional,",
+    "perspectives, and receive personalized guidance": "dan menerima bimbingan yang dipersonalisasi",
+    "as they prepare for higher education.": "saat mereka mempersiapkan pendidikan tinggi.",
+    "experience, combining STEAM curriculum": "pengalaman, menggabungkan kurikulum STEAM",
+    "with the convenience of studying from": "dengan kenyamanan belajar dari",
+    "anywhere. Students receive personalized": "mana saja. Siswa menerima dukungan yang dipersonalisasi",
+    "support and real-time classes to prepare": "dan kelas waktu nyata untuk mempersiapkan",
+    "for success in a digital world.": "untuk sukses di dunia digital.",
 
-
-
-
-    "Greetings from the School Director" : "Salam dari Direktur Sekolah",
-    "We believe our initiative is the best we can offer" : "Kami percaya inisiatif kami adalah yang terbaik yang dapat kami tawarkan",
-    "for our beloved sons and daughters in order" : "untuk putra dan putri tercinta kami agar",
-    "to contribute to the betterment of Indonesia’s future!" : "dapat berkontribusi untuk perbaikan masa depan Indonesia!",
-    "Sampoerna Academy is an educational institution that upholds Asian values at the forefront of learning. Since its first establishment, the Academy has been producing passionate lifelong learners who are able to meet the challenges of the rapidly changing world, and who care deeply for their fellows and the environment." : "Sampoerna Academy adalah lembaga pendidikan yang menjunjung tinggi nilai-nilai Asia di garis depan pembelajaran. Sejak didirikan, Akademi ini telah menghasilkan pembelajar seumur hidup yang penuh semangat yang mampu menghadapi tantangan dunia yang berubah dengan cepat, dan yang sangat peduli terhadap sesama dan lingkungan.",
-    "High-quality education provided in Sampoerna Academy is not accidental, but intentional. In our schools, we instill 21st Century Skills within the Cambridge International Examination curriculum. We also believe that children learn more by doing. This is why Project Based Learning and STEAM are at the core of our teaching philosophy.\u2028" : "Pendidikan berkualitas tinggi yang diberikan di Sampoerna Academy bukanlah kebetulan, tetapi disengaja. Di sekolah kami, kami menanamkan Keterampilan Abad ke-21 dalam kurikulum Cambridge International Examination. Kami juga percaya bahwa anak-anak belajar lebih banyak dengan melakukan. Inilah mengapa Pembelajaran Berbasis Proyek dan STEAM menjadi inti dari filosofi pengajaran kami.\u2028",
-    "The era of globalization and the ASEAN Economic Community has greatly impacted Indonesia. Among them is the increased competitiveness as the job market became global. Furthermore, technology advancement has caused a significant shifting in our lives and transformed business models in all sectors." : "Era globalisasi dan Komunitas Ekonomi ASEAN telah berdampak besar pada Indonesia. Di antaranya adalah meningkatnya daya saing saat pasar kerja menjadi global. Selain itu, kemajuan teknologi telah menyebabkan pergeseran signifikan dalam kehidupan kita dan mengubah model bisnis di semua sektor.",
-    "Director of Sampoerna Academy" : "Direktur Sampoerna Academy",
-    "Meet Our Principals" : "Temui Kepala Sekolah Kami",
-    "Principal Sampoerna Academy L’Avenue School" : "Kepala Sekolah Sampoerna Academy L’Avenue School",
-    "Principal Sampoerna Academy Sentul School" : "Kepala Sekolah Sampoerna Academy Sentul School",
-    "Principal Sampoerna Academy Medan Cipto & Citro Campus" : "Kepala Sekolah Sampoerna Academy Medan Cipto & Citro Campus",
-    "Principal Sampoerna Academy BSD School" : "Kepala Sekolah Sampoerna Academy BSD School",
-    "Principal Sampoerna Academy Grand Pakuwon School" : "Kepala Sekolah Sampoerna Academy Grand Pakuwon School",
-    "Principal Sampoerna Academy Pakuwon Indah & Sampoerna Academy Online School" : "Kepala Sekolah Sampoerna Academy Pakuwon Indah & Sampoerna Academy Online School",
-    "Meet Our Curriculum Heads" : "Temui Kepala Kurikulum Kami",
-    "Mathematics Curriculum Head" : "Kepala Kurikulum Matematika",
-    "Mandarin Curriculum Head" : "Kepala Kurikulum Mandarin",
-    "ELC/IEYC Curriculum Head" : "Kepala Kurikulum ELC/IEYC",
-    "English Curriculum Head" : "Kepala Kurikulum Bahasa Inggris",
-    "Science Curriculum Head" : "Kepala Kurikulum Sains",
-
-
-
-
-    "Academics" : "Akademik",
-    "We nurture your child’s curiosity through play." : "Kami membina rasa ingin tahu anak Anda melalui permainan.",
-    "Our curriculum helps young learners develop" : "Kurikulum kami membantu pelajar muda mengembangkan",
-    "essential language, math, and social skills in a" : "keterampilan bahasa, matematika, dan sosial yang esensial dalam",
-    "fun and meaningful way." : "cara yang menyenangkan dan bermakna.",
-    "Read More" : "Baca Selengkapnya",
-    "Through engaging projects and hands-on activities,<br>students develop critical thinking, problem-solving, and" : "Melalui proyek yang menarik dan aktivitas praktis,<br> siswa mengembangkan pemikiran kritis, pemecahan masalah, dan",
-    "teamwork skills essential for success in the 21st century." : "keterampilan kerja sama yang esensial untuk sukses di abad ke-21.",
-    "We prepare students for academic excellence." : "Kami mempersiapkan siswa untuk keunggulan akademik.",
-    "With our intensive STEAM curriculum, focusing" : "Dengan kurikulum STEAM intensif kami, yang berfokus",
-    "on Cambridge IGCSE and Ujian Nasional exams." : "pada ujian Cambridge IGCSE dan Ujian Nasional.",
-    "With our global-focused curriculum, students<br>develop essential skills, gain international" : "Dengan kurikulum yang berfokus pada global, siswa<br>mengembangkan keterampilan penting, mendapatkan perspektif internasional,",
-    "perspectives, and receive personalized guidance" : "dan menerima bimbingan yang dipersonalisasi",
-    "as they prepare for higher education." : "saat mereka mempersiapkan pendidikan tinggi.",
-    "experience, combining STEAM curriculum" : "pengalaman, menggabungkan kurikulum STEAM",
-    "with the convenience of studying from" : "dengan kenyamanan belajar dari",
-    "anywhere. Students receive personalized"  : "mana saja. Siswa menerima dukungan yang dipersonalisasi",
-    "support and real-time classes to prepare" : "dan kelas waktu nyata untuk mempersiapkan",
-    "for success in a digital world." : "untuk sukses di dunia digital.",
-
-
-
-    "Curriculum (STEAM)" : "Kurikulum (STEAM)",
-    "STEAM Powered Curriculum" : "Kurikulum Berbasis STEAM",
-    "The STEAM education model at Sampoerna Academy is an instructional approach that emphasizes collaboration and personalized learning. In through-STEAM learning, student groups engage in a meaningful inquiry that is of personal interest to them." : "Model pendidikan STEAM di Sampoerna Academy adalah pendekatan pengajaran yang menekankan kolaborasi dan pembelajaran yang dipersonalisasi. Dalam pembelajaran melalui STEAM, kelompok siswa terlibat dalam penyelidikan yang bermakna yang menjadi minat pribadi mereka.",
-    "These problems are real-life oriented, either curriculum-based or not, and often interdisciplinary. Learners decide how to approach a problem and what activities or processes they will perform. They collect information from a variety of sources, and then analyze, synthesize, and derive understanding from it." : "Masalah ini berorientasi pada kehidupan nyata, baik yang berbasis kurikulum maupun tidak, dan seringkali bersifat interdisipliner. Peserta didik memutuskan bagaimana cara mendekati sebuah masalah dan aktivitas atau proses apa yang akan mereka lakukan. Mereka mengumpulkan informasi dari berbagai sumber, kemudian menganalisis, mensintesis, dan mendapatkan pemahaman dari informasi tersebut.",
-    "Experiment & Research Projects" : "Proyek Percobaan & Penelitian",
-    "SA L’Avenue G5 Aline" : "SA L’Avenue G5 Aline",
-    "Why does Fruit Turn Brown?" : "Mengapa Buah Berubah Coklat?",
-    "Fruits and vegetables turn brown because of enzymatic browning. It is a reaction when chemicals inside the fruit come..." : "Buah dan sayuran berubah coklat karena proses browning enzimatis. Ini adalah reaksi ketika bahan kimia di dalam buah datang...",
-    "SA Medan G4 Declan & Jerrick" : "SA Medan G4 Declan & Jerrick",
-    "Sand in A Bottle" : "Pasir dalam Botol",
-    "The goal of our project is to see the difference in rolling behaviour and speed of each bottles filled with sands." : "Tujuan proyek kami adalah untuk melihat perbedaan perilaku bergulir dan kecepatan dari setiap botol yang diisi pasir.",
-    "SA Sby G8 Andrew" : "SA Sby G8 Andrew",
-    "Quick Cooling Bottles" : "Botol Pendingin Cepat",
-    "This project aims to create ways to cool beverage faster" : "Proyek ini bertujuan untuk menciptakan cara agar minuman cepat dingin",
-    "See More STEAM Projects" : "Lihat Proyek STEAM Lainnya",
-
-
+    "Curriculum (STEAM)": "Kurikulum (STEAM)",
+    "STEAM Powered Curriculum": "Metodologi STEAM yang Inovatif",
+    "The STEAM education model at Sampoerna Academy is an instructional approach that emphasizes collaboration and personalized learning. In through-STEAM learning, student groups engage in a meaningful inquiry that is of personal interest to them.": "Model pendidikan STEAM di Sampoerna Academy adalah pendekatan pengajaran yang menekankan kolaborasi dan pembelajaran yang dipersonalisasi. Dalam pembelajaran melalui STEAM, kelompok siswa terlibat dalam penyelidikan yang bermakna yang menjadi minat pribadi mereka.",
+    "These problems are real-life oriented, either curriculum-based or not, and often interdisciplinary. Learners decide how to approach a problem and what activities or processes they will perform. They collect information from a variety of sources, and then analyze, synthesize, and derive understanding from it.": "Masalah ini berorientasi pada kehidupan nyata, baik yang berbasis kurikulum maupun tidak, dan seringkali bersifat interdisipliner. Peserta didik memutuskan bagaimana cara mendekati sebuah masalah dan aktivitas atau proses apa yang akan mereka lakukan. Mereka mengumpulkan informasi dari berbagai sumber, kemudian menganalisis, mensintesis, dan mendapatkan pemahaman dari informasi tersebut.",
+    "Experiment & Research Projects": "Proyek Percobaan & Penelitian",
+    "SA L’Avenue G5 Aline": "SA L’Avenue G5 Aline",
+    "Why does Fruit Turn Brown?": "Mengapa Buah Berubah Coklat?",
+    "Fruits and vegetables turn brown because of enzymatic browning. It is a reaction when chemicals inside the fruit come...": "Buah dan sayuran berubah coklat karena proses browning enzimatis. Ini adalah reaksi ketika bahan kimia di dalam buah datang...",
+    "SA Medan G4 Declan & Jerrick": "SA Medan G4 Declan & Jerrick",
+    "Sand in A Bottle": "Pasir dalam Botol",
+    "The goal of our project is to see the difference in rolling behaviour and speed of each bottles filled with sands.": "Tujuan proyek kami adalah untuk melihat perbedaan perilaku bergulir dan kecepatan dari setiap botol yang diisi pasir.",
+    "SA Sby G8 Andrew": "SA Sby G8 Andrew",
+    "Quick Cooling Bottles": "Botol Pendingin Cepat",
+    "This project aims to create ways to cool beverage faster": "Proyek ini bertujuan untuk menciptakan cara agar minuman cepat dingin",
+    "See More STEAM Projects": "Lihat Proyek STEAM Lainnya",
 
     "A Happy Place to Learn and Grow": "Tempat Bahagia untuk Belajar dan Berkembang",
     "We nurture your child's curiosity through play. Our curriculum helps young learners": "Kami memelihara rasa ingin tahu anak Anda melalui permainan. Kurikulum kami membantu pembelajar muda",
@@ -309,20 +297,12 @@
     "Parent & Students Handbook": "Buku Panduan Orang Tua & Siswa",
     "This handbook provides valuable information for parents and students, including policies, procedures, and important dates.": "Panduan ini memberikan informasi berharga untuk orang tua dan siswa, termasuk kebijakan, prosedur, dan tanggal penting.",
 
-
-
-
     "STEAM-Powered Learning for Little Innovators": "Pembelajaran Berbasis STEAM untuk Inovator Kecil",
     "Through engaging projects and hands-on activities, students develop critical thinking": "Melalui proyek yang menarik dan aktivitas praktis, siswa mengembangkan pemikiran kritis",
     "problem-solving, and teamwork skills essential for success in the 21st century": "keterampilan pemecahan masalah, dan kerja sama yang penting untuk kesuksesan di abad ke-21",
     "Grade 1 | Grade 2 | Grade 3 | Grade 4 | Grade 5 | Grade 6": "Kelas 1 | Kelas 2 | Kelas 3 | Kelas 4 | Kelas 5 | Kelas 6",
     "Elementary School Grades": "Kelas Sekolah Dasar",
     "We believe that each child is unique and our teachers work with parents to develop a tailored pathway that promotes independence, creativity, and imagination": "Kami percaya bahwa setiap anak itu unik dan guru kami bekerja bersama orang tua untuk mengembangkan jalur yang disesuaikan yang mendorong kemandirian, kreativitas, dan imajinasi",
-
-
-
-
-
 
     "Intensive STEAM Learning for Academic Achievements": "Pembelajaran STEAM Intensif untuk Prestasi Akademik",
     "We prepare students for academic excellence with our intensive STEAM curriculum": "Kami mempersiapkan siswa untuk unggul secara akademik dengan kurikulum STEAM intensif kami",
@@ -331,10 +311,6 @@
     "Middle School Grades": "Kelas Sekolah Menengah",
     "Students have the flexibility to choose from a variety of subjects beyond the mandatory English and Math courses. Options include Biology, Chemistry, Physics, Geography, Economics, Enterprise, Global Perspectives, Social Studies, and Arts.": "Siswa memiliki fleksibilitas untuk memilih dari berbagai mata pelajaran di luar mata pelajaran Wajib Bahasa Inggris dan Matematika. Pilihan termasuk Biologi, Kimia, Fisika, Geografi, Ekonomi, Kewirausahaan, Perspektif Global, Studi Sosial, dan Seni.",
 
-
-
-
-
     "Empowering Young Leaders with A Global Perspective": "Memberdayakan Pemimpin Muda dengan Perspektif Global",
     "With our global-focused curriculum, students develop essential skills, gain international perspectives, and receive personalized guidance as they prepare for higher education": "Dengan kurikulum yang berfokus pada global, siswa mengembangkan keterampilan penting, mendapatkan perspektif internasional, dan menerima panduan yang dipersonalisasi saat mereka mempersiapkan diri untuk pendidikan tinggi",
     "Grade 10 | Grade 11 | Grade 12": "Kelas 10 | Kelas 11 | Kelas 12",
@@ -342,15 +318,12 @@
     "We offer a comprehensive international curriculum, including <br>Cambridge Assessment and IB Diploma, to prepare students": "Kami menawarkan kurikulum internasional yang komprehensif, termasuk <br>Penilaian Cambridge dan Diploma IB, untuk mempersiapkan siswa",
     "for global success": "untuk kesuksesan global",
 
-
-
-
     "Sampoerna Academy Online School": "Sekolah Online Sampoerna Academy",
     "Flexible Learning, Personalized Support": "Pembelajaran Fleksibel, Dukungan yang Dipersonalisasi",
     "barriers to world class learning experience. Students have the opportunities to": "hambatan untuk pengalaman pembelajaran kelas dunia. Siswa memiliki kesempatan untuk",
     "learn at their own pace, time, and place": "belajar dengan kecepatan, waktu, dan tempat mereka sendiri",
     "Purposely tailored international curriculum:": "Kurikulum internasional yang disesuaikan dengan tujuan:",
-    "Cambridge and Singapore Mathematics" : "Matematika Cambridge dan Singapura",
+    "Cambridge and Singapore Mathematics": "Matematika Cambridge dan Singapura",
     "Independent self study learning sessions": "Sesi pembelajaran mandiri",
     "Facilitated live discussions": "Diskusi langsung yang difasilitasi",
     "with instructors and other learners": "dengan instruktur dan pembelajar lainnya",
@@ -359,10 +332,6 @@
     "Harvard and Oxford": "Harvard dan Oxford",
     "University and Career Counselling for": "Konseling Universitas dan Karir untuk",
     "Upper Secondary students": "siswa Sekolah Menengah Atas",
-
-
-
-
 
     "School Calendar": "Kalender Sekolah",
     "Stay informed about important dates and events at Sampoerna Academy": "Tetap terinformasi tentang tanggal dan acara penting di Sampoerna Academy",
@@ -413,17 +382,10 @@
     "Moving Up/ Graduation": "Kenaikan Kelas / Wisuda",
     "Last Day of School": "Hari Terakhir Sekolah",
     "School Off": "Sekolah Libur",
-    "View Academic Calendar 2024" : "Lihat kalender akademik",
-
-
-
-
+    "View Academic Calendar 2024": "Lihat kalender akademik",
 
     "Senior High School": "Sekolah Menengah Atas",
     "Kindergarten": "Taman Kanak-Kanak",
-
-
-
 
     "L'Avenue Schools": "Sekolah L'Avenue",
     "Leading the Way to Global Excellence": "Memimpin Jalan Menuju Keunggulan Global",
@@ -458,10 +420,7 @@
     "Art Room": "Ruang Seni",
     "Visit BSD School": "Kunjungi Sekolah BSD",
 
-
-    "Our school features a wide range of modern facilites, including technology-integrated classrooms, a" : "Fasilitas sekolah kami mencakup berbagai fasilitas modern, termasuk ruang kelas terintegrasi teknologi, sebuah",
-
-
+    "Our school features a wide range of modern facilites, including technology-integrated classrooms, a": "Fasilitas sekolah kami mencakup berbagai fasilitas modern, termasuk ruang kelas terintegrasi teknologi, sebuah",
 
     "STEAM resources and the International Cambridge curriculum. Our Sentul School is located in Sentul Alaya Area.": "Sumber daya STEAM dan kurikulum Cambridge Internasional. Sekolah Sentul kami terletak di Area Sentul Alaya.",
     "Pre School": "Prasekolah",
@@ -469,17 +428,12 @@
     "Laboratory": "Laboratorium",
     "Visit Sentul School": "Kunjungi Sekolah Sentul",
 
-
-
-
     "STEAM resources and the International Cambridge curriculum. Our Surabaya School are located in Lakarsantri and Banjar Sugihan.": "Sumber daya STEAM dan kurikulum Cambridge Internasional. Sekolah Surabaya kami terletak di Lakarsantri dan Banjar Sugihan.",
     "Pre-Kindergarten": "Pra-TK",
     "Kindergerten (K1 & K2)": "Taman Kanak-kanak (TK1 & TK2)",
     "Elementary School (G1 & G2)": "Sekolah Dasar (SD1 & SD2)",
     "Visit Pakuwon Indah School": "Kunjungi Sekolah Pakuwon Indah",
     "Visit Grand Pakuwon School": "Kunjungi Sekolah Grand Pakuwon",
-
-
 
     "Medan Schools": "Sekolah Medan",
     "STEAM resources and the International Cambridge curriculum. Our Medan School are located in Polonia for Cipto School and Citra Garden for Citra School": "Sumber daya STEAM dan kurikulum Cambridge Internasional. Sekolah Medan kami berlokasi di Polonia untuk Sekolah Cipto dan di Citra Garden untuk Sekolah Citra",
@@ -495,18 +449,13 @@
     "Visit Cipto School": "Kunjungi Sekolah Cipto",
     "Visit Citra School": "Kunjungi Sekolah Citra",
 
-
     "Fostering Curious Minds with Hands-On Learning": "Mendorong Pikiran Penasaran dengan Pembelajaran Praktis",
     "Explore School Activities": "Jelajahi Kegiatan Sekolah",
     "Celebrating the Genius Within": "Merayakan Jenius yang Ada di Dalam",
     "View All Awards": "Lihat Semua Penghargaan",
 
-
     "Discover Your Child's Passion": "Temukan Passion Anak Anda",
-    "At Sampoerna Academy, we believe in fostering well-rounded individuals. In addition to a strong academic foundation, we offer a diverse range of extracurricular activities that allow students to explore their passions, develop new skills, and build meaningful connections with peers. This vibrant extracurricular program provides opportunities for your child to discover hidden talents, build confidence, and become a thriving member of our school community." : "Di Sampoerna Academy, kami percaya dalam mengembangkan individu yang seimbang. Selain fondasi akademis yang kuat, kami menawarkan berbagai kegiatan ekstrakurikuler yang memungkinkan siswa untuk mengeksplorasi minat mereka, mengembangkan keterampilan baru, dan membangun koneksi yang berarti dengan teman-teman sebaya. Program ekstrakurikuler yang dinamis ini memberikan kesempatan bagi anak Anda untuk menemukan bakat terpendam, membangun kepercayaan diri, dan menjadi anggota yang berkembang dalam komunitas sekolah kami.",
-
-
-
+    "At Sampoerna Academy, we believe in fostering well-rounded individuals. In addition to a strong academic foundation, we offer a diverse range of extracurricular activities that allow students to explore their passions, develop new skills, and build meaningful connections with peers. This vibrant extracurricular program provides opportunities for your child to discover hidden talents, build confidence, and become a thriving member of our school community.": "Di Sampoerna Academy, kami percaya dalam mengembangkan individu yang seimbang. Selain fondasi akademis yang kuat, kami menawarkan berbagai kegiatan ekstrakurikuler yang memungkinkan siswa untuk mengeksplorasi minat mereka, mengembangkan keterampilan baru, dan membangun koneksi yang berarti dengan teman-teman sebaya. Program ekstrakurikuler yang dinamis ini memberikan kesempatan bagi anak Anda untuk menemukan bakat terpendam, membangun kepercayaan diri, dan menjadi anggota yang berkembang dalam komunitas sekolah kami.",
 
     "We are incredibly proud of our students' achievements that extend far beyond the classroom": "Kami sangat bangga dengan pencapaian siswa-siswa kami yang melampaui batas ruang kelas.",
     "This page celebrates the dedication, hard work, and exceptional talents of our students, who are recognized through a variety of local, regional, and national awards and achievements": "Halaman ini merayakan dedikasi, kerja keras, dan bakat luar biasa siswa-siswa kami yang diakui melalui berbagai penghargaan dan prestasi lokal, regional, dan nasional.",
@@ -556,21 +505,12 @@
     "at Singapore": "di Singapura",
     "Taekwondo Cheung Do Kwan Hongkong": "Taekwondo Cheung Do Kwan Hongkong",
 
-
-
-
-
     "Admission": "Pendaftaran",
     "A Few Simple Steps to a Brighter Future": "Beberapa Langkah Mudah Menuju Masa Depan yang Lebih Cerah",
     "Provide the following requirements": "Sediakan persyaratan berikut",
     "Fill out the application form": "Isi formulir aplikasi",
     "Welcome to Sampoerna Academy": "Selamat datang di Sampoerna Academy",
     "We are incredibly proud of our students' achievements that extend far beyond the classroom. This page celebrates the dedication, hard work, and exceptional talents of our students, who are recognized through a variety of local, regional, and national awards and achievements. We believe in fostering a culture of excellence that empowers students to reach their full potential, and their accomplishments serve as an inspiration for the entire school community": "Kami sangat bangga akan prestasi siswa kami yang melampaui batas kelas. Halaman ini merayakan dedikasi, kerja keras, dan bakat luar biasa siswa kami, yang diakui melalui berbagai penghargaan dan pencapaian lokal, regional, dan nasional. Kami percaya dalam membangun budaya keunggulan yang memberdayakan siswa untuk mencapai potensi penuh mereka, dan pencapaian mereka menjadi inspirasi bagi seluruh komunitas sekolah.",
-
-
-
-
-
 
     "Admission Process": "Proses Penerimaan",
     "We are academically selective and all children must pass a period of observation and assessment (early years) or an entrance assessment. The entrance assessment features an assessment in English language, Mathematics, and Science along with a personal interview. School may require students to attend the class for a day(s) to monitor child’s behavior and academic level.": "Kami menerapkan seleksi akademis yang ketat, di mana setiap anak harus melalui periode observasi dan penilaian (untuk tahun awal) atau mengikuti ujian masuk. Ujian masuk ini terdiri dari penilaian dalam Bahasa Inggris, Matematika, dan Sains, serta wawancara pribadi. Sekolah dapat meminta siswa untuk mengikuti kelas selama satu atau beberapa hari untuk memantau perilaku dan tingkat akademik anak.",
@@ -613,13 +553,7 @@
     "This tuition fee excludes registration fee (1 time fee – only for new students),": "Biaya pendidikan ini tidak termasuk biaya pendaftaran (biaya satu kali – hanya untuk siswa baru),",
     "books and resources, learning resource fee, uniform fees, field trips, Chromebooks": "buku dan sumber daya, biaya sumber daya pembelajaran, biaya seragam, kunjungan lapangan, Chromebook",
     "and laptops, external exams, ESL, courses, and other special services.": "dan laptop, ujian eksternal, ESL, kursus, serta layanan khusus lainnya.",
-    "See FAQ" : "Lihat FAQ",
-
-
-
-
-
-
+    "See FAQ": "Lihat FAQ",
 
     "Your Guide to Joining Sampoerna Academy": "Panduan Anda untuk Bergabung dengan Sampoerna Academy",
     "to make the admissions process as smooth and straightforward as possible. Below, we've": "untuk membuat proses penerimaan sehalus dan sejelas mungkin. Di bawah ini, kami telah",
@@ -637,20 +571,12 @@
     "Once your application is reviewed and approved, we'll extend a warm welcome to your child and family.": "Setelah aplikasi Anda ditinjau dan disetujui, kami akan memberikan sambutan hangat kepada anak dan keluarga Anda.",
     "Prepare for an enriching educational adventure that will shape their future success.": "Bersiaplah untuk petualangan pendidikan yang memperkaya yang akan membentuk kesuksesan mereka di masa depan.",
 
-
-
-
-
     "Change The Game By Working At Sampoerna Academy": "Ubah Permainan dengan Bekerja di Sampoerna Academy",
     "At Sampoerna School, we never stop asking the big questions. What are the big challenges facing young Indonesians today? And how do we best prepare them to compete and succeed in a complex, global world? We are looking for lecturers and faculty members who share our drive and ambition. At Sampoerna School, bring your passion. Bring your initiative. Bring your big plans for the future. Together, we transform lives and make dreams come true.": "Di Sekolah Sampoerna, kami tidak pernah berhenti mengajukan pertanyaan besar. Apa tantangan besar yang dihadapi oleh anak muda Indonesia saat ini? Dan bagaimana kami dapat mempersiapkan mereka dengan sebaik-baiknya untuk bersaing dan berhasil dalam dunia yang kompleks dan global? Kami mencari dosen dan anggota fakultas yang memiliki semangat dan ambisi yang sama. Di Sampoerna School, bawa semangat Anda. Bawa inisiatif Anda. Bawa rencana besar Anda untuk masa depan. Bersama-sama, kita mengubah hidup dan mewujudkan mimpi.",
     "Interested in being one of us? Please send your application by choosing our vacancy job lists below.": "Apakah Anda tertarik untuk menjadi bagian dari kami? Silakan kirimkan aplikasi Anda dengan memilih daftar lowongan pekerjaan kami di bawah ini.",
     "Only short-listed candidates that meet the mentioned qualifications will be notified.": "Hanya kandidat yang terpilih yang memenuhi kualifikasi yang akan diberitahukan.",
     "Find More About Job Opportunity": "Temukan Lebih Banyak Tentang Kesempatan Kerja",
     "Apply Now": "Daftar Sekarang",
-
-
-
-
 
     "Latest Updates": "Pembaruan Terbaru",
     "Find Your Answers About Your Child's Education": "Temukan Jawaban Anda Tentang Pendidikan Anak Anda",
@@ -695,13 +621,9 @@
     "How to register for Sampoerna Academy?": "Bagaimana cara mendaftar di Sampoerna Academy?",
     "Can school fees in SA be installment-based?": "Apakah biaya sekolah di SA dapat dibayarkan dengan cara cicilan?",
 
-
-
-    "Article Not Found" : "Artikel tidak ditemukan",
-    "Share Your Thoughts" : "Bagikan Pendapat Anda",
-    "We're here to listen! Whether you have questions, feedback, or simply want to learn more about Sampoerna Academy, we'd love to hear from you." : "Tentang Kami siap mendengarkan! Apakah Anda memiliki pertanyaan, umpan balik, atau ingin mengetahui lebih banyak tentang Sampoerna Academy, kami dengan senang hati ingin mendengar dari Anda.",
-
-
+    "Article Not Found": "Artikel tidak ditemukan",
+    "Share Your Thoughts": "Bagikan Pendapat Anda",
+    "We're here to listen! Whether you have questions, feedback, or simply want to learn more about Sampoerna Academy, we'd love to hear from you.": "Tentang Kami siap mendengarkan! Apakah Anda memiliki pertanyaan, umpan balik, atau ingin mengetahui lebih banyak tentang Sampoerna Academy, kami dengan senang hati ingin mendengar dari Anda.",
 
     "Blended Learning Approach": "Pendekatan Pembelajaran Campuran",
     "Lego Learning Program": "Program Pembelajaran Lego",
@@ -724,21 +646,17 @@
     "Students engage in research-based learning as they explore the causes and <br>solutions to acute social problems and present their findings using digital": "Siswa terlibat dalam pembelajaran berbasis riset saat mereka menjelajahi penyebab dan <br>solusi untuk masalah sosial akut dan mempresentasikan temuan mereka menggunakan digital",
     "multimedia.": "multimedia.",
 
-
-
-    "Cambridge & IB Diploma Program" : "Program Diploma Cambridge & IB",
-    "Design Thinking" : "Pemikiran Desain",
-    "Peer-to-peer Mentoring" : "Mentoring Antara Teman",
-    "College/Career Counselling" : "Konseling Perguruan Tinggi/Karir",
-    "For All School," : "Untuk Semua Sekolah,",
-    "Our High School students take Cambridge IGCSE curricula from Grade 9 and sit for the exams in Grade 10. We also offer a fast-track option of one year, completing and sitting for the IGCSE exams in Grade 10." : "Siswa SMA kami mengikuti kurikulum Cambridge IGCSE mulai Kelas 9 dan mengikuti ujian di Kelas 10. Kami juga menawarkan opsi jalur cepat satu tahun, menyelesaikan dan mengikuti ujian IGCSE di Kelas 10.",
-    "Only Jakarta & Medan School, In Grade 11, our students have the option to study the Cambridge Advanced Levels or IB (The International Baccalaureate) Diploma Program. Graduating from Sampoerna Academy will allow the students to study in Indonesia or abroad." : "Hanya untuk Sekolah Jakarta & Medan, di Kelas 11, siswa kami memiliki opsi untuk mempelajari Cambridge Advanced Levels atau Program Diploma IB (Internasional Baccalaureate). Lulus dari Sampoerna Academy akan memungkinkan siswa untuk melanjutkan studi di Indonesia atau luar negeri.",
-    "Design thinking is a process for creative problem solving. Design thinking utilizes skills like empathy and experimentation to arrive at innovative solutions." : "Pemikiran desain adalah proses untuk memecahkan masalah secara kreatif. Pemikiran desain memanfaatkan keterampilan seperti empati dan eksperimen untuk mencapai solusi inovatif.",
-    "Students will be guided by Apple Teacher’s and Google Certified Trainers in the development of these skills in various subject matters." : "Siswa akan dibimbing oleh Guru Apple dan Pelatih Bersertifikat Google dalam pengembangan keterampilan ini di berbagai mata pelajaran.",
-    "By presenting and teaching knowledge they have acquired through experiments and projects, the high school students mentor younger students on important STEAM concepts and develop their sense of citizenship and social responsibility" : "Dengan menyajikan dan mengajarkan pengetahuan yang telah mereka peroleh melalui eksperimen dan proyek, siswa SMA membimbing siswa yang lebih muda mengenai konsep STEAM yang penting dan mengembangkan rasa kewarganegaraan serta tanggung jawab sosial mereka.",
-    "Students can obtain access to college/career counselling from our college guidance counselors, which assists them in making informed choices for the next phase of their academic career." : "Siswa dapat mengakses konseling perguruan tinggi/karir dari konselor panduan perguruan tinggi kami, yang membantu mereka dalam membuat pilihan yang tepat untuk fase berikutnya dari karir akademis mereka.",
-
-
+    "Cambridge & IB Diploma Program": "Program Diploma Cambridge & IB",
+    "Design Thinking": "Pemikiran Desain",
+    "Peer-to-peer Mentoring": "Mentoring Antara Teman",
+    "College/Career Counselling": "Konseling Perguruan Tinggi/Karir",
+    "For All School,": "Untuk Semua Sekolah,",
+    "Our High School students take Cambridge IGCSE curricula from Grade 9 and sit for the exams in Grade 10. We also offer a fast-track option of one year, completing and sitting for the IGCSE exams in Grade 10.": "Siswa SMA kami mengikuti kurikulum Cambridge IGCSE mulai Kelas 9 dan mengikuti ujian di Kelas 10. Kami juga menawarkan opsi jalur cepat satu tahun, menyelesaikan dan mengikuti ujian IGCSE di Kelas 10.",
+    "Only Jakarta & Medan School, In Grade 11, our students have the option to study the Cambridge Advanced Levels or IB (The International Baccalaureate) Diploma Program. Graduating from Sampoerna Academy will allow the students to study in Indonesia or abroad.": "Hanya untuk Sekolah Jakarta & Medan, di Kelas 11, siswa kami memiliki opsi untuk mempelajari Cambridge Advanced Levels atau Program Diploma IB (Internasional Baccalaureate). Lulus dari Sampoerna Academy akan memungkinkan siswa untuk melanjutkan studi di Indonesia atau luar negeri.",
+    "Design thinking is a process for creative problem solving. Design thinking utilizes skills like empathy and experimentation to arrive at innovative solutions.": "Pemikiran desain adalah proses untuk memecahkan masalah secara kreatif. Pemikiran desain memanfaatkan keterampilan seperti empati dan eksperimen untuk mencapai solusi inovatif.",
+    "Students will be guided by Apple Teacher’s and Google Certified Trainers in the development of these skills in various subject matters.": "Siswa akan dibimbing oleh Guru Apple dan Pelatih Bersertifikat Google dalam pengembangan keterampilan ini di berbagai mata pelajaran.",
+    "By presenting and teaching knowledge they have acquired through experiments and projects, the high school students mentor younger students on important STEAM concepts and develop their sense of citizenship and social responsibility": "Dengan menyajikan dan mengajarkan pengetahuan yang telah mereka peroleh melalui eksperimen dan proyek, siswa SMA membimbing siswa yang lebih muda mengenai konsep STEAM yang penting dan mengembangkan rasa kewarganegaraan serta tanggung jawab sosial mereka.",
+    "Students can obtain access to college/career counselling from our college guidance counselors, which assists them in making informed choices for the next phase of their academic career.": "Siswa dapat mengakses konseling perguruan tinggi/karir dari konselor panduan perguruan tinggi kami, yang membantu mereka dalam membuat pilihan yang tepat untuk fase berikutnya dari karir akademis mereka.",
 
     "Collaborative Learning": "Pembelajaran Kolaboratif",
     "Portfolios to Document Student Growth": "Portofolio untuk Mendokumentasikan Perkembangan Siswa",
@@ -760,25 +678,7 @@
     "iPads outfitted with educational software and design programs": "iPad yang dilengkapi dengan perangkat lunak pendidikan dan program desain",
     "Chromebooks for delivering digital curriculum and resources": "Chromebook untuk menyampaikan kurikulum dan sumber daya digital",
 
-
     "Opening Doors to Endless Educational Opportunities": "Membuka Pintu untuk Kesempatan Pendidikan yang Tak Terbatas",
 
     "Opening Doors to Endless Educational Opportunities\nWe recognize that the choice of school is one of the most important decisions any parent has to make and as such, we welcome you to contact our Student Recruitment Officer to schedule a consultation or campus tour.\nRead More": "Membuka Pintu untuk Kesempatan Pendidikan yang Tak Terbatas\nKami menyadari bahwa pemilihan sekolah adalah salah satu keputusan terpenting yang harus diambil oleh orang tua, dan oleh karena itu, kami mengundang Anda untuk menghubungi Petugas Rekrutmen Siswa kami untuk menjadwalkan konsultasi atau tur kampus.\nBaca Selengkapnya"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
