@@ -54,7 +54,7 @@
                                 <select class="form-select" name="province" required>
                                     <option value="" selected>{{ __('Choose one') }}</option>
                                     @foreach ($provinces as $province)
-                                        <option value="{{ $province['id'] }}">{{ $province['name'] }}</option>
+                                        <option value="{{ $province['name'] }}">{{ $province['name'] }}</option>
                                     @endforeach
                                 </select>
                             </div>
