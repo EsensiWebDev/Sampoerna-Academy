@@ -112,7 +112,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
+                <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
                     <div>
                         <div><img class="img-fluid" src="/assets/img/Card/15-3%20_Mrs.%20Kelly%20M.%20Wailes.webp">
                         </div>
@@ -120,10 +120,10 @@
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Kelly M Wailes
                             </h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
-                                {{ __('Principal Sampoerna Academy Medan Cipto ') }}</p>
+                                {{ __('Principal Sampoerna Academy Medan Citra School ') }}</p>
                         </div>
                     </div>
-                </div> --}}
+                </div>
                 <div class="col col-6 col-sm-6 col-lg-3 py-2 px-2">
                     <div>
                         <div><img class="img-fluid"
