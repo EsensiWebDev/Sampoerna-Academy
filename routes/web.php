@@ -4036,3 +4036,4 @@ Route::get('id/program-literasi-sampoerna-academy/', function () {
 });
 
 Route::get('{slug}', [RedirectController::class, 'redirect_article_en'])->where('slug', '.*');
+Route::get('{slug}', [RedirectController::class, 'redirect_article_id'])->where('slug', '.*');

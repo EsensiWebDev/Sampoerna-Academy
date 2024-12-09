@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="carousel-item d-flex d-lg-flex align-items-end h-100"><img
-                    class="w-100 d-block position-absolute h-100 fit-cover"
-                    src="../assets/img/Carousel/carousel%202.webp" alt="Slide Image" style="z-index: -1;">
+                    class="w-100 d-block position-absolute h-100 fit-cover" src="../assets/img/Carousel/atf.webp"
+                    alt="Slide Image" style="z-index: -1;">
                 <div class="flex-fill" style="padding-top: 0px;padding-bottom: 156px;">
                     <div class="container">
                         <div class="row">
@@ -118,7 +118,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <h1 class="fw-semibold car-title"
-                                    style="color: var(--bs-white);font-family: Campton;">{{ __('Inspiring') }}</h1>
+                                    style="color: var(--bs-white);font-family: Campton;">
+                                    {{ __('Inspiring') }}</h1>
                                 <h1 class="display-3 car-subtitle fw-semibold"
                                     style="color: var(--bs-white);font-family: Campton;"><span
                                         class="carousel-block-text">{{ __("Tomorrow's Leaders") }},</span>&nbsp;{{ __('Today') }}

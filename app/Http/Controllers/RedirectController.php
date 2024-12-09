@@ -180,4 +180,29 @@ class RedirectController extends Controller
 
         abort(404);
     }
+
+    public function redirect_article_id($slug)
+    {
+        session()->flush();
+        session()->put('locale', 'id');
+        $articles_list = [
+            'mengenal-grit-definisi-dan-cara-menerapkannya',
+            'apa-itu-psikomotorik',
+            'permainan-anak-yang-mendidik',
+            'idmengenal-8-jenis-kecerdasan-anak-dan-cara-mengasahnya',
+            'tahap-perkembangan-kognitif-anak',
+            'kewajiban-anak-di-sekolah',
+            'apa-itu-gtm-dan-cara-mengatasinya',
+            'ciri-strict-parents-dan-dampaknya',
+            'tips-cara-membantu-anak-belajar-membaca',
+            'apa-itu-pendidikan-karakter-kenali-fungsi-dan-manfaatnya',
+        ];
+
+        // Redirect with 301 status to the desired URL
+        if (in_array($slug, $articles_list)) {
+            return redirect('/news/' . $slug, 301);
+        }
+
+        abort(404);
+    }
 }
