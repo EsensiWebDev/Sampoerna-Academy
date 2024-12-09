@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\RedirectController;
 use App\Livewire\Pages\Aboutus;
 use App\Livewire\Pages\Academics;
 use App\Livewire\Pages\Activities;
@@ -28,6 +29,7 @@ use App\Livewire\Pages\Steam;
 use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
 use Illuminate\Support\Facades\Route;
+
 
 Route::post('/form', [FormController::class, 'submit']);
 Route::get("/", Home::class);
@@ -4033,4 +4035,4 @@ Route::get('id/program-literasi-sampoerna-academy/', function () {
     return redirect('/news/program-literasi-sampoerna-academy', 301);
 });
 
-
+Route::get('{slug}', [RedirectController::class, 'redirect_article_en'])->where('slug', '.*');
