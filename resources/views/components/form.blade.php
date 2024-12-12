@@ -15,9 +15,14 @@
 
         <div class="row">
             <div class="col-md-12 col-lg-8 offset-lg-2">
+                <div class="text-center">
+                    <h2 style="font-weight: 700">{{ __('Apply Now') }}</h2>
+                    <p>{{ __('Our team will reach you out after submitting the form') }}</p>
+                </div>
                 <div class="card"
                     style="border-radius: 15px; border-style: none; box-shadow: 0px 10px 20px rgba(96, 97, 112, 0.16), 0px 2px 5px rgba(40, 41, 61, 0.4);">
                     <div class="card-body" style="padding: 40px;">
+
                         <form action="/form" method="POST">
                             @csrf
                             {{-- Tampilkan pesan error --}}

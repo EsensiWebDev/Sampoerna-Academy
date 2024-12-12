@@ -236,6 +236,7 @@
                 </div>
             </div>
         </section>
+        
         <section style="margin-top: 200px;" class="d-none d-md-block">
             <div class="container">
                 <div class="row" style="margin-bottom: 48px;">
@@ -648,6 +649,7 @@
             </style>
         </section>
         @include('components.community')
+
         @include('components.form')
     </section>
 

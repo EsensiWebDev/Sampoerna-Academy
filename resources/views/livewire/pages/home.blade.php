@@ -41,6 +41,7 @@
         </div>
     </section>
     <section style="margin-top: 200px;">
+        
         <div class="container">
             <div class="row" style="padding-bottom: 0px;margin-bottom: 48px;">
                 <div class="col-md-12">
@@ -183,6 +184,13 @@
     </section>
     <section style="margin-top: 200px;">
         <div class="container">
+            <div class="row" style="margin-bottom: 48px;">
+                <div class="col-md-12">
+                    <h1 class="fs-2 fw-semibold text-center"
+                        style="font-family: Campton;color: var(--bs-emphasis-color);">
+                        {{ __('Instagram Content') }}</h1>
+                </div>
+            </div>
             <div class="row justify-content-center">
                 <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
                     {{-- instagram 1 --}}
@@ -575,6 +583,35 @@
             </div>
         </div>
     </section>
+    {{-- <section style="margin-top: 200px;">
+        <div class="container">
+            <div class="row" style="margin-bottom: 48px;">
+                <div class="col-md-12">
+                    <h1 class="fs-2 fw-semibold text-center"
+                        style="font-family: Campton;color: var(--bs-emphasis-color);">
+                        {{ __('Tiktok Content') }}</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
+                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
+                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
+                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
+                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
+                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
+                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
+                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
+                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                </div>
+            </div>
+        </div>
+    </section> --}}
     <section style="margin-top: 200px;" class="d-none d-md-block">
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
@@ -973,7 +1010,13 @@
             }
         </style>
     </section>
+
+
     @include('components.community')
+
+    <livewire:latest-update-article  />
+
+
 </section>
 
 <script async src="//www.instagram.com/embed.js"></script>

@@ -223,6 +223,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
+                    <div>
+                        <div><img class="img-fluid"
+                                src="/assets/img/Card/11-3%20Mrs.%20Nor%20Eny%20Alia%20Md%20Noh.webp"></div>
+                        <div style="margin-top: 32px;">
+                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Nor Eny Alia MD
+                                Noh</h1>
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                {{ __('IEYC Curriculum Head') }}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

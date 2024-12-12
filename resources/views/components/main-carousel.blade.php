@@ -291,6 +291,10 @@
                     </div>
                 </div>
             </div>
+            <div class="text-white " style=" font-family: Campton; position: absolute; bottom: 50px; left: 4%;  z-index: 100;">
+                <h4>#IGNITEtheSpark</h4>
+            </div>
+
             <a href="#section-target" class="arrow d-none d-md-block"
                 style="position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0); z-index: 100;">
                 <img src="{{ asset('assets/img/arrow.webp') }}" width="200" height="70" alt="arrow"
