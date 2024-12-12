@@ -21,7 +21,6 @@
                         {{ __("We're here to listen! Whether you have questions, feedback, or simply want to learn more about Sampoerna Academy, we'd love to hear from you.") }}
                     </h4>
 
-
                     <div class="card"
                         style="border-radius: 15px;border-style: none;box-shadow: 0px 10px 20px rgba(96,97,112,0.16), 0px 2px 5px rgba(40,41,61,0.4); margin-top: 61px">
                         <div class="card-body"
