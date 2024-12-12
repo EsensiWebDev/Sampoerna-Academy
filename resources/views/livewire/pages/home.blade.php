@@ -41,7 +41,7 @@
         </div>
     </section>
     <section style="margin-top: 200px;">
-        
+
         <div class="container">
             <div class="row" style="padding-bottom: 0px;margin-bottom: 48px;">
                 <div class="col-md-12">
@@ -583,7 +583,7 @@
             </div>
         </div>
     </section>
-    {{-- <section style="margin-top: 200px;">
+    <section style="margin-top: 200px;">
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
                 <div class="col-md-12">
@@ -594,24 +594,73 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
-                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
-                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                    <blockquote class="tiktok-embed"
+                        cite="https://www.tiktok.com/@sampoernaacademy/video/7446756174021627154"
+                        data-video-id="7446756174021627154" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@sampoernaacademy"
+                                href="https://www.tiktok.com/@sampoernaacademy?refer=embed">@sampoernaacademy</a>
+                            Gimana
+                            sih pengalaman leadership students kami di Duke of Edinburgh Award? Tonton sampe akhir, dan
+                            stay
+                            tuned untuk part 2 ya! <a title="ignitethespark" target="_blank"
+                                href="https://www.tiktok.com/tag/ignitethespark?refer=embed">#IGNITEtheSpark</a> <a
+                                title="sampoernaacademy" target="_blank"
+                                href="https://www.tiktok.com/tag/sampoernaacademy?refer=embed">#SampoernaAcademy</a> <a
+                                target="_blank" title="♬ original sound  - Sampoerna Academy"
+                                href="https://www.tiktok.com/music/original-sound-Sampoerna-Academy-7446756227558345489?refer=embed">♬
+                                original sound - Sampoerna Academy</a> </section>
+                    </blockquote>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
-                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
-                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                    <blockquote class="tiktok-embed"
+                        cite="https://www.tiktok.com/@sampoernaacademy/video/7444865842464165138"
+                        data-video-id="7444865842464165138" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@sampoernaacademy"
+                                href="https://www.tiktok.com/@sampoernaacademy?refer=embed">@sampoernaacademy</a> Quiz
+                            antara Sophie dan ibunya! Kira-kira siapa yaa yang menang?🤓 <a title="ignitethespark"
+                                target="_blank"
+                                href="https://www.tiktok.com/tag/ignitethespark?refer=embed">#IGNITEtheSpark</a> <a
+                                title="sampoernaacademy" target="_blank"
+                                href="https://www.tiktok.com/tag/sampoernaacademy?refer=embed">#SampoernaAcademy</a> <a
+                                target="_blank" title="♬ original sound  - Sampoerna Academy"
+                                href="https://www.tiktok.com/music/original-sound-Sampoerna-Academy-7444865866338028305?refer=embed">♬
+                                original sound - Sampoerna Academy</a> </section>
+                    </blockquote>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
-                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
-                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                    <blockquote class="tiktok-embed"
+                        cite="https://www.tiktok.com/@sampoernaacademy/video/7444486318328958226"
+                        data-video-id="7444486318328958226" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@sampoernaacademy"
+                                href="https://www.tiktok.com/@sampoernaacademy?refer=embed">@sampoernaacademy</a> Pesan
+                            buat temen-temen yang baru masuk SMA, nih!👀 <a title="ignitethespark" target="_blank"
+                                href="https://www.tiktok.com/tag/ignitethespark?refer=embed">#IGNITEtheSpark</a> <a
+                                title="sampoernaacademy" target="_blank"
+                                href="https://www.tiktok.com/tag/sampoernaacademy?refer=embed">#SampoernaAcademy</a> <a
+                                target="_blank" title="♬ original sound  - Sampoerna Academy"
+                                href="https://www.tiktok.com/music/original-sound-Sampoerna-Academy-7444486340270738177?refer=embed">♬
+                                original sound - Sampoerna Academy</a> </section>
+                    </blockquote>
                 </div>
                 <div class="col-md-3 d-flex justify-content-center align-items-center mb-4">
-                    <iframe src="https://cdn.bootstrapstudio.io/placeholders/instagram.html" allowtransparency="true"
-                        frameborder="0" scrolling="no" width="320" height="550"></iframe>
+                    <blockquote class="tiktok-embed"
+                        cite="https://www.tiktok.com/@sampoernaacademy/video/7440021132876483858"
+                        data-video-id="7440021132876483858" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@sampoernaacademy"
+                                href="https://www.tiktok.com/@sampoernaacademy?refer=embed">@sampoernaacademy</a> Kelas
+                            12 udah makin deket sama kuliah! Penasaran anak Sampoerna Academy mau lanjut ke mana? Yuk,
+                            intip bareng! <a title="ignitethespark" target="_blank"
+                                href="https://www.tiktok.com/tag/ignitethespark?refer=embed">#IGNITEtheSpark</a> <a
+                                title="sampoernaacademy" target="_blank"
+                                href="https://www.tiktok.com/tag/sampoernaacademy?refer=embed">#SampoernaAcademy</a> <a
+                                target="_blank" title="♬ original sound  - Sampoerna Academy"
+                                href="https://www.tiktok.com/music/original-sound-Sampoerna-Academy-7440021259196353281?refer=embed">♬
+                                original sound - Sampoerna Academy</a> </section>
+                    </blockquote>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <section style="margin-top: 200px;" class="d-none d-md-block">
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
@@ -1014,10 +1063,11 @@
 
     @include('components.community')
 
-    <livewire:latest-update-article  />
+    <livewire:latest-update-article />
 
 
 </section>
+<script async src="https://www.tiktok.com/embed.js"></script>
 
 <script async src="//www.instagram.com/embed.js"></script>
 
