@@ -583,7 +583,7 @@
             </div>
         </div>
     </section>
-    <section style="margin-top: 200px;">
+    {{-- <section style="margin-top: 200px;"> --}}
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
                 <div class="col-md-12">
