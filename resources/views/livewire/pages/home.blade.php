@@ -583,7 +583,7 @@
             </div>
         </div>
     </section>
-    {{-- <section style="margin-top: 200px;"> --}}
+    {{-- <section style="margin-top: 200px;">
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
                 <div class="col-md-12">
@@ -660,7 +660,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section style="margin-top: 200px;" class="d-none d-md-block">
         <div class="container">
             <div class="row" style="margin-bottom: 48px;">
@@ -1067,7 +1067,7 @@
 
 
 </section>
-<script async src="https://www.tiktok.com/embed.js"></script>
+{{-- <script async src="https://www.tiktok.com/embed.js"></script> --}}
 
 <script async src="//www.instagram.com/embed.js"></script>
 
