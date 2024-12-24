@@ -286,14 +286,15 @@
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
                                 </p>
+                                <div class="text-white " style=" font-family: Campton; margin-top:50px">
+                                    <h4>#IGNITEtheSpark</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text-white " style=" font-family: Campton; position: absolute; bottom: 50px; left: 4%;  z-index: 100;">
-                <h4>#IGNITEtheSpark</h4>
-            </div>
+           
 
             <a href="#section-target" class="arrow d-none d-md-block"
                 style="position: absolute; bottom: 0px; left: 50%; transform: translate(-50%, 0); z-index: 100;">

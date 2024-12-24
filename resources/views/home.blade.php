@@ -33,7 +33,7 @@
                             <div class="d-flex flex-column sub-head align-items-start">
                                 <h1 class="fs-2 fw-semibold"
                                     style="color: var(--bs-body-bg); font-family: Campton; margin-bottom: 8px;">
-                                    {{ __('How We IGNITE the Curiosity?') }}
+                                    {{ __('How do we IGNITE the Curiosity?') }}
                                 </h1>
 
                                 <p class="toggle-text" style="font-family: Campton; font-size: 22px; color: white;">
