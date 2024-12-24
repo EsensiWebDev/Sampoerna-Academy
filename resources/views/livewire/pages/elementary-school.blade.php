@@ -204,7 +204,7 @@
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                     </svg>
                                     <p class="fs-5 fw-light" style="font-family: Campton;">
-                                        {{ __('LEGO Robotics Classes') }}</p>
+                                        {{ __('LEGO robotics classes help students learn basic coding.') }}</p>
                                 </div>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-4">
@@ -240,13 +240,28 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-5">
-                                <p class="fs-5 fw-light" style="font-family: Campton;">
-                                    {{ __('Sampoerna Academy uses International benchmark tests for the students, such as Measures of Academic Progress (MAP) by North West Evaluation Association(NWEA). MAP tests are individualized measures of performance in reading, math, and science. The test results help the teachers, parents, and administrators improve student learning and make informed decisions to differentiate learning and promote individual student academic growth.There are also other Benchmark Exams by Cambridge and Indonesian Ministry of Education utilized to measure the effectiveness of our academic plan.') }}
-                                </p>
+                                <div class="d-flex flex-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        fill="currentColor" viewBox="0 0 16 16" class="bi bi-dot fs-5">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
+                                    </svg>
+                                    <p class="fs-5 fw-light" style="font-family: Campton;">
+                                        {{ __('Sampoerna Academy uses International benchmark tests for the students, such as Measures of Academic Progress (MAP) by North West Evaluation Association (NWEA). MAP tests are individualized measures of performance in reading, math, and science. The test results help the teachers, parents, and administrators improve student learning and make informed decisions to differentiate learning and promote individual student academic growth.') }}
+                                    </p>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        fill="currentColor" viewBox="0 0 16 16" class="bi bi-dot fs-5">
+                                        <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
+                                    </svg>
+                                    <p class="fs-5 fw-light" style="font-family: Campton;">
+                                        {{ __('Other benchmark exams by Cambridge and Indonesian Ministry of Education are utilized to measure the effectiveness of our academic plan.') }}
+                                    </p>
+                                </div>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-6">
                                 <p class="fs-5 fw-light" style="font-family: Campton;">
-                                    {{ __('The students receive specialized subject teachers as early as in the 4th grade in Mathematics, Reading, Computer Science, Foreign Language, and Science.') }}
+                                    {{ __('Students are taught by subject specialists in English, Mathematics, Science, Foreign Language and Computer Science from the 4th grade onward.') }}
                                 </p>
                             </div>
                             <div class="tab-pane fade" role="tabpanel" id="tab-7">
@@ -257,7 +272,7 @@
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                     </svg>
                                     <p class="fs-5 fw-light" style="font-family: Campton;">
-                                        {{ __('iPads outfitted with educational software and design programs') }}</p>
+                                        {{ __('iPads equipped with educational software and design programs introduce our youngest learners to digital creativity and exploration.') }}</p>
                                 </div>
                                 <div class="d-flex flex-row">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
@@ -266,7 +281,7 @@
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                     </svg>
                                     <p class="fs-5 fw-light" style="font-family: Campton;">
-                                        {{ __('Chromebooks for delivering digital curriculum and resources') }}</p>
+                                        {{ __('Our Makerspace serves as a hub for hands-on exploration and innovation, featuring robotics, 3D printer and other emerging technologies accessible to students from Kindergarten to Grade 12') }}</p>
                                 </div>
                             </div>
                         </div>

@@ -920,7 +920,7 @@
                         </div>
                         <div class="col-6 col-md-2 text-center position-relative">
                             <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">
-                                {{ __("BSD & L'Avenue Has") }}</p>
+                                {{ __("BSD & L'Avenue Have") }}</p>
                             <h1 style="font-family: Campton; color: #292F78;">&gt;97%</h1>
                             <p class="fw-light" style="font-family: Campton; color: var(--bs-black);">
                                 {{ __('Pass Rate') }}</p>

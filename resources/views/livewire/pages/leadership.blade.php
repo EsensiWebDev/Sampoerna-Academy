@@ -26,7 +26,7 @@
                     style="margin-top: 20px; padding-bottom: 0px;">
                     <p class="fs-2 fw-semibold"
                         style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">
-                        “<br>{{ __('We believe our initiative is the best we can offer') }}<br>
+                        <br>{{ __('We believe our initiative is the best we can offer') }}<br>
                         {{ __('for our beloved sons and daughters in order') }}<br>
                         {{ __('to contribute to the betterment of Indonesia’s future!') }}
                     </p>
@@ -37,7 +37,7 @@
                     style="position: relative; top: 50px; max-width: 800px; margin: auto; overflow: hidden;">
                     <p class="fs-2 fw-semibold"
                         style="font-family: Campton; color: var(--bs-black); margin-bottom: 0px;">
-                        “<br>{{ __('We believe our initiative is the best we can offer') }}<br>
+                        <br>{{ __('We believe our initiative is the best we can offer') }}<br>
                         {{ __('for our beloved sons and daughters in order') }}<br>
                         {{ __('to contribute to the betterment of Indonesia’s future!') }}
                     </p>
@@ -219,7 +219,7 @@
                             <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Aliaa Mohamed
                                 Samaha</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
-                                {{ __('Science Curriculum Head') }}</p>
+                                {{ __('Science and STEAM Curriculum Head ') }}</p>
                         </div>
                     </div>
                 </div>

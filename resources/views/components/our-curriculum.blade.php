@@ -11,7 +11,7 @@
                     <ul class="nav nav-tabs d-flex flex-column" role="tablist" style="border-style: none; margin-bottom: 40px;">
                         <li class="nav-item" role="presentation" style="border-style: none;">
                             <a class="nav-link fs-4 active" role="tab" data-bs-toggle="tab" href="#tab-1" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Based%20learning.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Inquiry-Based Learning") }}
+                                <span><img src="/assets/img/Icon/Based%20learning.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Holistic Development") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation" style="border-style: none;">
@@ -21,7 +21,7 @@
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link fs-4" role="tab" data-bs-toggle="tab" href="#tab-3" style="border-style: none; border-radius: 0; font-family: Campton; padding-left: 0;">
-                                <span><img src="/assets/img/Icon/Assessment.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Outcome-Based Assessment") }}
+                                <span><img src="/assets/img/Icon/Assessment.png" class="tab-icon" style="width: 24px; height: 24px;"></span>&nbsp;{{ __("Customized Learning and Support for Every Child") }}
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -69,7 +69,7 @@
 
                     <div class="tab-content flex-grow-1" style="background: #E4E4EB; padding: 40px; border-radius: 15px;">
                         <div class="tab-pane fade show active" role="tabpanel" id="tab-1">
-                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("One of our teaching and learning approach; where children actively engage in asking questions, investigating, exploring, and finding answers to their inquiries through hands-on experiences and guided activities.") }}</p>
+                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("We champion the development of the whole child—socially, emotionally, cognitively, and physically. Our approach balances academic skills with soft skills, ensuring that children excel both in their studies and personal growth.") }}</p>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="tab-2">
                             <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("Parent involvement is vital for creating a supportive learning environment where children feel valued, motivated, and empowered to explore, discover, and succeed. By working together, parents and educators can nurture children’s holistic development and lay a strong foundation for their future success. This is done in various ways, some of them are:  1. Partnership & communication  2. Orientation & workshops  3. Parent involvement in learning  4. Home Learning Support  5. Celebration of Learning") }}</p>
@@ -79,17 +79,17 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-dot fs-5" style="font-family: Campton;">
                                     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                 </svg>
-                                <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("Students are assessed using Outcome-Based Assessment methodology, where they demonstrate what they have learned by doing or applying actual knowledge.") }}</p>
+                                <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("We embrace a personalized approach with the flexible IEYC curriculum, allowing our educators to tailor activities to each child’s needs and interests. Outcome-based assessments for literacy and numeracy provide effective support, helping children grow and develop their skills according to their unique learning styles and paces.") }}</p>
                             </div>
-                            <div class="d-flex flex-row">
+                            {{-- <div class="d-flex flex-row">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-dot fs-5">
                                     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                 </svg>
                                 <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("The clear objectives of the assessment allow teachers to deploy various teaching methods to attain the desired outcomes among their students.") }}</p>
-                            </div>
+                            </div> --}}
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="tab-4">
-                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("Children engage in short-term and long-term investigative projects where they delve deeper into a specific topic or theme. These projects encourage children to ask questions, gather information, experiment, and draw conclusions based on their findings.") }}</p>
+                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("Through our IEYC program, children participates in exciting short-term and long-term projects that explore interesting topics and themes. These activities encourage kids to ask questions, gather information, experiment, and draw conclusions, helping them develop crucial 21st-century skills like problem-solving and adaptability. This hands-on approach not only makes learning fun but also prepares them for future success.") }}</p>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="tab-5">
                             <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("IEYC is a comprehensive, thematic, play-based curriculum for children aged 2-5 years old. It focuses on the holistic development of children, encompassing their personal, social, emotional, and physical development, as well as their academic learning. The curriculum is designed to be flexible, adaptable, and accessible to schools and early years settings worldwide. It emphasizes inquiry-based learning, encouraging children to explore, investigate, and make sense of the world around them through hands-on experiences and play.") }}</p>

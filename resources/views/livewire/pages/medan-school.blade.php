@@ -21,11 +21,11 @@
                     </div>
                     <div style="margin-top: 24px;">
                         <p class="fs-5 fw-light" style="font-family: Campton; color: var(--bs-black);">
-                            {{ __('Sampoerna Academy brings a hands-on, minds-on learning experience that paves the way for your children to') }}
+                            {{ __('Sampoerna Academy brings a hands-on, minds-on learning experience that paves the way for your children to compete on the') }}
                             <br>
-                            {{ __('compete on the global stage. Our partnership with world-class institutions enables us to provide world’s leading') }}
+                            {{ __("global state. Our partnership with world-class institutions enables us to provide world's leading STEAM resources and the") }}
                             <br>
-                            {{ __('STEAM resources and the International Cambridge curriculum. Our Medan School are located in Polonia for Cipto School and Citra Garden for Citra School') }}
+                            {{ __('International Cambridge curriculum. Our Medan Schools are located in Polonia and Citra Garden.') }}
                         </p>
                     </div>
 

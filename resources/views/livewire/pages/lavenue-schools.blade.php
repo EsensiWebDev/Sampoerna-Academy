@@ -62,8 +62,8 @@
                     <h1 class="fs-2 fw-semibold" style="font-family: Campton;">{{ __('Facilities') }}&nbsp;</h1>
                     <p class="fs-6 fw-light" style="font-family: Campton;margin-bottom: 0px;margin-top: 32px;">
                         {{ __('Our school features a wide range of modern facilites, including technology-integrated classrooms, a') }}
-                        <br>{{ __('spacious library, a science laboratory, sports facilities, and dedicated arts and music studios, all designed') }}
-                        <br>{{ __('to provide a stimulating environment for students to explore their passions and reach their full potential.') }}
+                        <br>{{ __('spacious library, a science laboratory, and sports facilities, all designed to provide a stimulating') }}
+                        <br>{{ __('environment for students to explore their passions and reach their full potential.') }}
                     </p>
                 </div>
             </div>

@@ -3,7 +3,7 @@
         <div class="row" style="margin-bottom: 50px;">
             <div class="col-md-12">
                 <h1 class="fs-2 fw-semibold text-center" style="font-family: Campton;color: var(--bs-emphasis-color);">
-                    {{ __('Here from Our Community') }}</h1>
+                    {{ __('Hear from Our Community') }}</h1>
             </div>
         </div>
         <div class="row">

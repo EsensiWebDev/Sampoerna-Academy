@@ -153,7 +153,7 @@
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                     </svg></span></div>
                             <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">
-                                {{ __('By integrating best-in-class digital resources, we use powerful learning tools that allow students to enjoy learning both inside and outside the classroom.') }}
+                                {{ __('Integrating best-in-class digital resources and exploring robotics in our makerspaces, actively creating and collaborating to transform learning into an engaging experience both within and beyond the classroom.') }}
                             </p>
                         </div>
                         <div class="d-flex flex-row">
@@ -162,7 +162,7 @@
                                         <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"></path>
                                     </svg></span></div>
                             <p class="fw-light" style="font-family: Campton;color: var(--bs-black);">
-                                {{ __('Students are guided to think about and use technology as more than just a social means for enjoyment, but as a tool to access information, resources and work collaboratively.') }}
+                                {{ __('Students are empowered to use technology purposefully-for researching, creating, and collaborating-to achieve their academic goals.') }}
                             </p>
                         </div>
                     </div>
