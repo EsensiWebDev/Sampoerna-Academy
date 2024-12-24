@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div style="padding-top: 26px;padding-bottom: 16px;">
-                        <p class="fs-5 fw-light" style="margin-bottom: -1px;font-family: Campton;color: var(--bs-black);">{{ __("At Sampoerna School, we never stop asking the big questions. What are the big challenges facing young Indonesians today? And how do we best prepare them to compete and succeed in a complex, global world? We are looking for lecturers and faculty members who share our drive and ambition. At Sampoerna School, bring your passion. Bring your initiative. Bring your big plans for the future. Together, we transform lives and make dreams come true.") }}</p>
+                        <p class="fs-5 fw-light" style="margin-bottom: -1px;font-family: Campton;color: var(--bs-black);">{{ __("At Sampoerna Academy, we never stop asking the big questions. What are the big challenges facing young Indonesians today? And how do we best prepare them to compete and succeed in a complex, global world? We are looking for lecturers and faculty members who share our drive and ambition. At Sampoerna Academy, bring your passion. Bring your initiative. Bring your big plans for the future. Together, we transform lives and make dreams come true.") }}</p>
                     </div>
                     <div>
                         <p class="fs-5 fw-light" style="margin-bottom: -1px;font-family: Campton;color: var(--bs-black);">{{ __("Interested in being one of us? Please send your application by choosing our vacancy job lists below.") }}<br>{{ __("Only short-listed candidates that meet the mentioned qualifications will be notified.") }}</p>
