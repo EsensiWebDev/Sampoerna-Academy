@@ -285,10 +285,11 @@
                                 <p class="fs-5 car-trailing"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
+                                    <div class="text-white " style=" font-family: Campton; margin-top:50px">
+                                        <h4>#IGNITEtheSpark</h4>
+                                    </div>
                                 </p>
-                                <div class="text-white " style=" font-family: Campton; margin-top:50px">
-                                    <h4>#IGNITEtheSpark</h4>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
