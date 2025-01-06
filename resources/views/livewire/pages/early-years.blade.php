@@ -36,8 +36,11 @@
                 <div class="col-md-6 d-flex flex-row justify-content-xxl-start align-items-xxl-center">
                     <div style="padding-left: 16px;padding-right: 16px;">
                         <h1 class="fs-2 fw-semibold" style="font-family: Campton;color: var(--bs-black);">{{ __("Early Years Grades") }}</h1>
-                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("At Pre-Kindergarten level, the learning program is promoted with cognitive, physical, social-emotional, and language development through play.") }}</p>
-                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("At Kindergarten level, the learning program is employed by emphasizing on numeracy, literacy, as well as social and emotional development by") }}<br>{{ __("implementing a wide range of internationally endorsed learning programs/resources.") }}</p>
+                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("We create a joyful, stress-free early learning journey where children grow holistically in a fun, child-focused environment. Each grade in our Early Years program is thoughtfully curated to gradually introduce formal education.") }}</p>
+                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("In Toddler to Playgroup, we focus on communication, social-emotional, and physical well-being through playful exploration.") }}</p>
+                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("Prekindergarten builds on this with pre-literacy and pre-numeracy skills, while nurturing creativity and curiosity.") }}</p>
+                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("By Kindergarten 1 and 2, our programs prepare children for Grade 1, making learning to read, write, and count an exciting adventure and introducing Mandarin and Bahasa Indonesia.") }}</p>
+                        <p class="fw-light" style="color: var(--bs-black);font-family: Campton;">{{ __("We ensure every child’s first educational experience is memorable, effective, and smoothly progressive.") }}</p>
                     </div>
                 </div>
             </div>

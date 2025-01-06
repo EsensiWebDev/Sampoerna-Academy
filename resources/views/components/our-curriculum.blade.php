@@ -69,7 +69,7 @@
 
                     <div class="tab-content flex-grow-1" style="background: #E4E4EB; padding: 40px; border-radius: 15px;">
                         <div class="tab-pane fade show active" role="tabpanel" id="tab-1">
-                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("We champion the development of the whole child—socially, emotionally, cognitively, and physically. Our approach balances academic skills with soft skills, ensuring that children excel both in their studies and personal growth.") }}</p>
+                            <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("We champion the development of the whole child—socially, emotionally, cognitively, and physically. Our approach balances academic skills with soft skills, ensuring that children excel both in their studies and personal growth.  This well-rounded approach ensures a comprehensive, enriching educational experience that supports every aspect of your child’s development.") }}</p>
                         </div>
                         <div class="tab-pane fade" role="tabpanel" id="tab-2">
                             <p class="fs-5 fw-light" style="font-family: Campton;">{{ __("Parent involvement is vital for creating a supportive learning environment where children feel valued, motivated, and empowered to explore, discover, and succeed. By working together, parents and educators can nurture children’s holistic development and lay a strong foundation for their future success. This is done in various ways, some of them are:  1. Partnership & communication  2. Orientation & workshops  3. Parent involvement in learning  4. Home Learning Support  5. Celebration of Learning") }}</p>

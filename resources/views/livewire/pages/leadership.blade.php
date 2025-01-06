@@ -179,7 +179,7 @@
                         <div><img class="img-fluid" src="/assets/img/Card/9-3%20Mrs.%20Maria%20Nenita%20Silang.webp">
                         </div>
                         <div style="margin-top: 32px;">
-                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Maria Nenita
+                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Maria Nenita Silang Se
                             </h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
                                 {{ __('Mathematics Curriculum Head') }}</p>
@@ -204,8 +204,7 @@
                         <div><img class="img-fluid" src="/assets/img/Card/5-3%20Mrs.%20Tamara%20James%20Wyachai.webp">
                         </div>
                         <div style="margin-top: 32px;">
-                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Tamara James
-                                Wyachai</h1>
+                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Tamara James-Wyachai</h1>
                             <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
                                 {{ __('English Curriculum Head') }}</p>
                         </div>
@@ -234,7 +233,30 @@
                                 {{ __('IEYC Curriculum Head') }}</p>
                         </div>
                     </div>
+                </div> 
+                <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
+                    <div>
+                        <div><img class="img-fluid"
+                                src="/assets/img/Card/16-3%20_Mr.%20Ryan%20T.%20Katigbak.webp"></div>
+                        <div style="margin-top: 32px;">
+                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Ryan T. Katigbak</h1>
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                {{ __('Technology Curriculum Head') }}</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="col col-6 col-sm-6 col-lg-3 px-2 py-2">
+                    <div>
+                        <div><img class="img-fluid"
+                                src="/assets/img/Card/17-3%20_Mr.%20Wael%20El%20Haj%20Youssef.webp"></div>
+                        <div style="margin-top: 32px;">
+                            <h1 class="fs-3 fw-semibold" style="font-family: Campton;color: #292F78;">Wael El Haj Youssef</h1>
+                            <p class="fs-5 fw-light" style="color: var(--bs-black);font-family: Campton;">
+                                {{ __('Head of Student Affairs') }}</p>
+                        </div>
+                    </div>
+                </div> 
+                
             </div>
         </div>
     </section>

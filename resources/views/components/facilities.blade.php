@@ -3,7 +3,8 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="fs-2 fw-semibold" style="font-family: Campton;">{{ __("Our Stimulating Environment") }}&nbsp;</h1>
-                <p class="fs-6 fw-light" style="font-family: Campton;margin-bottom: 0px;margin-top: 32px;">{{ __("Sampoerna Academy houses outstanding facilities, including technology-integrated classrooms that are purpose-built") }}<br>{{ __("to support our personalized and STEAM-based learning methodology.") }}<br>{{ __("All of our schools provide play areas and exercise space and some have access to larger playing fields and swimming") }} <br>{{ __("pools.") }}</p>
+                <p class="fs-6 fw-light" style="font-family: Campton;margin-bottom: 0px;margin-top: 32px;">{{ __("Sampoerna Academy ELC provides a stimulating and nurturing environment that fosters holistic growth in every child. Our purpose-built, technology-integrated classrooms support personalized and STEAM-based learning, offering a vibrant and conducive space for exploration. Dedicated areas like the 'safe space' nurture social-emotional well-being, while our spacious outdoor areas encourage inquiry-based learning and physical development through active play.") }}</p>
+                <p class="fs-6 fw-light" style="font-family: Campton;margin-bottom: 0px;margin-top: 32px;">{{ __("In addition to play areas and exercise spaces, many of our schools feature larger playing fields, creating an engaging and well-rounded environment where children can grow, thrive, and develop a love for learning.") }}</p>
             </div>
         </div>
         <div class="row" style="margin-top: 40px;">
