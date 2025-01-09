@@ -23,6 +23,7 @@ class FormController extends Controller
                 'school_choice'     => 'required|string|max:255',
                 'grade_interested'  => 'required|string|max:255',
                 'timeframe_visit'   => 'required|string|max:255',
+                'comment'           => 'string',
             ]);
             Lead::create($validatedData);
             // dd($validatedData);

@@ -31,5 +31,6 @@ class Lead extends Model
         'school_choice',
         'grade_interested',
         'timeframe_visit',
+        'comment',
     ];
 }

@@ -111,6 +111,12 @@
                                     <option value="3 Months">{{ __('3 Months') }}</option>
                                 </select>
                             </div>
+                            <div class="mb-4">
+                                <label class="form-label"
+                                    style="color: var(--bs-black); font-family: Campton;">{{ __('Comment') }}
+                                </label>
+                                <textarea class="form-control" style="min-height:150px" name="comment"></textarea>
+                            </div>
                             {{-- @if ($errors->has('g-recaptcha-response'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
