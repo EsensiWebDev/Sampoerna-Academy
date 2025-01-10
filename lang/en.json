@@ -127,6 +127,7 @@
     "Cipto & Citra School, Medan": "Cipto & Citra School, Medan",
     "Grade Interested": "Grade Interested",
     "Timeframe Visit": "Timeframe Visit",
+    "Comment": "Comment",
     "Within This Week": "Within This Week",
     "This Month": "This Month",
     "3 Months": "3 Months",
@@ -651,5 +652,16 @@
     "Can school fees in SA be installment-based?": "Can school fees in SA be installment-based?",
 
     "Steam Benefits": "STEAM Benefits",
-    "Steam Benefits Sub": "STEAM education is about creating an environment where students can fully participate in their learning and actively shape their skills, mindsets, and literacies through various meaningful and engaging projects. What are the STEAM benefits? <div class='mt-5 fs-5 fw-light' style='font-family: Campton; color: var(--bs-black);'>Watch our video and find out!</div>"
+    "Steam Benefits Sub": "STEAM education is about creating an environment where students can fully participate in their learning and actively shape their skills, mindsets, and literacies through various meaningful and engaging projects. What are the STEAM benefits? <div class='mt-5 fs-5 fw-light' style='font-family: Campton; color: var(--bs-black);'>Watch our video and find out!</div>",
+    "Dive Into The World Tittle": "Dive into the world of Science, Technology, Engineering, Arts, and Mathematics at the STEAM Expo & Competition 2025!",
+    "Dive Into The World subtittle": "This annual exhibition showcases innovative projects, hands-on workshops, and exciting competitions for students and STEAM enthusiasts. It’s an unmissable event to witness the power of STEAM in action!",
+    "Why Attend The Steam": "Why Attend the STEAM Expo & Competition?",
+    "Why Attend The Steam Sub1": "Opportunities for students to showcase their talents.",
+    "Why Attend The Steam Sub2": "Interactive exhibits for families..",
+    "Why Attend The Steam Sub3": "Networking with educators, professionals, and peers in STEAM fields.",
+    "Why Attend The Steam Sub4": "Stay tuned for more details and save the date to join us in celebrating the spirit of innovation and creativity!",
+    "Learn More About STEAM Expo 2025": "Learn More About STEAM Expo 2025",
+    "Learn More About STEAM Competition 2025": "Learn More About STEAM Competition 2025",
+    "Students Achievement": "Students Achievement",
+    "Students Achievement Sub": "Grade 8 students from Sampoerna Academy Jakarta have developed “Wintint,” a smart window that utilizes PDLC (Polymer Dispersed Liquid Crystal) film technology to seamlessly adjust its opacity via an app. This innovative solution addresses critical issues like light pollution, energy consumption, and privacy. This remarkable project showcases these young innovators ability to tackle real-world challenges, apply scientific principles, and collaborate effectively to deliver impactful solutions. It also reflects the transformative power of STEAM education in nurturing the leaders of tomorrow."
 }
