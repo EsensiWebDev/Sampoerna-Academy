@@ -31,6 +31,8 @@
                     </div>
                 </div>
             </div>
+
+
             <div class="row" style="margin-top: 72px;">
                 <!-- Desktop image -->
                 <div class="col-md-12 d-none d-md-block">
@@ -43,9 +45,31 @@
                     <img class="img-fluid" src="/assets/img/Banner/Background.webp" alt="Background Image for Mobile">
                 </div>
             </div>
-
         </div>
     </section>
+
+    {{-- Steam Benefits Section --}}
+    <section>
+        <div class="container" style="margin-top: 4.5rem;">
+            <style>
+                @media (min-width: 992px) {
+                    .container {
+                        margin-top: 8.813rem !important;
+                    }
+                }
+            </style>
+            <div class="row">
+                <div class="col-md-12 d-md-block">
+                    <h1 class="fw-semibold" style="font-family: Campton;color: var(--bs-black);">
+                        {{ __('Steam Benefits') }}</h1>
+                    <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">
+                        {!! __('Steam Benefits Sub') !!}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- End Of Steam Benefits Section --}}
     <section style="margin-top: 200px;" class="d-none d-md-block">
         <div class="container" style="margin-bottom: 50px;">
             <div class="row">
