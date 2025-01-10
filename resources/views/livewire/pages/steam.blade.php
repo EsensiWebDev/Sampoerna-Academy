@@ -50,10 +50,10 @@
 
     {{-- Steam Benefits Section --}}
     <section>
-        <div class="container" style="margin-top: 4.5rem;">
+        <div class="container steam-container" style="margin-top: 4.5rem;">
             <style>
                 @media (min-width: 992px) {
-                    .container {
+                    .steam-container {
                         margin-top: 8.813rem !important;
                     }
                 }
@@ -115,25 +115,73 @@
     <section class="dive-into-the-world">
         <div class="container" style="margin-top: 4.5rem;">
             <div class="row col-md-12">
-                <h1 class="fw-semibold" style="font-family: Campton;color: var(--bs-black);">
-                    {{ __('Dive Into The World Tittle') }}</h1>
+                <h2 class="fw-semibold" style="font-family: Campton;color: var(--bs-black);">
+                    {{ __('Dive Into The World Tittle') }}</h2>
+
+                <div class="my-4">
+                    <span class="badge rounded-pill fw-normal "
+                        style="background: #CE3827;font-family: Campton;padding-top: 12px;padding-bottom: 12px;padding-left: 18px;padding-right: 18px;margin-right: 12px; font-size:20px"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-event">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+                            <path d="M16 3l0 4" />
+                            <path d="M8 3l0 4" />
+                            <path d="M4 11l16 0" />
+                            <path d="M8 15h2v2h-2z" />
+                        </svg> {{ __("February - March 2025")}}
+                    </span>
+                </div>
+
+
                 <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">
                     {!! __('Dive Into The World subtittle') !!}
                 </p>
             </div>
 
+            <div class="d-none d-md-block">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/assets/img/Steam/dive1.webp" alt=""
+                            class="w-100 object-fit-cover">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/assets/img/Steam/dive2.webp" alt=""
+                            class="w-100 object-fit-cover">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/assets/img/Steam/dive3.webp" alt=""
+                            class="w-100 object-fit-cover">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="/assets/img/Steam/dive4.webp" alt=""
+                            class="w-100 object-fit-cover">
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-md-3 p-0 m-0">
-                    <img src="/assets/img/Steam/dive1.webp" alt="" class="img-fluid object-fit-cover">
-                </div>
-                <div class="col-md-3 p-0 m-0">
-                    <img src="/assets/img/Steam/dive2.webp" alt="" class="img-fluid object-fit-cover">
-                </div>
-                <div class="col-md-3 p-0 m-0">
-                    <img src="/assets/img/Steam/dive3.webp" alt="" class="img-fluid object-fit-cover">
-                </div>
-                <div class="col-md-3 p-0 m-0">
-                    <img src="/assets/img/Steam/dive4.webp" alt="" class="img-fluid object-fit-cover">
+                <div id="carouselExample" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/Steam/dive1.webp" alt=""
+                                class="d-block w-100 object-fit-cover">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/Steam/dive2.webp" alt=""
+                                class="img-fluid object-fit-cover">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/Steam/dive3.webp" alt=""
+                                class="img-fluid object-fit-cover">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/Steam/dive4.webp" alt=""
+                                class="img-fluid object-fit-cover">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row col-md-12 mt-5">
@@ -146,75 +194,64 @@
                             <li>{{ __('Why Attend The Steam Sub3') }}</li>
                         </ul>
                     </div>
+
+                    <div>
+                        <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">
+                            {{ __('Stay tuned for more details and save the date to join us in celebrating the spirit of innovation and creativity!') }}
+                        </p>
+                    </div>
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-12">
-                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel"
-                        data-bs-interval="3000">
-                        <div class="carousel-inner">
-                            <!-- Slide 1 -->
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive1.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive2.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive3.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive4.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                </div>
+                    <div class="d-none d-md-block">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img src="/assets/img/Steam/expo1.webp" alt=""
+                                    class="w-100 object-fit-cover">
                             </div>
-
-                            <!-- Slide 2 (optional) -->
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive1.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive2.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive3.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img src="/assets/img/Steam/dive4.webp" alt=""
-                                            class="d-block w-100 object-fit-cover">
-                                    </div>
-                                </div>
+                            <div class="col-md-3">
+                                <img src="/assets/img/Steam/expo2.webp" alt=""
+                                    class="w-100 object-fit-cover">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/assets/img/Steam/expo3.webp" alt=""
+                                    class="w-100 object-fit-cover">
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/assets/img/Steam/expo4.webp" alt=""
+                                    class="w-100 object-fit-cover">
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Carousel Controls -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+
+                    <div id="carouselExample" class="carousel slide d-block d-md-none" data-bs-ride="carousel"
+                        data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/assets/img/Steam/expo1.webp" class="d-block w-100 object-fit-cover"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/Steam/expo2.webp" class="d-block w-100 object-fit-cover"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/Steam/expo3.webp" class="d-block w-100 object-fit-cover"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/img/Steam/expo4.webp" class="d-block w-100 object-fit-cover"
+                                    alt="...">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
+            <div class="d-flex mt-5" style="justify-content: space-around">
+                <div>
                     <a href="https://program.sampoernaacademy.sch.id/steamexpo">
                         <button class="btn btn-primary" type="button"
                             style="font-family: Campton;border-bottom-style: none;">
@@ -226,7 +263,7 @@
                             </svg>&nbsp;</button>
                     </a>
                 </div>
-                <div class="col-md-6">
+                <div>
                     <a href="https://program.sampoernaacademy.sch.id/steamcompetition">
                         <button class="btn btn-primary" type="button"
                             style="font-family: Campton;border-bottom-style: none;">
@@ -249,10 +286,10 @@
     {{-- Section Student Achievement --}}
     <section class="student-achievement">
         <div class="container" style="margin-top: 4.5rem;">
-            <div class="row">
+            <div class="row" >
                 <div class="col-md-6"><img class="img-fluid" src="assets/img/Steam/student-achievement.webp"
                         alt=""></div>
-                <div class="col-md-6">
+                <div class="col-md-6" style="align-content: center">
                     <h1 class="fw-semibold" style="font-family: Campton;color: var(--bs-black);">
                         {{ __('Students Achievement') }}</h1>
                     <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">
@@ -441,26 +478,9 @@
         </div>
     </section>
 
-    <script>
-        $(document).ready(function() {
-            $('.slick-slider').slick({
-                dots: false,
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                variableWidth: true,
-                slidesToScroll: 1,
-                responsive: [{
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }]
-            });
-        });
-    </script>
+
 </section>
+
 
 @section('sub-footer')
     @include('components.sub-footer')
