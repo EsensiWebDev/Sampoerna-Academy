@@ -57,13 +57,13 @@
                     </div>
                 </div>
                 <div class="col-md-8 offset-xxl-0 mt-2" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid"
-                        src="/assets/img/Banner/Surabaya%20image%201.webp"></div>
+                        src="/assets/img/Banner/Surabaya%20image%202.webp"></div>
             </div>
         </div>
         <div class="container" style="margin-top: 72px;">
             <div class="row justify-content-between text-image-container">
                 <div class="col-md-8 offset-xxl-0 mt-2" style="padding-left: 0px;padding-right: 0px;"><img class="img-fluid"
-                        src="/assets/img/Banner/Surabaya%20image%202.webp"></div>
+                        src="/assets/img/Banner/Surabaya%20image%201.webp"></div>
                 <div class="col-md-4 d-flex d-lg-flex flex-column " style="background: transparent;">
                     <h1 class="fs-1" style="font-family: Campton;color: #CE3827;margin-bottom: 15px;">GRAND PAKUWON
                     </h1>

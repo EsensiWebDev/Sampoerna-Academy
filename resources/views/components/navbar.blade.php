@@ -48,7 +48,7 @@
                             style="color: var(--bs-white);font-family: Campton;">
                             @php
                                 $currentLocale = app()->getLocale();
-                                $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'circle-flags_us.webp';
+                                $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'United-Kingdom.png';
                                 $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                             @endphp
                             <img src="{{ asset("assets/img/Flag/$flagImage") }}" width="26" height="20"
@@ -57,7 +57,7 @@
                         <ul class="dropdown-menu" aria-labelledby="languageDropdown">
                             <li>
                                 <a class="dropdown-item" href="/language/en">
-                                    <img src="{{ asset('assets/img/Flag/circle-flags_us.webp') }}" width="26"
+                                    <img src="{{ asset('assets/img/Flag/United-Kingdom.png') }}" width="26"
                                         height="20" style="width: 20px;">&nbsp;English
                                 </a>
                             </li>
@@ -452,7 +452,7 @@
                                 @php
                                     $currentLocale = app()->getLocale();
                                     $flagImage =
-                                        $currentLocale == 'id' ? 'circle-flags_id.webp' : 'circle-flags_us.webp';
+                                        $currentLocale == 'id' ? 'circle-flags_id.webp' : 'United-Kingdom.png';
                                     $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                                 @endphp
                                 <img src="{{ asset("assets/img/Flag/$flagImage") }}"
@@ -476,7 +476,7 @@
                                 <a class="dropdown-item fw-light mt-2" href="/language/en"
                                     style="color: var(--bs-white);">
                                     <img width="26" height="26"
-                                        src="{{ asset('assets/img/Flag/circle-flags_us.webp') }}"
+                                        src="{{ asset('assets/img/Flag/United-Kingdom.png') }}"
                                         style="width: 20px;">&nbsp;English
                                 </a>
                                 <a class="dropdown-item fw-light mt-2" href="/language/id"
