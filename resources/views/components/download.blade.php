@@ -29,13 +29,23 @@
                         <div style="padding-left: 40px; padding-right: 40px; padding-top: 40px; padding-bottom: 40px;">
                             <h4 class="fs-4" style="font-family: Campton;">{{ __("Parent & Students Handbook") }}</h4>
                             <p class="fs-5 fw-light">{{ __("This handbook provides valuable information for parents and students, including policies, procedures, and important dates.") }}</p>
-                            <a href="https://www.program.sampoernaacademy.sch.id/wp-content/uploads/2023/07/SA-Handbook-2023_R2.pdf">
+                            @if (Request::is('academics/online-school'))
+                            <a href="https://drive.google.com/file/d/1Aw15AFO-aMB4lRqQ1i8TqOfwId19hDKD/view?usp=drive_link ">
                                 <button class="btn btn-primary" type="button" style="font-family: Campton; border-style: none;">
                                     &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 15px;">
                                         <path d="M7 16C4.79086 16 3 14.2091 3 12C3 10.0929 4.33457 8.4976 6.12071 8.09695C6.04169 7.74395 6 7.37684 6 7C6 4.23858 8.23858 2 11 2C13.4193 2 15.4373 3.71825 15.9002 6.00098C15.9334 6.00033 15.9666 6 16 6C18.7614 6 21 8.23858 21 11C21 13.419 19.2822 15.4367 17 15.9M9 19L12 22M12 22L15 19M12 22V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                     </svg>&nbsp; {{ __("Download Booklet") }}
                                 </button>
                             </a>
+                            @else
+                            <a href="https://drive.google.com/file/d/1Fwb38abc9r-KdWVYbWWJ_Y_c0V-D6PDr/view?usp=drive_link">
+                                <button class="btn btn-primary" type="button" style="font-family: Campton; border-style: none;">
+                                    &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 15px;">
+                                        <path d="M7 16C4.79086 16 3 14.2091 3 12C3 10.0929 4.33457 8.4976 6.12071 8.09695C6.04169 7.74395 6 7.37684 6 7C6 4.23858 8.23858 2 11 2C13.4193 2 15.4373 3.71825 15.9002 6.00098C15.9334 6.00033 15.9666 6 16 6C18.7614 6 21 8.23858 21 11C21 13.419 19.2822 15.4367 17 15.9M9 19L12 22M12 22L15 19M12 22V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>&nbsp; {{ __("Download Booklet") }}
+                                </button>
+                            </a>
+                            @endif
                         </div>
                     </div>
                 </div>
