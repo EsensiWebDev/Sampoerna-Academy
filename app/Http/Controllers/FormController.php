@@ -25,7 +25,10 @@ class FormController extends Controller
                 'timeframe_visit'   => 'required|string|max:255',
                 'comment'           => 'string',
             ]);
-            Lead::create($validatedData);
+            $sanitizedData = array_map(function ($value) {
+                return is_string($value) ? strip_tags(trim($value)) : $value;
+            }, $validatedData);
+            Lead::create($sanitizedData);
             // dd($validatedData);
             return redirect()->back()->with('success', 'Data successfully saved!')->withFragment('#formSection');
         } catch (\Exception $e) {
