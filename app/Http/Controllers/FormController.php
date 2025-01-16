@@ -25,17 +25,14 @@ class FormController extends Controller
                 'timeframe_visit'   => 'required|string|max:255',
                 'comment'           => 'string',
             ]);
-
-            $sanitizedData = array_map(function ($value, $key) {
+            
+            $sanitizedData = array_map(function ($value) {
                 if (is_string($value)) {
                     $value = strip_tags(trim($value)); // Strip HTML tags and trim whitespace
-                    if ($key === 'comment') {
-                        // Replace newlines with a space in the comment field
-                        $value = str_replace(["\r\n", "\n", "\r"], ' ', $value);
-                    }
+                    $value = str_replace(["\r\n", "\n", "\r"], ' ', $value); // Replace newlines with a space
                 }
                 return $value;
-            }, $validatedData, array_keys($validatedData));
+            }, $validatedData);
             Lead::create($sanitizedData);
             // dd($validatedData);
             return redirect()->back()->with('success', 'Data successfully saved!')->withFragment('#formSection');
