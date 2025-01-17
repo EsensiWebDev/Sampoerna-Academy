@@ -37,9 +37,7 @@ class ArticleResource extends Resource
                     ->required()
                     ->minLength(5)
                     ->maxLength(255)
-                    ->rules([
-                        Rule::unique('articles', 'slug')->ignore(fn ($record) => $record->id),
-                    ]),
+                    ->unique('articles', 'slug', ignoreRecord: true),
                 Forms\Components\TextInput::make('title_indonesia')
                     ->required()
                     ->minLength(5)
