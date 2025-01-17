@@ -3,16 +3,13 @@
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\ArticleResource\Pages;
-use App\Filament\Resources\ArticleResource\RelationManagers;
 use App\Models\Article;
-use App\Models\Tag;
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
+
 
 namespace App\Filament\Resources;
 
@@ -23,6 +20,8 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Illuminate\Validation\Rule;
+
 
 class ArticleResource extends Resource
 {
@@ -38,7 +37,9 @@ class ArticleResource extends Resource
                     ->required()
                     ->minLength(5)
                     ->maxLength(255)
-                    ->unique('articles', 'slug'),
+                    ->rules([
+                        Rule::unique('articles', 'slug')->ignore(fn ($record) => $record->id ?? null),
+                    ]),
                 Forms\Components\TextInput::make('title_indonesia')
                     ->required()
                     ->minLength(5)
