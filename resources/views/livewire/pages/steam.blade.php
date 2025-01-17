@@ -17,7 +17,7 @@
                 <div class="col-md-12">
                     <div>
                         <h1 class="display-4 fw-semibold" style="color: var(--bs-black);font-family: Campton;">
-                            {{ __('STEAM Powered Curriculum') }}</h1>
+                            {{ __('STEAM Methodology') }}</h1>
                     </div>
                     <div style="margin-top: 24px;">
                         <p class="fs-5 fw-light" style="font-family: Campton;color: var(--bs-black);">

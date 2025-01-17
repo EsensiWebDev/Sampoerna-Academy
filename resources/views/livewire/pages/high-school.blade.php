@@ -45,7 +45,7 @@
                         <h1 class="fs-2 fw-semibold"
                             style="font-family: Campton;color: var(--bs-black);">{{ __("High School Grades") }}</h1>
                         <p class="fw-light"
-                           style="color: var(--bs-black);font-family: Campton;">{{ __("We offer a comprehensive international curriculum, including <br>Cambridge Assessment and IB Diploma, to prepare students") }}
+                           style="color: var(--bs-black);font-family: Campton;">{{ __("We offer a comprehensive international curriculum, including Cambridge Assessment and IB Diploma, to prepare students") }}
                             <br>{{ __("for global success") }}.</p>
                         <div class="d-flex flex-row align-items-lg-center align-items-xxl-center"
                              style="margin-top: 24px;">
