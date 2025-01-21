@@ -55,7 +55,8 @@ class ArticleResource extends Resource
                     ->columnSpanFull()
                     ->visibility('public')
                     ->preserveFilenames()
-                    ->label('Thumbnail'),
+                    ->label('Thumbnail')
+                    ->formatStateUsing(fn ($state) => $state ? asset($state) : null),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
