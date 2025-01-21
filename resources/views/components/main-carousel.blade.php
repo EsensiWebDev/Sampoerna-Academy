@@ -1,7 +1,7 @@
 <section>
     <div class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false"
-        data-bs-keyboard="false" data-bs-touch="false" id="carousel-1" style="height: 860px;">
-        <div class="carousel-inner h-100">
+        data-bs-keyboard="false" data-bs-touch="false" id="carousel-1" style="height: 100vh;">
+        <div class="carousel-inner h-100 " >
             <div class="carousel-item active d-flex d-lg-flex align-items-end h-100">
                 <img class="w-100 d-block position-absolute h-100 fit-cover"
                     src="../assets/img/Carousel/carousel%201_new.webp" alt="Slide Image"
@@ -339,5 +339,13 @@
                     style="max-width: 200px;">
             </a>
         </div>
+        {{-- <button class="carousel-control-prev" style="width:5%" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="width:5%" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> --}}
     </div>
 </section>
