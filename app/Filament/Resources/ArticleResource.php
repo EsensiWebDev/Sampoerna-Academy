@@ -53,11 +53,12 @@ class ArticleResource extends Resource
                     ->disk('public')
                     ->directory('images')
                     ->columnSpanFull()
+                    ->visibility('public') 
                     ->preserveFilenames()
-                    ->label('Thumbnail')
-                    ->getPreviewUsing(function ($value) {
-                        return $value ? asset('storage/' . $value) : null;
-                    }),
+                    ->getUploadedFileNameForStorageUsing(function ($file) {
+                        return 'images/' . $file->getClientOriginalName();
+                    })
+                    ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
