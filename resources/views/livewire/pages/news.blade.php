@@ -23,7 +23,7 @@
 
                     @if (isset($article) && $article->isPublished)
                         <div class="d-flex flex-row justify-content-start align-items-end"
-                            style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url('{{ asset("{$article->thumbnail}") }}') center / cover no-repeat; height: 676px;">
+                            style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url('{{ asset('storage/' . $article->thumbnail) }}') center / cover no-repeat; height: 676px;">
 
                             <div class="flex-fill px-5" style="padding-left: 140px;padding-bottom: 36px;">
                                 @php
@@ -86,7 +86,7 @@
                                 <div>
                                     <img class="img-fluid"
                                         style="margin-bottom: 36px; height: 334px; width: 100%; object-fit: cover;"
-                                        src="{{ asset($article->thumbnail) }}" alt="Article Thumbnail">
+                                        src="{{ asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
                                 </div>
                                 <p class="fw-light" style="font-family: Campton; color: #8F90A6;">
                                     {{ \Carbon\Carbon::parse($article->created_at)->format('F j, Y') }}
