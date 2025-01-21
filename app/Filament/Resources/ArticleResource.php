@@ -56,7 +56,11 @@ class ArticleResource extends Resource
                     ->visibility('public')
                     ->preserveFilenames()
                     ->label('Thumbnail')
-                    ->dehydrateStateUsing(fn ($state) => $state ? str_replace('/storage/', '', $state) : null),
+                    ->dehydrateStateUsing(function ($state) {
+                        $adjustedState = $state ? str_replace('/storage/', '', $state) : null;
+                        dd('Thumbnail URL: ' . $adjustedState);
+                        return $adjustedState;
+                    }),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
