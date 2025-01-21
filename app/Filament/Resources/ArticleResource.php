@@ -55,10 +55,7 @@ class ArticleResource extends Resource
                     ->columnSpanFull()
                     ->visibility('public')
                     ->preserveFilenames()
-                    ->label('Thumbnail')
-                    ->extraAttributes(fn ($record) => [
-                        'src' => $record ? asset('storage/' . $record->thumbnail) : null,
-                    ]),
+                    ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
