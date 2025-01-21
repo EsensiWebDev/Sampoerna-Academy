@@ -53,12 +53,9 @@ class ArticleResource extends Resource
                     ->disk('public')
                     ->directory('images')
                     ->columnSpanFull()
-                    ->visibility('public') 
                     ->preserveFilenames()
-                    ->getUploadedFileNameForStorageUsing(function ($file) {
-                        return 'images/' . $file->getClientOriginalName();
-                    })
-                    ->label('Thumbnail'),
+                    ->label('Thumbnail')
+                    ->getStateUsing(fn ($state) => $state ? 'https://www.sampoernaacademy.sch.id/storage/images/' . $state : null),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
