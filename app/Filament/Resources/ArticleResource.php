@@ -53,8 +53,10 @@ class ArticleResource extends Resource
                     ->disk('public')
                     ->directory('images')
                     ->columnSpanFull()
+                    ->visibility('public')
                     ->preserveFilenames()
-                    ->label('Thumbnail'),
+                    ->label('Thumbnail')
+                    ->getStateUsing(fn ($state) => $state ? asset('storage/' . $state) : null),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
