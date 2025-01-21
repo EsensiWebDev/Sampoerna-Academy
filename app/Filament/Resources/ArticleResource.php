@@ -54,15 +54,7 @@ class ArticleResource extends Resource
                     ->directory('images')
                     ->columnSpanFull()
                     ->preserveFilenames()
-                    ->label('Thumbnail')
-                    ->dehydrateStateUsing(function ($state) {
-                        // Remove the base URL before saving to the database
-                        return str_replace('https://www.sampoernaacademy.sch.id/storage/images/', '', $state);
-                    })
-                    ->loadStateFromDatabaseUsing(function ($state) {
-                        // Add the base URL when loading from the database
-                        return $state ? 'https://www.sampoernaacademy.sch.id/storage/images/' . $state : null;
-                    }),
+                    ->label('Thumbnail'),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
