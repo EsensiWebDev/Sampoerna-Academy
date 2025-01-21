@@ -27,7 +27,7 @@
                             <div>
                                 <img class="img-fluid"
                                     style="margin-bottom: 36px; height: 334px; width: 100%; object-fit: cover;"
-                                    src="{{ asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
+                                    src="{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
                             </div>
                             <p class="fw-light" style="font-family: Campton; color: #8F90A6;">
                                 {{ \Carbon\Carbon::parse($article->created_at)->format('F j, Y') }}
@@ -76,7 +76,7 @@
                         <div class="col-md-4" wire:key="{{ $loop->iteration }}">
                             <div>
                                 <img class="img-fluid" style="margin-bottom: 36px; height: 334px; width: 100%; object-fit: cover;"
-                                    src="{{ asset('storage/' . $article->thumbnail) }}">
+                                    src="{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}">
                             </div>
                             <p class="fw-light" style="font-family: Campton;color: #8F90A6;">
                                 {{ Carbon::parse($article->created_at)->format('F j, Y') }}

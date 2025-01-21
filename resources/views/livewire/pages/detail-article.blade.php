@@ -7,7 +7,7 @@
         <section>
 
             <div class="d-flex align-items-end"
-                style="height: 600px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%),url('{{ asset('storage/' . $article->thumbnail) }}') center / cover no-repeat,linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);">
+                style="height: 600px; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%),url('{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}') center / cover no-repeat,linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);">
 
                 <div class="container" style="padding-bottom: 64px;">
                     <div class="row">
@@ -65,7 +65,7 @@
 
                                         <img class="img-fluid rounded-top"
                                             style=" height: 204px; width: 100%; object-fit: cover;"
-                                            src="{{ asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
+                                            src="{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
                                     </div>
 
                                     @php
