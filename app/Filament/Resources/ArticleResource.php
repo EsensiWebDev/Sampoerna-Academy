@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources;
+// namespace App\Filament\Resources;
 
-use App\Filament\Resources\ArticleResource\Pages;
-use App\Models\Article;
-use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
-use Filament\Tables;
-use Filament\Tables\Table;
+// use App\Filament\Resources\ArticleResource\Pages;
+// use App\Models\Article;
+// use Filament\Forms;
+// use Filament\Forms\Form;
+// use Filament\Resources\Resource;
+// use Filament\Tables;
+// use Filament\Tables\Table;
 
 
 namespace App\Filament\Resources;
@@ -54,7 +54,10 @@ class ArticleResource extends Resource
                     ->directory('images')
                     ->columnSpanFull()
                     ->preserveFilenames()
-                    ->label('Thumbnail'),
+                    ->label('Thumbnail')
+                    ->getPreviewUsing(function ($value) {
+                        return $value ? asset('storage/' . $value) : null;
+                    }),
                 Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
