@@ -68,14 +68,14 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
-
                 Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
                     ->columnSpanFull(),
                 Forms\Components\Hidden::make('link') // Add the hidden link field
                     ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
                     ->columnSpanFull(),
-            ]);
+            ])
+            ->columns(1);
     }
 
 
