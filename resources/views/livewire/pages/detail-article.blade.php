@@ -51,9 +51,12 @@
     <section id="content" class="px-md-4 py-4 mx-4">
         <div class="row px-md-4 py-md-5">
             <div class="col-md-9 col-sm-12 pe-md-5">
-                {!! $content !!}
+                <div style="max-width:100%">
+
+                    {!! $content !!}
+                </div>
             </div>
-            <div class="col-md-3 col-sm-12" >
+            <div class="col-md-3 col-sm-12">
                 <h3 style="color:#8a8a8a">Recent Post</h3>
                 <div class="d-flex flex-column">
                     @if (isset($articles) && $articles->count() > 1)
@@ -65,7 +68,8 @@
 
                                         <img class="img-fluid rounded-top"
                                             style=" height: 204px; width: 100%; object-fit: cover;"
-                                            src="{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}" alt="Article Thumbnail">
+                                            src="{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}"
+                                            alt="Article Thumbnail">
                                     </div>
 
                                     @php
