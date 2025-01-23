@@ -33,6 +33,12 @@ class ArticleResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\Toggle::make('isPublished') // Add the toggle field
+                    ->label('Publish Article') // Label for the toggle
+                    ->onColor('success') // Optional: Add a color when it's enabled
+                    ->offColor('danger') // Optional: Add a color when it's disabled
+                    ->default(true) // Set the default value (Published)
+                    ->inline(false), // Optional: Display it inline or not
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
@@ -62,12 +68,7 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
-                Forms\Components\Toggle::make('isPublished') // Add the toggle field
-                    ->label('Publish Article') // Label for the toggle
-                    ->onColor('success') // Optional: Add a color when it's enabled
-                    ->offColor('danger') // Optional: Add a color when it's disabled
-                    ->default(true) // Set the default value (Published)
-                    ->inline(false), // Optional: Display it inline or not
+
                 Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
                     ->columnSpanFull(),
