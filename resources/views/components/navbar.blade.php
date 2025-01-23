@@ -99,8 +99,8 @@
                                 <div class="dropdown-divider"
                                     style="border-width: 1px;border-color: rgb(0,0,0);margin-left: 14px;margin-right: 14px;">
                                 </div>
-                                <a class="dropdown-item fw-light" href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home"
-                                    style="color: var(--bs-white);">{{ __('Staff Council') }}</a>
+                                <a class="dropdown-item fw-light"
+                                    href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home">{{ __('Staff Council') }}</a>
                             </div>
                         </div>
                     </li>
@@ -307,7 +307,8 @@
                                     style="color: var(--bs-white);">{{ __('Our Approach') }}</a>
                                 <a class="dropdown-item fw-light mt-2" href="/aboutus/leadership"
                                     style="color: var(--bs-white);">{{ __('Leadership') }}</a>
-                                <a class="dropdown-item fw-light mt-2" href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home"
+                                <a class="dropdown-item fw-light mt-2"
+                                    href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home"
                                     style="color: var(--bs-white);">{{ __('Staff Council') }}</a>
                             </div>
                         </div>
