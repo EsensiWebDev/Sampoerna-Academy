@@ -60,10 +60,55 @@ class ArticleResource extends Resource
                     ->visibility('public')
                     ->preserveFilenames()
                     ->label('Thumbnail'),
-                Forms\Components\RichEditor::make('content_indonesia')
+                    Forms\Components\RichEditor::make('content_indonesia')
+                    ->toolbarButtons([
+                        'bold', 
+                        'italic', 
+                        'underline', 
+                        'strike', 
+                        'h1', 
+                        'h2', 
+                        'h3', 
+                        'bulletList', 
+                        'numberedList', 
+                        'link', 
+                        'codeBlock', 
+                        'blockquote',
+                        'alignLeft', 
+                        'alignCenter', 
+                        'alignRight',
+                        'fontSize',      // Add font size option
+                        'lineHeight',    // Add line height option
+                    ])
+                    ->extraAttributes([
+                        'style' => 'font-size: 14px; line-height: 1.5;', // Default font size and line height
+                    ])
                     ->columnSpan(4),
+                
                 Forms\Components\RichEditor::make('content_english')
-                    ->columnSpan(4),
+                    ->toolbarButtons([
+                        'bold', 
+                        'italic', 
+                        'underline', 
+                        'strike', 
+                        'h1', 
+                        'h2', 
+                        'h3', 
+                        'bulletList', 
+                        'numberedList', 
+                        'link', 
+                        'codeBlock', 
+                        'blockquote',
+                        'alignLeft', 
+                        'alignCenter', 
+                        'alignRight',
+                        'fontSize',      // Add font size option
+                        'lineHeight',    // Add line height option
+                    ])
+                    ->extraAttributes([
+                        'style' => 'font-size: 14px; line-height: 1.5;', // Default font size and line height
+                    ])
+                    ->columnSpan(4),                
                 Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
                     ->columnSpanFull(),
