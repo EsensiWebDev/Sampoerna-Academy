@@ -62,11 +62,14 @@ class ArticleResource extends Resource
                     ->columnSpan(4),
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
+                Forms\Components\Toggle::make('isPublished') // Add the toggle field
+                    ->label('Publish Article') // Label for the toggle
+                    ->onColor('success') // Optional: Add a color when it's enabled
+                    ->offColor('danger') // Optional: Add a color when it's disabled
+                    ->default(true) // Set the default value (Published)
+                    ->inline(false), // Optional: Display it inline or not
                 Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
-                    ->columnSpanFull(),
-                Forms\Components\Hidden::make('isPublished')
-                    ->default(true) // Set the default value
                     ->columnSpanFull(),
                 Forms\Components\Hidden::make('link') // Add the hidden link field
                     ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
@@ -76,16 +79,20 @@ class ArticleResource extends Resource
 
 
 
+
     public static function table(Table $table): Table
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('slug'),
+                Tables\Columns\TextColumn::make('slug')
+                    ->searchable(),
                 Tables\Columns\TextColumn::make('title_indonesia')
-                    ->searchable(), // Enable search for the Indonesian title
+                    ->searchable(),
                 Tables\Columns\TextColumn::make('title_english')
-                    ->searchable(), // Enable search for the English title
-                Tables\Columns\TextColumn::make('created_at'),
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->date()
+                    ->searchable(),
             ])
             ->filters([])
             ->actions([
