@@ -43,12 +43,10 @@ class ArticleResource extends Resource
                     ->required()
                     ->label('Created At'),
                 Forms\Components\TextInput::make('title_indonesia')
-                    ->required()
                     ->minLength(5)
                     ->maxLength(255)
                     ->columnSpanFull(),
                 Forms\Components\TextInput::make('title_english')
-                    ->required()
                     ->minLength(5)
                     ->maxLength(255)
                     ->columnSpanFull(),
@@ -60,55 +58,10 @@ class ArticleResource extends Resource
                     ->visibility('public')
                     ->preserveFilenames()
                     ->label('Thumbnail'),
-                    Forms\Components\RichEditor::make('content_indonesia')
-                    ->toolbarButtons([
-                        'bold', 
-                        'italic', 
-                        'underline', 
-                        'strike', 
-                        'h1', 
-                        'h2', 
-                        'h3', 
-                        'bulletList', 
-                        'numberedList', 
-                        'link', 
-                        'codeBlock', 
-                        'blockquote',
-                        'alignLeft', 
-                        'alignCenter', 
-                        'alignRight',
-                        'fontSize',      // Add font size option
-                        'lineHeight',    // Add line height option
-                    ])
-                    ->extraAttributes([
-                        'style' => 'font-size: 14px; line-height: 1.5;', // Default font size and line height
-                    ])
+                Forms\Components\RichEditor::make('content_indonesia')
                     ->columnSpan(4),
-                
                 Forms\Components\RichEditor::make('content_english')
-                    ->toolbarButtons([
-                        'bold', 
-                        'italic', 
-                        'underline', 
-                        'strike', 
-                        'h1', 
-                        'h2', 
-                        'h3', 
-                        'bulletList', 
-                        'numberedList', 
-                        'link', 
-                        'codeBlock', 
-                        'blockquote',
-                        'alignLeft', 
-                        'alignCenter', 
-                        'alignRight',
-                        'fontSize',      // Add font size option
-                        'lineHeight',    // Add line height option
-                    ])
-                    ->extraAttributes([
-                        'style' => 'font-size: 14px; line-height: 1.5;', // Default font size and line height
-                    ])
-                    ->columnSpan(4),                
+                    ->columnSpan(4),
                 Forms\Components\Hidden::make('lang')
                     ->default('id') // Set the default value
                     ->columnSpanFull(),
@@ -128,8 +81,10 @@ class ArticleResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('slug'),
-                Tables\Columns\TextColumn::make('title_indonesia'),
-                Tables\Columns\TextColumn::make('title_english'),
+                Tables\Columns\TextColumn::make('title_indonesia')
+                    ->searchable(), // Enable search for the Indonesian title
+                Tables\Columns\TextColumn::make('title_english')
+                    ->searchable(), // Enable search for the English title
                 Tables\Columns\TextColumn::make('created_at'),
             ])
             ->filters([])
@@ -143,6 +98,7 @@ class ArticleResource extends Resource
             ])
             ->defaultSort('created_at', 'desc');
     }
+
 
     public static function getRelations(): array
     {
