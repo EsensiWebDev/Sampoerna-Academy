@@ -38,6 +38,10 @@ class ArticleResource extends Resource
                     ->minLength(5)
                     ->maxLength(255)
                     ->unique('articles', 'slug', ignoreRecord: true),
+                Forms\Components\DatePicker::make('created_at') // Add the created_at field
+                    ->default(now()) // Default to today's date
+                    ->required()
+                    ->label('Created At'),
                 Forms\Components\TextInput::make('title_indonesia')
                     ->required()
                     ->minLength(5)
@@ -73,6 +77,7 @@ class ArticleResource extends Resource
     }
 
 
+
     public static function table(Table $table): Table
     {
         return $table
@@ -80,7 +85,7 @@ class ArticleResource extends Resource
                 Tables\Columns\TextColumn::make('slug'),
                 Tables\Columns\TextColumn::make('title_indonesia'),
                 Tables\Columns\TextColumn::make('title_english'),
-                Tables\Columns\TextColumn::make('lang'),
+                Tables\Columns\TextColumn::make('created_at'),
             ])
             ->filters([])
             ->actions([
