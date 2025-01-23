@@ -33,12 +33,6 @@ class ArticleResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\Toggle::make('isPublished') // Add the toggle field
-                    ->label('Publish Article') // Label for the toggle
-                    ->onColor('success') // Optional: Add a color when it's enabled
-                    ->offColor('danger') // Optional: Add a color when it's disabled
-                    ->default(true) // Set the default value (Published)
-                    ->columnSpanFull(),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
@@ -48,6 +42,12 @@ class ArticleResource extends Resource
                     ->default(now()) // Default to today's date
                     ->required()
                     ->label('Created At'),
+                Forms\Components\Toggle::make('isPublished') // Add the toggle field
+                    ->label('Publish Article') // Label for the toggle
+                    ->onColor('success') // Optional: Add a color when it's enabled
+                    ->offColor('danger') // Optional: Add a color when it's disabled
+                    ->default(true) // Set the default value (Published)
+                    ->columnSpanFull(),
                 Forms\Components\TextInput::make('title_indonesia')
                     ->minLength(5)
                     ->maxLength(255)
@@ -74,8 +74,7 @@ class ArticleResource extends Resource
                 Forms\Components\Hidden::make('link') // Add the hidden link field
                     ->default(fn($get) => url('/news/' . $get('slug'))) // Dynamically create the URL using the slug field
                     ->columnSpanFull(),
-            ])
-            ->columns(1);
+            ]);
     }
 
 
