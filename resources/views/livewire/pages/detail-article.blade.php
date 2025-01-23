@@ -51,7 +51,7 @@
     <section id="content" class="px-md-4 py-4 mx-4">
         <div class="row px-md-4 py-md-5">
             <div class="col-md-9 col-sm-12 pe-md-5">
-                <div class="content-article" style="overflow: auto">
+                <div class="content-article" >
                     {!! $content !!}
                 </div>
             </div>
