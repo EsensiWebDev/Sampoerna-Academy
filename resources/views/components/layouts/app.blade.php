@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick-theme.css') }}">
 
-    <script src="{{ asset('js/rawilk/filament-quill/components/quill.js') }}" defer></script>
-
     <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <title>{{ config('app.name') }}</title>
     @seoTags()
