@@ -38,7 +38,7 @@ class ArticleResource extends Resource
                     ->onColor('success') // Optional: Add a color when it's enabled
                     ->offColor('danger') // Optional: Add a color when it's disabled
                     ->default(true) // Set the default value (Published)
-                    ->inline(false), // Optional: Display it inline or not
+                    ->columnSpanFull(),
                 Forms\Components\TextInput::make('slug')
                     ->required()
                     ->minLength(5)
