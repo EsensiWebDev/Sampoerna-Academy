@@ -302,6 +302,8 @@
                                     style="color: var(--bs-white);">{{ __('Our Approach') }}</a>
                                 <a class="dropdown-item fw-light mt-2" href="/aboutus/leadership"
                                     style="color: var(--bs-white);">{{ __('Leadership') }}</a>
+                                <a class="dropdown-item fw-light mt-2" href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home"
+                                    style="color: var(--bs-white);">{{ __('Staff Council') }}</a>
                             </div>
                         </div>
                         <hr class="mobile-divider"> <!-- Divider -->
@@ -451,8 +453,7 @@
                                 style="cursor: pointer;">
                                 @php
                                     $currentLocale = app()->getLocale();
-                                    $flagImage =
-                                        $currentLocale == 'id' ? 'circle-flags_id.webp' : 'United-Kingdom.png';
+                                    $flagImage = $currentLocale == 'id' ? 'circle-flags_id.webp' : 'United-Kingdom.png';
                                     $languageText = $currentLocale == 'id' ? 'Bahasa Indonesia' : 'English';
                                 @endphp
                                 <img src="{{ asset("assets/img/Flag/$flagImage") }}"
