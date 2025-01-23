@@ -2,7 +2,7 @@
 figcaption {
   display: none;
 };
-.content-article p img{
-  width: -webkit-fill-available;
+.content-article > p > img{
+  width: -webkit-fill-available !important;
 };
 
