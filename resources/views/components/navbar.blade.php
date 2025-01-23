@@ -96,6 +96,11 @@
                                     style="border-width: 1px;border-color: rgb(0,0,0);margin-left: 14px;margin-right: 14px;">
                                 </div>
                                 <a class="dropdown-item fw-light" href="/aboutus/leadership">{{ __('Leadership') }}</a>
+                                <div class="dropdown-divider"
+                                    style="border-width: 1px;border-color: rgb(0,0,0);margin-left: 14px;margin-right: 14px;">
+                                </div>
+                                <a class="dropdown-item fw-light" href="https://sites.google.com/sampoernauniversity.net/sustaffcouncil/home"
+                                    style="color: var(--bs-white);">{{ __('Staff Council') }}</a>
                             </div>
                         </div>
                     </li>
