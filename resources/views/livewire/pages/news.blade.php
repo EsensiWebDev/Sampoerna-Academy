@@ -22,7 +22,7 @@
                     @endphp
 
                     @if (isset($article) && $article->isPublished)
-                        <a href="/news/{{ $article->slug }}">
+                        <a href="/news/{{ $article->slug }}" style="color: black">
                             <div class="d-flex flex-row justify-content-start align-items-end"
                                 style="background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%), url('{{ str_contains($article->thumbnail, '/uploads') ? asset($article->thumbnail) : asset('storage/' . $article->thumbnail) }}') center / cover no-repeat; height: 676px;">
 
