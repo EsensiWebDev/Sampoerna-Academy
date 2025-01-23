@@ -91,7 +91,7 @@ class ArticleResource extends Resource
                     Tables\Actions\DeleteBulkAction::make(),
                 ]),
             ])
-            ->defaultSort('slug', 'desc');
+            ->defaultSort('created_by', 'desc');
     }
 
     public static function getRelations(): array
