@@ -20,6 +20,8 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
+use Rawilk\FilamentQuill\Filament\Forms\Components\QuillEditor;
+use Rawilk\FilamentQuill\Enums\ToolbarButton;
 use Illuminate\Validation\Rule;
 
 
@@ -80,44 +82,52 @@ class ArticleResource extends Resource
                     ->label('Thumbnail'),
 
                 // Full-width rich editors
-                Forms\Components\RichEditor::make('content_indonesia')
+                QuillEditor::make('content_indonesia')
                     ->toolbarButtons([
-                        'attachFiles',
-                        'blockquote',
-                        'bold',
-                        'bulletList',
-                        'codeBlock',
-                        'h1',
-                        'h2',
-                        'h3',
-                        'italic',
-                        'link',
-                        'orderedList',
-                        'redo',
-                        'strike',
-                        'underline',
-                        'undo',
+                        ToolbarButton::Font,
+                        ToolbarButton::Size,
+                        ToolbarButton::Bold,
+                        ToolbarButton::Italic,
+                        ToolbarButton::Underline,
+                        ToolbarButton::Strike,
+                        ToolbarButton::BlockQuote,
+                        ToolbarButton::OrderedList,
+                        ToolbarButton::UnorderedList,
+                        ToolbarButton::Indent,
+                        ToolbarButton::Link,
+                        ToolbarButton::Image,
+                        ToolbarButton::Scripts,
+                        ToolbarButton::TextAlign,
+                        ToolbarButton::TextColor,
+                        ToolbarButton::BackgroundColor,
+                        ToolbarButton::Undo,
+                        ToolbarButton::Redo,
+                        ToolbarButton::ClearFormat,
                     ])
                     ->columnSpanFull()
                     ->label('Content (Indonesian)'),
 
-                Forms\Components\RichEditor::make('content_english')
+                QuillEditor::make('content_english')
                     ->toolbarButtons([
-                        'attachFiles',
-                        'blockquote',
-                        'bold',
-                        'bulletList',
-                        'codeBlock',
-                        'h1',
-                        'h2',
-                        'h3',
-                        'italic',
-                        'link',
-                        'orderedList',
-                        'redo',
-                        'strike',
-                        'underline',
-                        'undo',
+                        ToolbarButton::Font,
+                        ToolbarButton::Size,
+                        ToolbarButton::Bold,
+                        ToolbarButton::Italic,
+                        ToolbarButton::Underline,
+                        ToolbarButton::Strike,
+                        ToolbarButton::BlockQuote,
+                        ToolbarButton::OrderedList,
+                        ToolbarButton::UnorderedList,
+                        ToolbarButton::Indent,
+                        ToolbarButton::Link,
+                        ToolbarButton::Image,
+                        ToolbarButton::Scripts,
+                        ToolbarButton::TextAlign,
+                        ToolbarButton::TextColor,
+                        ToolbarButton::BackgroundColor,
+                        ToolbarButton::Undo,
+                        ToolbarButton::Redo,
+                        ToolbarButton::ClearFormat,
                     ])
                     ->columnSpanFull()
                     ->label('Content (English)'),
