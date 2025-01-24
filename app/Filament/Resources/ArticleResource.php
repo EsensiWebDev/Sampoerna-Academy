@@ -33,7 +33,8 @@ class ArticleResource extends Resource
 
     public static function form(Form $form): Form
     {
-        dd(get_class_methods(ToolbarButton::class));
+        dd(ToolbarButton::cases());
+
         return $form
             ->schema([
                 // Full-width row for the toggle
