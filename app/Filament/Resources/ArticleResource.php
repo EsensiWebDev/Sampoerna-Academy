@@ -84,7 +84,6 @@ class ArticleResource extends Resource
                 // Full-width rich editors
                 QuillEditor::make('content_indonesia')
                     ->toolbarButtons([
-                        ['header' => [1, 2, 3, false]], // Heading levels
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
@@ -110,7 +109,6 @@ class ArticleResource extends Resource
 
                 QuillEditor::make('content_english')
                     ->toolbarButtons([
-                        ['header' => [1, 2, 3, false]], // Heading levels
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
