@@ -33,7 +33,6 @@ class ArticleResource extends Resource
 
     public static function form(Form $form): Form
     {
-        dd(ToolbarButton::cases());
 
         return $form
             ->schema([
@@ -86,6 +85,9 @@ class ArticleResource extends Resource
                 // Full-width rich editors
                 QuillEditor::make('content_indonesia')
                     ->toolbarButtons([
+                        ToolbarButton::Heading1, // New heading buttons
+                        ToolbarButton::Heading2,
+                        ToolbarButton::Heading3,
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
@@ -110,6 +112,9 @@ class ArticleResource extends Resource
 
                 QuillEditor::make('content_english')
                     ->toolbarButtons([
+                        ToolbarButton::Heading1, // New heading buttons
+                        ToolbarButton::Heading2,
+                        ToolbarButton::Heading3,
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
