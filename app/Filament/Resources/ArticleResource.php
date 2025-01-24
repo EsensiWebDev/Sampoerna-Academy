@@ -33,6 +33,7 @@ class ArticleResource extends Resource
 
     public static function form(Form $form): Form
     {
+        dd(get_class_methods(ToolbarButton::class));
         return $form
             ->schema([
                 // Full-width row for the toggle
@@ -84,7 +85,6 @@ class ArticleResource extends Resource
                 // Full-width rich editors
                 QuillEditor::make('content_indonesia')
                     ->toolbarButtons([
-                        ['header' => [1, 2, 3, false]], // Heading levels
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
@@ -104,13 +104,11 @@ class ArticleResource extends Resource
                         ToolbarButton::Redo,
                         ToolbarButton::ClearFormat,
                     ])
-
                     ->columnSpanFull()
                     ->label('Content (Indonesian)'),
 
                 QuillEditor::make('content_english')
                     ->toolbarButtons([
-                        ['header' => [1, 2, 3, false]], // Heading levels
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,
