@@ -93,11 +93,27 @@
                                 <span class="text-danger">*</span>
                                 <select class="form-select" name="grade_interested" required>
                                     <option value="">{{ __('Choose one') }}</option>
-                                    <option value="Early Years">{{ __('Early Years') }}</option>
+                                    <option value="Toddler">{{ __('Toddler') }}</option>
+                                        <option value="Playgroup">{{ __('Playgroup') }}</option>
+                                        <option value="Kindergarten">{{ __('Kindergarten') }}</option>
+                                        <option value="Grade 1">{{ __('Grade 1') }}</option>
+                                        <option value="Grade 2">{{ __('Grade 2') }}</option>
+                                        <option value="Grade 3">{{ __('Grade 3') }}</option>
+                                        <option value="Grade 4">{{ __('Grade 4') }}</option>
+                                        <option value="Grade 5">{{ __('Grade 5') }}</option>
+                                        <option value="Grade 6">{{ __('Grade 6') }}</option>
+                                        <option value="Grade 7">{{ __('Grade 7') }}</option>
+                                        <option value="Grade 8">{{ __('Grade 8') }}</option>
+                                        <option value="Grade 9">{{ __('Grade 9') }}</option>
+                                        <option value="Grade 10">{{ __('Grade 10') }}</option>
+                                        <option value="Grade 11">{{ __('Grade 11') }}</option>
+                                        <option value="Grade 12">{{ __('Grade 12') }}</option>
+                                        <option value="Online School">{{ __('Online School') }}</option>
+                                    {{-- <option value="Early Years">{{ __('Early Years') }}</option>
                                     <option value="Elementary School">{{ __('Elementary School') }}</option>
                                     <option value="Middle School">{{ __('Middle School') }}</option>
                                     <option value="High School">{{ __('High School') }}</option>
-                                    <option value="Online School">{{ __('Online School') }}</option>
+                                    <option value="Online School">{{ __('Online School') }}</option> --}}
                                 </select>
                             </div>
                             <div class="mb-4">
