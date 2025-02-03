@@ -9,19 +9,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-
-
-namespace App\Filament\Resources;
-
-use App\Filament\Resources\ArticleResource\Pages;
-use App\Models\Article;
-use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
-use Filament\Tables;
-use Filament\Tables\Table;
 use Illuminate\Validation\Rule;
-
 
 class ArticleResource extends Resource
 {
@@ -60,7 +48,7 @@ class ArticleResource extends Resource
                 Forms\Components\RichEditor::make('content_english')
                     ->columnSpan(4),
                 Forms\Components\Hidden::make('lang')
-                    ->default('id') // Set the default value
+                    ->default('en') // Set the default value
                     ->columnSpanFull(),
                 Forms\Components\Hidden::make('isPublished')
                     ->default(true) // Set the default value

@@ -28,6 +28,7 @@ use App\Livewire\Pages\SentulSchool;
 use App\Livewire\Pages\Steam;
 use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
+use App\Models\Page;
 use Illuminate\Support\Facades\Route;
 
 
@@ -64,6 +65,22 @@ Route::get('/contact', Contact::class);
 Route::get("/faq", Faq::class);
 
 Route::get("/news/{slug}", DetailArticle::class)->name("read-article");
+
+Route::get("/{slug}", function ( $slug) {
+    $page = Page::where("slug", $slug)->firstOrFail();
+
+    $locale = app()->getLocale();
+
+    $content = match ($locale) {
+        "id" => $page->content_id,
+        "en" => $page->content_en
+    };
+
+    return view("page", [
+        "page" => $page,
+        "content" => json_decode($content, true),
+    ]);
+})->name("dynamic-page");
 
 Route::get("/login", function () {
     \Illuminate\Support\Facades\Auth::attempt([
@@ -120,9 +137,6 @@ Route::get('id/kampus-bsd/', function () {
     return redirect('/ourschools/bsd', 301); // 301 untuk redirect permanen
 
 });
-
-
-
 
 // Redirect For Article
 Route::get('id/transformasi-geometri/', function () {
@@ -4035,5 +4049,5 @@ Route::get('id/program-literasi-sampoerna-academy/', function () {
     return redirect('/news/program-literasi-sampoerna-academy', 301);
 });
 
-Route::get('{slug}', [RedirectController::class, 'redirect_article_en'])->where('slug', '.*');
-Route::get('{slug}', [RedirectController::class, 'redirect_article_id'])->where('slug', '.*');
+//Route::get('{slug}', [RedirectController::class, 'redirect_article_en'])->where('slug', '.*');
+//Route::get('{slug}', [RedirectController::class, 'redirect_article_id'])->where('slug', '.*');

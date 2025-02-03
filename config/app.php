@@ -129,4 +129,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'grapesjs_token' => env('GRAPESJS_TOKEN'),
+
 ];
