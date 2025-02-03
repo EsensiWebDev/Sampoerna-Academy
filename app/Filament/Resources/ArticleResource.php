@@ -84,33 +84,31 @@ class ArticleResource extends Resource
 
                 // Full-width rich editors
                 QuillEditor::make('content_indonesia')
-                    ->onInit(<<<'JS'
-                        function (quill, alpineInstance) {
-                            // Get the current toolbar options
-                            const toolbar = quill.getModule('toolbar');
-                            const existingOptions = toolbar.options.container;
-
-                            // Add new heading options
-                            const headingOptions = [{ header: [1, 2, 3, false] }];
-
-                            // Merge heading options with the existing toolbar
-                            toolbar.options.container = [
-                                ...headingOptions,
-                                ...existingOptions
-                            ];
-
-                            // Reinitialize the toolbar with the updated options
-                            toolbar.update();
-                        }
-                    JS) 
+                    ->toolbarButtons([
+                        ToolbarButton::Font,
+                        ToolbarButton::Size,
+                        ToolbarButton::Bold,
+                        ToolbarButton::Italic,
+                        ToolbarButton::Underline,
+                        ToolbarButton::Strike,
+                        ToolbarButton::BlockQuote,
+                        ToolbarButton::OrderedList,
+                        ToolbarButton::UnorderedList,
+                        ToolbarButton::Indent,
+                        ToolbarButton::Link,
+                        ToolbarButton::Image,
+                        ToolbarButton::Scripts,
+                        ToolbarButton::TextColor,
+                        ToolbarButton::BackgroundColor,
+                        ToolbarButton::Undo,
+                        ToolbarButton::Redo,
+                        ToolbarButton::ClearFormat,
+                    ])
                     ->columnSpanFull()
                     ->label('Content (Indonesian)'),
 
                 QuillEditor::make('content_english')
                     ->toolbarButtons([
-                        ToolbarButton::Heading1, // New heading buttons
-                        ToolbarButton::Heading2,
-                        ToolbarButton::Heading3,
                         ToolbarButton::Font,
                         ToolbarButton::Size,
                         ToolbarButton::Bold,

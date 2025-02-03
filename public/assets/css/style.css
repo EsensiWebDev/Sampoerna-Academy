@@ -8,4 +8,30 @@ figcaption {
 .content-article > p > img{
   width: -webkit-fill-available !important;
 }
+.text-shadow-title {
+  color: var(--bs-white);
+  font-family: Campton;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-subtitle {
+  color: var(--bs-white);
+  font-family: Campton;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-paragraph {
+  margin-bottom: 0px;
+  color: var(--bs-white);
+  font-family: Campton;
+  padding-top: 24px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.text-shadow-hashtag {
+  font-family: Campton;
+  margin-top: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
