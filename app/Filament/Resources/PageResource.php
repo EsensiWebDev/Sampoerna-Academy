@@ -85,7 +85,7 @@ class PageResource extends Resource
             ])
             ->actions([
                 ViewAction::make()
-                    ->url(fn(Page $page): string => url('/id/'.$page->slug))->openUrlInNewTab(),
+                    ->url(fn(Page $page): string => url('/'.$page->slug))->openUrlInNewTab(),
                 EditAction::make(),
                 DeleteAction::make()
                     ->requiresConfirmation(),
