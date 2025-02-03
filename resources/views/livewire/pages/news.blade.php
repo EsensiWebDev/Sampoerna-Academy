@@ -61,7 +61,7 @@
                                     </h1>
                                     <p class="fw-light"
                                         style="font-family: Campton;color: var(--bs-black);color:black!important;margin-top: 10px;">
-                                        {!! $content !!}
+                                        {!! preg_replace('/<img[^>]+>/i', '', $content) !!}
                                     </p>
                                     <a href="/news/{{ $article->slug }}"
                                         style="font-family: Campton;color: #292F78;">{{ __('Read More') }}&nbsp;
