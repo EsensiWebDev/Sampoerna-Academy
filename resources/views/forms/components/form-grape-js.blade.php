@@ -92,6 +92,41 @@
                         })
                     })
 
+                    editor.DomComponents.addType('livewire-latest-update', {
+                      isComponent: (el) => el.tagName === 'LIVEWIRE:LATEST-UPDATE-ARTICLE',
+                      model: {
+                        defaults: {
+                          tagName: 'livewire:latest-update-article',
+                          traits: [
+                            {
+                              type: 'text',
+                              name: 'id',
+                              label: 'ID',
+                            },
+                          ],
+                          droppable: false,
+                          stylable: false,
+                        },
+                      },
+                      view: {
+                        onRender() {
+                          // Visual representation in the editor
+                          this.el.innerHTML = 'Livewire Latest Update';
+                          this.el.style.border = '1px solid #ccc';
+                          this.el.style.padding = '10px';
+                          this.el.style.background = '#f9f9f9';
+                        },
+                      },
+                    });
+
+                    editor.BlockManager.add('livewire-latest-update', {
+                      label: 'Livewire Latest Update',
+                      category: 'Livewire',
+                      content: {
+                        type: 'livewire-latest-update',
+                      },
+                    });
+
 
                     function delay(ms) {
                       return new Promise(resolve => setTimeout(resolve, ms));
@@ -103,11 +138,8 @@
                     const content = editor.getHtml({cleanId: true});
                     const extract = content.match(/<body\b[^>]*>([\s\S]*?)<\/body>/);
 
-                    if (extract) {
-                        state = JSON.stringify({html: extract[1], css: css_code})
-                    } else {
-                        state = JSON.stringify({html: editor.getHtml(), css: css_code})
-                    }
+                    const stateData = extract ? {html: extract[1], css: css_code} : {html: editor.getHtml(), css: css_code};
+                    state = JSON.stringify(stateData);
                 },
                 project: {
                     type: 'web',

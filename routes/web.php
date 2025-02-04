@@ -29,6 +29,7 @@ use App\Livewire\Pages\Steam;
 use App\Livewire\Pages\SurabayaSchool;
 use App\Livewire\Test;
 use App\Models\Page;
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Route;
 
 
@@ -76,9 +77,15 @@ Route::get("/{slug}", function ( $slug) {
         "en" => $page->content_en
     };
 
+    $decodedContent = json_decode($content, true);
+
+    $renderedHtml = Blade::render($decodedContent['html']);
+
+    $decodedContent['html'] = $renderedHtml;
+
     return view("page", [
         "page" => $page,
-        "content" => json_decode($content, true),
+        "content" => $decodedContent
     ]);
 })->name("dynamic-page");
 
