@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('assets/css/styles.min.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ asset('css/rawilk/filament-quill/quill.css') }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick.css') }}" media="print"
         onload="this.media='all'">
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick-theme.css') }}" media="print"

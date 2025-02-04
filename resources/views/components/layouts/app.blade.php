@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/styles.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/rawilk/filament-quill/quill.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/slick-1.8.1/slick/slick-theme.css') }}">
 
