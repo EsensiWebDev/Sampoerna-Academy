@@ -47,7 +47,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -72,7 +73,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -99,7 +101,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -124,7 +127,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -151,7 +155,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag " style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag "
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -177,7 +182,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -203,7 +209,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -229,7 +236,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -255,7 +263,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -281,7 +290,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -307,7 +317,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -333,7 +344,8 @@
                                 <p class="fs-5 car-trailing text-shadow-paragraph"
                                     style="margin-bottom: 0px;color: var(--bs-white);font-family: Campton;padding-top: 24px;">
                                     {{ __("Discover your child's potential through") }}<br>{{ __('innovative learning and global exposure') }}
-                                <div class="text-white text-shadow-hashtag" style=" font-family: Campton; margin-top:50px">
+                                <div class="text-white text-shadow-hashtag"
+                                    style=" font-family: Campton; margin-top:50px">
                                     <h4>#IGNITEtheSpark</h4>
                                 </div>
                                 </p>
@@ -351,13 +363,20 @@
                     style="max-width: 200px;">
             </a>
         </div>
-        {{-- <button class="carousel-control-prev" style="width:5%" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <button class="carousel-control-prev" style="width:5%;" type="button" data-bs-target="#carousel-1"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+            </span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" style="width:5%" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+        <button class="carousel-control-next" style="width:5%;" type="button" data-bs-target="#carousel-1"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+            </span>
             <span class="visually-hidden">Next</span>
-        </button> --}}
+        </button>
+
+
     </div>
 </section>
