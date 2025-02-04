@@ -1,16 +1,5 @@
 <?php
 
-// namespace App\Filament\Resources;
-
-// use App\Filament\Resources\ArticleResource\Pages;
-// use App\Models\Article;
-// use Filament\Forms;
-// use Filament\Forms\Form;
-// use Filament\Resources\Resource;
-// use Filament\Tables;
-// use Filament\Tables\Table;
-
-
 namespace App\Filament\Resources;
 
 use App\Filament\Resources\ArticleResource\Pages;
@@ -22,7 +11,6 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Rawilk\FilamentQuill\Filament\Forms\Components\QuillEditor;
 use Rawilk\FilamentQuill\Enums\ToolbarButton;
-use Illuminate\Validation\Rule;
 
 class ArticleResource extends Resource
 {
