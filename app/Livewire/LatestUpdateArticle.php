@@ -40,13 +40,11 @@ class LatestUpdateArticle extends Component
             //     ->limit(4)
             //     ->get();
 
-            $articles = Article::where('lang', $locale)
-                ->orderBy('created_at', 'DESC')
+            $articles = Article::orderBy('created_at', 'DESC')
                 ->limit(3)
                 ->get();
         } else {
-            $articles = Article::where('lang', $locale)
-                ->orderBy('created_at', 'DESC')
+            $articles = Article::orderBy('created_at', 'DESC')
                 ->limit(3)
                 ->get();
         }

@@ -50,13 +50,17 @@ class ArticleResource extends Resource
                         ->minLength(5)
                         ->maxLength(255)
                         ->unique('articles', 'slug', ignoreRecord: true)
-                        ->label('Slug'),
+                        ->label('Slug')
+                        ->afterStateUpdated(
+                            fn($state, callable $set) =>
+                            $set('link', url('/news/' . $state))
+                        ),
                     Forms\Components\DatePicker::make('created_at')
                         ->default(now())
                         ->required()
                         ->label('Created At'),
                 ])
-                    ->columns(2), // Ensure these fields are side-by-side
+                    ->columns(2),  // Ensure these fields are side-by-side
 
                 // Full-width fields for the titles
                 Forms\Components\TextInput::make('title_indonesia')

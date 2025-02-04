@@ -5,7 +5,7 @@
             <div class="col">
                 <div class="d-flex flex-row justify-content-between align-items-center">
                     <h1 class="fs-2 fw-semibold" style="font-family: Campton;color: var(--bs-black);">
-                        {{ __('Latest Update') }}</h1><a class="fs-5" href="#"
+                        {{ __('Latest Update') }}</h1><a class="fs-5" href="https://www.sampoernaacademy.sch.id/news"
                         style="color: #292F78;font-family: Campton;">{{ __('More Info') }}&nbsp;<svg
                             xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
                             fill="none">
